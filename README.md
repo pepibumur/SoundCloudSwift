@@ -37,6 +37,10 @@ To integrate Alamofire into your Xcode project using Carthage, specify it in you
 github "pepibumur/SoundCloudSwift"
 ```
 
+## Documentation
+- SoundCloud API: [Link](https://developers.soundcloud.com/docs/api/guide)
+- SoundCloudAPI (Objective-C client): [Link](https://github.com/soundcloud/CocoaSoundCloudAPI)
+
 ## Credits
 
 SoundCloudSwift is owned and maintained by the [@pepibumur](https://github.com/pepibumur). You can follow on Twitter at @pepibumur for project updates and releases.
