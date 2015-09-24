@@ -1,4 +1,4 @@
-![image](https://github.com/pepibumur/SoundCloud-Swift/blob/master/Assets/header.png?raw=true)
+![image](https://github.com/pepibumur/SoundCloudSwift/blob/master/Assets/header.png?raw=true)
 
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
@@ -34,7 +34,7 @@ $ brew install carthage
 To integrate Alamofire into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ruby
-github "pepibumur/soundcloud-swift"
+github "pepibumur/SoundCloudSwift"
 ```
 
 ## Credits
