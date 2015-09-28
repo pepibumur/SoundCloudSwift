@@ -1,5 +1,6 @@
 github "Alamofire/Alamofire" "8c9aa22943db4b8f764b8b4ce689412f6ae2ee05"
 github "thoughtbot/Argo" "bf726b714c977045974a92d91d561a72c3045924"
+github "SugarTeam/Genome" "48880501c1bc50e5f79f70772afce05ddb95c5aa"
 github "Quick/Nimble" "e239824d84105de9e13b815006bc36e938cdd030"
 github "Quick/Quick" "b47b9ebf97bc8e377070bd1e868c9f89b870c4fc"
 github "antitypical/Result" "76f9a972ed61ff872b731460bc610c8acbfae58c"

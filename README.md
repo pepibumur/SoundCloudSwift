@@ -31,7 +31,7 @@ $ brew update
 $ brew install carthage
 ```
 
-To integrate Alamofire into your Xcode project using Carthage, specify it in your `Cartfile`:
+To integrate SoundCloudSwift into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ruby
 github "pepibumur/SoundCloudSwift"
