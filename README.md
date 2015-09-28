@@ -1,4 +1,4 @@
-![image](https://github.com/pepibumur/SoundCloudSwift/blob/master/Assets/header.png?raw=true)
+![image](https://github.com/SugarTeam/SoundCloudSwift/blob/master/Assets/header.png?raw=true)
 
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
@@ -41,7 +41,7 @@ $ brew install carthage
 To integrate SoundCloudSwift into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ruby
-github "pepibumur/SoundCloudSwift"
+github "SugarTeam/SoundCloudSwift"
 ```
 
 ## Documentation
@@ -50,7 +50,7 @@ github "pepibumur/SoundCloudSwift"
 
 ## Credits
 
-SoundCloudSwift is owned and maintained by the [@pepibumur](https://github.com/pepibumur). You can follow on Twitter at @pepibumur for project updates and releases.
+SoundCloudSwift is owned and maintained by the [@sugarteam](https://github.com/SugarTeam).
 
 ## Security Disclosure
 
