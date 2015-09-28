@@ -3,6 +3,7 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 SoundCloud client written on Swift to integrate it easily with your apps.
+Actively developed by @pepibumur & @dcvz
 
 ## Features
 - Fluent interface based on Models `User.tasks(client: client)
