@@ -5,7 +5,13 @@
 SoundCloud client written on Swift to integrate it easily with your apps.
 
 ## Features
-- [ ] TODO
+- Fluent interface based on Models `User.tasks(client: client)
+- Reactive API with ReactiveCocoa 4.0
+- User session management (Oauth handling and session persistence)
+- Music player
+- Swift 2.0 features (generics, enums, ...)
+- 100% tested
+- Command Line tool
 
 ## Requirements
 
