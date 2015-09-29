@@ -33,6 +33,8 @@
 		3D53977A1BBA970C00791B49 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5397791BBA970C00791B49 /* Test.swift */; settings = {ASSET_TAGS = (); }; };
 		3D53977B1BBA970C00791B49 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5397791BBA970C00791B49 /* Test.swift */; settings = {ASSET_TAGS = (); }; };
 		3D53977C1BBA970C00791B49 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5397791BBA970C00791B49 /* Test.swift */; settings = {ASSET_TAGS = (); }; };
+		6328168B1BBAFF2600A12C5F /* SCSRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328168A1BBAFF2600A12C5F /* SCSRequestConvertible.swift */; settings = {ASSET_TAGS = (); }; };
+		6328169E1BBB0E8500A12C5F /* String+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328169D1BBB0E8500A12C5F /* String+Extras.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,8 @@
 		3D5397711BBA96F200791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/watchOS/Result.framework; sourceTree = "<group>"; };
 		3D5397721BBA96F200791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/watchOS/Runes.framework; sourceTree = "<group>"; };
 		3D5397791BBA970C00791B49 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		6328168A1BBAFF2600A12C5F /* SCSRequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSRequestConvertible.swift; sourceTree = "<group>"; };
+		6328169D1BBB0E8500A12C5F /* String+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extras.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +225,7 @@
 		3D5396941BBA86C900791B49 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				6328168A1BBAFF2600A12C5F /* SCSRequestConvertible.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 		3D5396951BBA86C900791B49 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				6328169D1BBB0E8500A12C5F /* String+Extras.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -516,6 +522,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D53977A1BBA970C00791B49 /* Test.swift in Sources */,
+				6328169E1BBB0E8500A12C5F /* String+Extras.swift in Sources */,
+				6328168B1BBAFF2600A12C5F /* SCSRequestConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -882,6 +890,7 @@
 				3D5396381BBA7A3A00791B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D5396391BBA7A3A00791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift iOS Tests" */ = {
 			isa = XCConfigurationList;
@@ -890,6 +899,7 @@
 				3D53963B1BBA7A3A00791B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D53966E1BBA7AB700791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift OSX" */ = {
 			isa = XCConfigurationList;
@@ -898,6 +908,7 @@
 				3D5396701BBA7AB700791B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D5396711BBA7AB700791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift OSX Tests" */ = {
 			isa = XCConfigurationList;
@@ -906,6 +917,7 @@
 				3D5396731BBA7AB700791B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D53967E1BBA7B5800791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift watchOS" */ = {
 			isa = XCConfigurationList;
@@ -914,6 +926,7 @@
 				3D5396801BBA7B5800791B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

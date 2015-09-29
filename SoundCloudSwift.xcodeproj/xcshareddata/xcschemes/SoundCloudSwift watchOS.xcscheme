@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D5396781BBA7B5800791B49"
-               BuildableName = "SoundCloudSwift watchOS.framework"
+               BuildableName = "SoundCloudSwift.framework"
                BlueprintName = "SoundCloudSwift watchOS"
                ReferencedContainer = "container:SoundCloudSwift.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D5396781BBA7B5800791B49"
-            BuildableName = "SoundCloudSwift watchOS.framework"
+            BuildableName = "SoundCloudSwift.framework"
             BlueprintName = "SoundCloudSwift watchOS"
             ReferencedContainer = "container:SoundCloudSwift.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D5396781BBA7B5800791B49"
-            BuildableName = "SoundCloudSwift watchOS.framework"
+            BuildableName = "SoundCloudSwift.framework"
             BlueprintName = "SoundCloudSwift watchOS"
             ReferencedContainer = "container:SoundCloudSwift.xcodeproj">
          </BuildableReference>
