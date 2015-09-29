@@ -1,15 +1,15 @@
 //
-//  SoundCloudClientTests.swift
-//  SoundCloudClientTests
+//  SoundCloudSwiftTests.swift
+//  SoundCloudSwiftTests
 //
-//  Created by Pedro Piñera Buendía on 05/09/15.
-//  Copyright © 2015 ppinera. All rights reserved.
+//  Created by Pedro Piñera Buendía on 29/09/15.
+//  Copyright © 2015 io.SugarTeam. All rights reserved.
 //
 
 import XCTest
-@testable import SoundCloudClient
+@testable import SoundCloudSwift
 
-class SoundCloudClientTests: XCTestCase {
+class SoundCloudSwiftTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
