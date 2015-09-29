@@ -6,6 +6,35 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3D53974B1BBA94C200791B49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; };
+		3D53974C1BBA94C200791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; };
+		3D53974D1BBA94C200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; };
+		3D53974E1BBA94C200791B49 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397491BBA94C200791B49 /* Result.framework */; };
+		3D53974F1BBA94C200791B49 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53974A1BBA94C200791B49 /* Runes.framework */; };
+		3D5397521BBA94EE00791B49 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397501BBA94EE00791B49 /* Nimble.framework */; };
+		3D5397531BBA94EE00791B49 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397511BBA94EE00791B49 /* Quick.framework */; };
+		3D5397551BBA950200791B49 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D5397501BBA94EE00791B49 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D5397561BBA950200791B49 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D5397511BBA94EE00791B49 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D53975D1BBA967700791B49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397581BBA967700791B49 /* Alamofire.framework */; };
+		3D53975E1BBA967700791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397591BBA967700791B49 /* Genome.framework */; };
+		3D53975F1BBA967700791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53975A1BBA967700791B49 /* ReactiveCocoa.framework */; };
+		3D5397601BBA967700791B49 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53975B1BBA967700791B49 /* Result.framework */; };
+		3D5397611BBA967700791B49 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53975C1BBA967700791B49 /* Runes.framework */; };
+		3D53976A1BBA96D900791B49 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397631BBA968A00791B49 /* Quick.framework */; };
+		3D53976B1BBA96D900791B49 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397621BBA968A00791B49 /* Nimble.framework */; };
+		3D53976C1BBA96DF00791B49 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D5397631BBA968A00791B49 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D53976D1BBA96DF00791B49 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D5397621BBA968A00791B49 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D5397731BBA96F200791B49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53976E1BBA96F200791B49 /* Alamofire.framework */; };
+		3D5397741BBA96F200791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53976F1BBA96F200791B49 /* Genome.framework */; };
+		3D5397751BBA96F200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397701BBA96F200791B49 /* ReactiveCocoa.framework */; };
+		3D5397761BBA96F200791B49 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397711BBA96F200791B49 /* Result.framework */; };
+		3D5397771BBA96F200791B49 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397721BBA96F200791B49 /* Runes.framework */; };
+		3D53977A1BBA970C00791B49 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5397791BBA970C00791B49 /* Test.swift */; settings = {ASSET_TAGS = (); }; };
+		3D53977B1BBA970C00791B49 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5397791BBA970C00791B49 /* Test.swift */; settings = {ASSET_TAGS = (); }; };
+		3D53977C1BBA970C00791B49 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5397791BBA970C00791B49 /* Test.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3D5396301BBA7A3A00791B49 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,6 +52,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3D5397411BBA949500791B49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3D5397551BBA950200791B49 /* Nimble.framework in CopyFiles */,
+				3D5397561BBA950200791B49 /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5397661BBA969000791B49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3D53976C1BBA96DF00791B49 /* Quick.framework in CopyFiles */,
+				3D53976D1BBA96DF00791B49 /* Nimble.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D53962E1BBA7A3A00791B49 /* SoundCloudSwift iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,40 +85,26 @@
 		3D5396791BBA7B5800791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5396861BBA7B9300791B49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5396981BBA86C900791B49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D53969D1BBA879D00791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		3D53969E1BBA879D00791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/iOS/Genome.framework; sourceTree = "<group>"; };
-		3D53969F1BBA879D00791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
-		3D5396A01BBA879D00791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
-		3D5396A11BBA879D00791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/iOS/Runes.framework; sourceTree = "<group>"; };
-		3D5396A81BBA880A00791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
-		3D5396A91BBA880A00791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/Mac/ReactiveCocoa.framework; sourceTree = "<group>"; };
-		3D5396AA1BBA880A00791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
-		3D5396AB1BBA880A00791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/Mac/Runes.framework; sourceTree = "<group>"; };
-		3D5396B11BBA886300791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/watchOS/Alamofire.framework; sourceTree = "<group>"; };
-		3D5396B21BBA886300791B49 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/watchOS/Argo.framework; sourceTree = "<group>"; };
-		3D5396B31BBA886300791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/watchOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
-		3D5396B41BBA886300791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/watchOS/Result.framework; sourceTree = "<group>"; };
-		3D5396B51BBA886300791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/watchOS/Runes.framework; sourceTree = "<group>"; };
-		3D5396BF1BBA890400791B49 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		3D5396C01BBA890400791B49 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		3D5396C31BBA893700791B49 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
-		3D5396C41BBA893700791B49 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
-		3D53970C1BBA8D4F00791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/Mac/Genome.framework; sourceTree = "<group>"; };
-		3D53970E1BBA8D5700791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/watchOS/Genome.framework; sourceTree = "<group>"; };
-		3D53971B1BBA92DD00791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		3D53971C1BBA92DD00791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/iOS/Genome.framework; sourceTree = "<group>"; };
-		3D53971D1BBA92DD00791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
-		3D53971E1BBA92DD00791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
-		3D53971F1BBA92DD00791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/iOS/Runes.framework; sourceTree = "<group>"; };
-		3D5397261BBA92EF00791B49 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		3D5397271BBA92EF00791B49 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		3D53972B1BBA939500791B49 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
-		3D53972C1BBA939500791B49 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
-		3D5397301BBA93B100791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
-		3D5397311BBA93B100791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/Mac/Genome.framework; sourceTree = "<group>"; };
-		3D5397321BBA93B100791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/Mac/ReactiveCocoa.framework; sourceTree = "<group>"; };
-		3D5397331BBA93B100791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
-		3D5397341BBA93B100791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/Mac/Runes.framework; sourceTree = "<group>"; };
+		3D5397461BBA94C200791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		3D5397471BBA94C200791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/iOS/Genome.framework; sourceTree = "<group>"; };
+		3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		3D5397491BBA94C200791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		3D53974A1BBA94C200791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/iOS/Runes.framework; sourceTree = "<group>"; };
+		3D5397501BBA94EE00791B49 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		3D5397511BBA94EE00791B49 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		3D5397581BBA967700791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		3D5397591BBA967700791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/Mac/Genome.framework; sourceTree = "<group>"; };
+		3D53975A1BBA967700791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/Mac/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		3D53975B1BBA967700791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
+		3D53975C1BBA967700791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/Mac/Runes.framework; sourceTree = "<group>"; };
+		3D5397621BBA968A00791B49 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		3D5397631BBA968A00791B49 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		3D53976E1BBA96F200791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/watchOS/Alamofire.framework; sourceTree = "<group>"; };
+		3D53976F1BBA96F200791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/watchOS/Genome.framework; sourceTree = "<group>"; };
+		3D5397701BBA96F200791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/watchOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		3D5397711BBA96F200791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/watchOS/Result.framework; sourceTree = "<group>"; };
+		3D5397721BBA96F200791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/watchOS/Runes.framework; sourceTree = "<group>"; };
+		3D5397791BBA970C00791B49 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +112,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D53974B1BBA94C200791B49 /* Alamofire.framework in Frameworks */,
+				3D53974C1BBA94C200791B49 /* Genome.framework in Frameworks */,
+				3D53974D1BBA94C200791B49 /* ReactiveCocoa.framework in Frameworks */,
+				3D53974E1BBA94C200791B49 /* Result.framework in Frameworks */,
+				3D53974F1BBA94C200791B49 /* Runes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5397521BBA94EE00791B49 /* Nimble.framework in Frameworks */,
+				3D5397531BBA94EE00791B49 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +133,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D53975D1BBA967700791B49 /* Alamofire.framework in Frameworks */,
+				3D53975E1BBA967700791B49 /* Genome.framework in Frameworks */,
+				3D53975F1BBA967700791B49 /* ReactiveCocoa.framework in Frameworks */,
+				3D5397601BBA967700791B49 /* Result.framework in Frameworks */,
+				3D5397611BBA967700791B49 /* Runes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +145,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D53976A1BBA96D900791B49 /* Quick.framework in Frameworks */,
+				3D53976B1BBA96D900791B49 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +154,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5397731BBA96F200791B49 /* Alamofire.framework in Frameworks */,
+				3D5397741BBA96F200791B49 /* Genome.framework in Frameworks */,
+				3D5397751BBA96F200791B49 /* ReactiveCocoa.framework in Frameworks */,
+				3D5397761BBA96F200791B49 /* Result.framework in Frameworks */,
+				3D5397771BBA96F200791B49 /* Runes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,20 +168,6 @@
 		3D27429A1BBA70E4007A1BCE = {
 			isa = PBXGroup;
 			children = (
-				3D5397301BBA93B100791B49 /* Alamofire.framework */,
-				3D5397311BBA93B100791B49 /* Genome.framework */,
-				3D5397321BBA93B100791B49 /* ReactiveCocoa.framework */,
-				3D5397331BBA93B100791B49 /* Result.framework */,
-				3D5397341BBA93B100791B49 /* Runes.framework */,
-				3D53972B1BBA939500791B49 /* Nimble.framework */,
-				3D53972C1BBA939500791B49 /* Quick.framework */,
-				3D5397261BBA92EF00791B49 /* Nimble.framework */,
-				3D5397271BBA92EF00791B49 /* Quick.framework */,
-				3D53971B1BBA92DD00791B49 /* Alamofire.framework */,
-				3D53971C1BBA92DD00791B49 /* Genome.framework */,
-				3D53971D1BBA92DD00791B49 /* ReactiveCocoa.framework */,
-				3D53971E1BBA92DD00791B49 /* Result.framework */,
-				3D53971F1BBA92DD00791B49 /* Runes.framework */,
 				3D5396BB1BBA886D00791B49 /* Frameworks */,
 				3D5396811BBA7B9300791B49 /* Assets */,
 				3D5396821BBA7B9300791B49 /* Source */,
@@ -205,6 +250,7 @@
 		3D5396991BBA86C900791B49 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				3D5397791BBA970C00791B49 /* Test.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -212,28 +258,51 @@
 		3D5396BB1BBA886D00791B49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3D53970E1BBA8D5700791B49 /* Genome.framework */,
-				3D53970C1BBA8D4F00791B49 /* Genome.framework */,
-				3D5396C31BBA893700791B49 /* Nimble.framework */,
-				3D5396C41BBA893700791B49 /* Quick.framework */,
-				3D5396BF1BBA890400791B49 /* Nimble.framework */,
-				3D5396C01BBA890400791B49 /* Quick.framework */,
-				3D5396B11BBA886300791B49 /* Alamofire.framework */,
-				3D5396B21BBA886300791B49 /* Argo.framework */,
-				3D5396B31BBA886300791B49 /* ReactiveCocoa.framework */,
-				3D5396B41BBA886300791B49 /* Result.framework */,
-				3D5396B51BBA886300791B49 /* Runes.framework */,
-				3D5396A81BBA880A00791B49 /* Alamofire.framework */,
-				3D5396A91BBA880A00791B49 /* ReactiveCocoa.framework */,
-				3D5396AA1BBA880A00791B49 /* Result.framework */,
-				3D5396AB1BBA880A00791B49 /* Runes.framework */,
-				3D53969D1BBA879D00791B49 /* Alamofire.framework */,
-				3D53969E1BBA879D00791B49 /* Genome.framework */,
-				3D53969F1BBA879D00791B49 /* ReactiveCocoa.framework */,
-				3D5396A01BBA879D00791B49 /* Result.framework */,
-				3D5396A11BBA879D00791B49 /* Runes.framework */,
+				3D5397781BBA96F500791B49 /* watchOS */,
+				3D5397671BBA969500791B49 /* OSX */,
+				3D5397541BBA94F200791B49 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D5397541BBA94F200791B49 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3D5397501BBA94EE00791B49 /* Nimble.framework */,
+				3D5397511BBA94EE00791B49 /* Quick.framework */,
+				3D5397461BBA94C200791B49 /* Alamofire.framework */,
+				3D5397471BBA94C200791B49 /* Genome.framework */,
+				3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */,
+				3D5397491BBA94C200791B49 /* Result.framework */,
+				3D53974A1BBA94C200791B49 /* Runes.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3D5397671BBA969500791B49 /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				3D5397631BBA968A00791B49 /* Quick.framework */,
+				3D5397581BBA967700791B49 /* Alamofire.framework */,
+				3D5397591BBA967700791B49 /* Genome.framework */,
+				3D53975A1BBA967700791B49 /* ReactiveCocoa.framework */,
+				3D53975B1BBA967700791B49 /* Result.framework */,
+				3D53975C1BBA967700791B49 /* Runes.framework */,
+				3D5397621BBA968A00791B49 /* Nimble.framework */,
+			);
+			name = OSX;
+			sourceTree = "<group>";
+		};
+		3D5397781BBA96F500791B49 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				3D53976E1BBA96F200791B49 /* Alamofire.framework */,
+				3D53976F1BBA96F200791B49 /* Genome.framework */,
+				3D5397701BBA96F200791B49 /* ReactiveCocoa.framework */,
+				3D5397711BBA96F200791B49 /* Result.framework */,
+				3D5397721BBA96F200791B49 /* Runes.framework */,
+			);
+			name = watchOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +357,7 @@
 				3D53962A1BBA7A3A00791B49 /* Sources */,
 				3D53962B1BBA7A3A00791B49 /* Frameworks */,
 				3D53962C1BBA7A3A00791B49 /* Resources */,
+				3D5397411BBA949500791B49 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -324,6 +394,7 @@
 				3D5396621BBA7AB700791B49 /* Sources */,
 				3D5396631BBA7AB700791B49 /* Frameworks */,
 				3D5396641BBA7AB700791B49 /* Resources */,
+				3D5397661BBA969000791B49 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -359,6 +430,7 @@
 		3D27429B1BBA70E4007A1BCE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = io.SugarTeam;
 				TargetAttributes = {
@@ -443,6 +515,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D53977A1BBA970C00791B49 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +530,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D53977B1BBA970C00791B49 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +545,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D53977C1BBA970C00791B49 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +657,7 @@
 		3D5396371BBA7A3A00791B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -596,12 +672,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.SugarTeam.SoundCloudSwift;
 				PRODUCT_NAME = SoundCloudSwift;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3D5396381BBA7A3A00791B49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -622,6 +700,7 @@
 		3D53963A1BBA7A3A00791B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -636,6 +715,7 @@
 		3D53963B1BBA7A3A00791B49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -650,6 +730,7 @@
 		3D53966F1BBA7AB700791B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -668,12 +749,14 @@
 				PRODUCT_NAME = SoundCloudSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3D5396701BBA7AB700791B49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -699,6 +782,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -716,6 +800,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -732,6 +817,7 @@
 		3D53967F1BBA7B5800791B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -747,6 +833,7 @@
 				PRODUCT_NAME = SoundCloudSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -755,6 +842,7 @@
 		3D5396801BBA7B5800791B49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
