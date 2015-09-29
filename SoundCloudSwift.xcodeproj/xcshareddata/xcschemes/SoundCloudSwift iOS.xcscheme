@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D5396241BBA7A3A00791B49"
-               BuildableName = "SoundCloudSwift iOS.framework"
+               BuildableName = "SoundCloudSwift.framework"
                BlueprintName = "SoundCloudSwift iOS"
                ReferencedContainer = "container:SoundCloudSwift.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D5396241BBA7A3A00791B49"
-            BuildableName = "SoundCloudSwift iOS.framework"
+            BuildableName = "SoundCloudSwift.framework"
             BlueprintName = "SoundCloudSwift iOS"
             ReferencedContainer = "container:SoundCloudSwift.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D5396241BBA7A3A00791B49"
-            BuildableName = "SoundCloudSwift iOS.framework"
+            BuildableName = "SoundCloudSwift.framework"
             BlueprintName = "SoundCloudSwift iOS"
             ReferencedContainer = "container:SoundCloudSwift.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D5396241BBA7A3A00791B49"
-            BuildableName = "SoundCloudSwift iOS.framework"
+            BuildableName = "SoundCloudSwift.framework"
             BlueprintName = "SoundCloudSwift iOS"
             ReferencedContainer = "container:SoundCloudSwift.xcodeproj">
          </BuildableReference>
