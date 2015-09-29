@@ -44,6 +44,17 @@ To integrate SoundCloudSwift into your Xcode project using Carthage, specify it 
 github "SugarTeam/SoundCloudSwift"
 ```
 
+### Cocoapods
+
+You can also integrate SoundCloudSwift using CocoaPods. Just add the following line to your `Podfile`:
+
+```ruby
+pod "SoundCloudSwift", :git => "https://github.com/SugarTeam/SoundCloudSwift.git"
+```
+
+And execute `pod install`. Remember to open the project using the file `.xcworkspace`
+
+
 ## Documentation
 - SoundCloud API: [Link](https://developers.soundcloud.com/docs/api/guide)
 - SoundCloudAPI (Objective-C client): [Link](https://github.com/soundcloud/CocoaSoundCloudAPI)
