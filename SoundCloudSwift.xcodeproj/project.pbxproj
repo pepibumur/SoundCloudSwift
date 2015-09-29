@@ -6,17 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		3D53962F1BBA7A3A00791B49 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */; settings = {ASSET_TAGS = (); }; };
-		3D5396671BBA7AB700791B49 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */; settings = {ASSET_TAGS = (); }; };
-		3D53968E1BBA7B9300791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396861BBA7B9300791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		3D53968F1BBA7B9300791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396861BBA7B9300791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		3D5396901BBA7B9300791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396861BBA7B9300791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		3D53969A1BBA86C900791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396981BBA86C900791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		3D53969B1BBA86C900791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396981BBA86C900791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		3D53969C1BBA86C900791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396981BBA86C900791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		3D5396301BBA7A3A00791B49 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -42,6 +31,40 @@
 		3D5396791BBA7B5800791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5396861BBA7B9300791B49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5396981BBA86C900791B49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D53969D1BBA879D00791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		3D53969E1BBA879D00791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/iOS/Genome.framework; sourceTree = "<group>"; };
+		3D53969F1BBA879D00791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		3D5396A01BBA879D00791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		3D5396A11BBA879D00791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/iOS/Runes.framework; sourceTree = "<group>"; };
+		3D5396A81BBA880A00791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		3D5396A91BBA880A00791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/Mac/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		3D5396AA1BBA880A00791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
+		3D5396AB1BBA880A00791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/Mac/Runes.framework; sourceTree = "<group>"; };
+		3D5396B11BBA886300791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/watchOS/Alamofire.framework; sourceTree = "<group>"; };
+		3D5396B21BBA886300791B49 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/watchOS/Argo.framework; sourceTree = "<group>"; };
+		3D5396B31BBA886300791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/watchOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		3D5396B41BBA886300791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/watchOS/Result.framework; sourceTree = "<group>"; };
+		3D5396B51BBA886300791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/watchOS/Runes.framework; sourceTree = "<group>"; };
+		3D5396BF1BBA890400791B49 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		3D5396C01BBA890400791B49 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		3D5396C31BBA893700791B49 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		3D5396C41BBA893700791B49 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		3D53970C1BBA8D4F00791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/Mac/Genome.framework; sourceTree = "<group>"; };
+		3D53970E1BBA8D5700791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/watchOS/Genome.framework; sourceTree = "<group>"; };
+		3D53971B1BBA92DD00791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		3D53971C1BBA92DD00791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/iOS/Genome.framework; sourceTree = "<group>"; };
+		3D53971D1BBA92DD00791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		3D53971E1BBA92DD00791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		3D53971F1BBA92DD00791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/iOS/Runes.framework; sourceTree = "<group>"; };
+		3D5397261BBA92EF00791B49 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		3D5397271BBA92EF00791B49 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		3D53972B1BBA939500791B49 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		3D53972C1BBA939500791B49 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		3D5397301BBA93B100791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		3D5397311BBA93B100791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/Mac/Genome.framework; sourceTree = "<group>"; };
+		3D5397321BBA93B100791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/Mac/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		3D5397331BBA93B100791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
+		3D5397341BBA93B100791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/Mac/Runes.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D53962F1BBA7A3A00791B49 /* SoundCloudSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +93,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D5396671BBA7AB700791B49 /* SoundCloudSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +109,21 @@
 		3D27429A1BBA70E4007A1BCE = {
 			isa = PBXGroup;
 			children = (
+				3D5397301BBA93B100791B49 /* Alamofire.framework */,
+				3D5397311BBA93B100791B49 /* Genome.framework */,
+				3D5397321BBA93B100791B49 /* ReactiveCocoa.framework */,
+				3D5397331BBA93B100791B49 /* Result.framework */,
+				3D5397341BBA93B100791B49 /* Runes.framework */,
+				3D53972B1BBA939500791B49 /* Nimble.framework */,
+				3D53972C1BBA939500791B49 /* Quick.framework */,
+				3D5397261BBA92EF00791B49 /* Nimble.framework */,
+				3D5397271BBA92EF00791B49 /* Quick.framework */,
+				3D53971B1BBA92DD00791B49 /* Alamofire.framework */,
+				3D53971C1BBA92DD00791B49 /* Genome.framework */,
+				3D53971D1BBA92DD00791B49 /* ReactiveCocoa.framework */,
+				3D53971E1BBA92DD00791B49 /* Result.framework */,
+				3D53971F1BBA92DD00791B49 /* Runes.framework */,
+				3D5396BB1BBA886D00791B49 /* Frameworks */,
 				3D5396811BBA7B9300791B49 /* Assets */,
 				3D5396821BBA7B9300791B49 /* Source */,
 				3D5396851BBA7B9300791B49 /* Tests */,
@@ -171,6 +207,33 @@
 			children = (
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		3D5396BB1BBA886D00791B49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D53970E1BBA8D5700791B49 /* Genome.framework */,
+				3D53970C1BBA8D4F00791B49 /* Genome.framework */,
+				3D5396C31BBA893700791B49 /* Nimble.framework */,
+				3D5396C41BBA893700791B49 /* Quick.framework */,
+				3D5396BF1BBA890400791B49 /* Nimble.framework */,
+				3D5396C01BBA890400791B49 /* Quick.framework */,
+				3D5396B11BBA886300791B49 /* Alamofire.framework */,
+				3D5396B21BBA886300791B49 /* Argo.framework */,
+				3D5396B31BBA886300791B49 /* ReactiveCocoa.framework */,
+				3D5396B41BBA886300791B49 /* Result.framework */,
+				3D5396B51BBA886300791B49 /* Runes.framework */,
+				3D5396A81BBA880A00791B49 /* Alamofire.framework */,
+				3D5396A91BBA880A00791B49 /* ReactiveCocoa.framework */,
+				3D5396AA1BBA880A00791B49 /* Result.framework */,
+				3D5396AB1BBA880A00791B49 /* Runes.framework */,
+				3D53969D1BBA879D00791B49 /* Alamofire.framework */,
+				3D53969E1BBA879D00791B49 /* Genome.framework */,
+				3D53969F1BBA879D00791B49 /* ReactiveCocoa.framework */,
+				3D5396A01BBA879D00791B49 /* Result.framework */,
+				3D5396A11BBA879D00791B49 /* Runes.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,8 +405,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D53969A1BBA86C900791B49 /* Info.plist in Resources */,
-				3D53968E1BBA7B9300791B49 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,8 +419,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D53969B1BBA86C900791B49 /* Info.plist in Resources */,
-				3D53968F1BBA7B9300791B49 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,8 +433,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D53969C1BBA86C900791B49 /* Info.plist in Resources */,
-				3D5396901BBA7B9300791B49 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +586,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -545,6 +606,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -557,6 +622,10 @@
 		3D53963A1BBA7A3A00791B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SoundCloudSwift/Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.SugarTeam.SoundCloudSwift-iOS-Tests";
@@ -567,6 +636,10 @@
 		3D53963B1BBA7A3A00791B49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SoundCloudSwift/Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.SugarTeam.SoundCloudSwift-iOS-Tests";
@@ -582,6 +655,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -602,6 +679,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -618,6 +699,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = SoundCloudSwift/Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -631,6 +716,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = SoundCloudSwift/Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -647,6 +736,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -666,6 +759,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
