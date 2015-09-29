@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		3D53962F1BBA7A3A00791B49 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */; settings = {ASSET_TAGS = (); }; };
 		3D5396671BBA7AB700791B49 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */; settings = {ASSET_TAGS = (); }; };
-		3D5396881BBA7B9300791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396831BBA7B9300791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		3D5396891BBA7B9300791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396831BBA7B9300791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		3D53968A1BBA7B9300791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396831BBA7B9300791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 		3D53968E1BBA7B9300791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396861BBA7B9300791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 		3D53968F1BBA7B9300791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396861BBA7B9300791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 		3D5396901BBA7B9300791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396861BBA7B9300791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		3D53969A1BBA86C900791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396981BBA86C900791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		3D53969B1BBA86C900791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396981BBA86C900791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		3D53969C1BBA86C900791B49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5396981BBA86C900791B49 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,8 @@
 		3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5396661BBA7AB700791B49 /* SoundCloudSwift OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5396791BBA7B5800791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D5396831BBA7B9300791B49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5396861BBA7B9300791B49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5396981BBA86C900791B49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,11 @@
 		3D5396821BBA7B9300791B49 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				3D5396831BBA7B9300791B49 /* Info.plist */,
+				3D5396941BBA86C900791B49 /* Entities */,
+				3D5396951BBA86C900791B49 /* Extensions */,
+				3D5396961BBA86C900791B49 /* Protocols */,
+				3D5396971BBA86C900791B49 /* Supporting Files */,
+				3D5396991BBA86C900791B49 /* Utils */,
 			);
 			name = Source;
 			path = SoundCloudSwift/Source;
@@ -131,6 +135,42 @@
 			);
 			name = Tests;
 			path = SoundCloudSwift/Tests;
+			sourceTree = "<group>";
+		};
+		3D5396941BBA86C900791B49 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		3D5396951BBA86C900791B49 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3D5396961BBA86C900791B49 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3D5396971BBA86C900791B49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D5396981BBA86C900791B49 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D5396991BBA86C900791B49 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,8 +342,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D53969A1BBA86C900791B49 /* Info.plist in Resources */,
 				3D53968E1BBA7B9300791B49 /* Info.plist in Resources */,
-				3D5396881BBA7B9300791B49 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,8 +358,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D53969B1BBA86C900791B49 /* Info.plist in Resources */,
 				3D53968F1BBA7B9300791B49 /* Info.plist in Resources */,
-				3D5396891BBA7B9300791B49 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,8 +374,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D53969C1BBA86C900791B49 /* Info.plist in Resources */,
 				3D5396901BBA7B9300791B49 /* Info.plist in Resources */,
-				3D53968A1BBA7B9300791B49 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +529,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SoundCloudSwift/Source/Info.plist;
+				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.SugarTeam.SoundCloudSwift;
@@ -505,7 +545,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SoundCloudSwift/Source/Info.plist;
+				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.SugarTeam.SoundCloudSwift;
@@ -543,7 +583,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SoundCloudSwift/Source/Info.plist;
+				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -563,7 +603,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SoundCloudSwift/Source/Info.plist;
+				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -607,7 +647,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SoundCloudSwift/Source/Info.plist;
+				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.SugarTeam.SoundCloudSwift;
@@ -626,7 +666,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SoundCloudSwift/Source/Info.plist;
+				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.SugarTeam.SoundCloudSwift;
