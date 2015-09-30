@@ -1,5 +1,5 @@
 //
-//  SCSRequestConvertibleTests.swift
+//  RequestConvertibleTests.swift
 //  SoundCloudSwift
 //
 //  Created by David Chavez on 9/29/15.
@@ -10,12 +10,12 @@ import Quick
 import Nimble
 @testable import SoundCloudSwift
 
-class SCSRequestConvertibleTests: QuickSpec {
+class RequestConvertibleTests: QuickSpec {
     override func spec() {
         describe("sound cloud request convertibles") {
             it("generates correctly formatted URL request") {
                 let params = ["q": "david chavez", "limit": 40]
-                let request = SCSRequestConvertible(path: "http://sugarteam.io", parameters: params, method: .GET).request()
+                let request = RequestConvertible(path: "http://sugarteam.io", parameters: params, method: .GET).request()
                 expect(request.URL!.absoluteString).to(equal("http://sugarteam.io?limit=40&q=david%20chavez"))
             }
         }

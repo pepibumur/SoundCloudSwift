@@ -30,7 +30,7 @@
 		3D5397751BBA96F200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397701BBA96F200791B49 /* ReactiveCocoa.framework */; };
 		3D5397761BBA96F200791B49 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397711BBA96F200791B49 /* Result.framework */; };
 		3D5397771BBA96F200791B49 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397721BBA96F200791B49 /* Runes.framework */; };
-		63089A901BBB41F0007220F7 /* SCSRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63089A8F1BBB41F0007220F7 /* SCSRequestConvertible.swift */; settings = {ASSET_TAGS = (); }; };
+		63089A901BBB41F0007220F7 /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63089A8F1BBB41F0007220F7 /* RequestConvertible.swift */; settings = {ASSET_TAGS = (); }; };
 		63089A921BBB4216007220F7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63089A911BBB4216007220F7 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 		63089A931BBB42D7007220F7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; settings = {ASSET_TAGS = (); }; };
 		63089A941BBB42D7007220F7 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; settings = {ASSET_TAGS = (); }; };
@@ -47,7 +47,7 @@
 		6323FCA31BBB442C00344D17 /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6323FCA41BBB442C00344D17 /* Result.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D5397491BBA94C200791B49 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6323FCA51BBB442C00344D17 /* Runes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D53974A1BBA94C200791B49 /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		63A590831BBB418100697E70 /* SCSRequestConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A5907F1BBB3F3600697E70 /* SCSRequestConvertibleTests.swift */; settings = {ASSET_TAGS = (); }; };
+		63A590831BBB418100697E70 /* RequestConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A5907F1BBB3F3600697E70 /* RequestConvertibleTests.swift */; settings = {ASSET_TAGS = (); }; };
 		63C579421BBB47A700209E05 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D5397581BBA967700791B49 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		63C579431BBB47A700209E05 /* Genome.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D5397591BBA967700791B49 /* Genome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		63C579441BBB47A700209E05 /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D53975A1BBA967700791B49 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -133,9 +133,9 @@
 		3D5397701BBA96F200791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/watchOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		3D5397711BBA96F200791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/watchOS/Result.framework; sourceTree = "<group>"; };
 		3D5397721BBA96F200791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/watchOS/Runes.framework; sourceTree = "<group>"; };
-		63089A8F1BBB41F0007220F7 /* SCSRequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SCSRequestConvertible.swift; path = SoundCloudSwift/Source/Core/Entities/SCSRequestConvertible.swift; sourceTree = SOURCE_ROOT; };
+		63089A8F1BBB41F0007220F7 /* RequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestConvertible.swift; path = SoundCloudSwift/Source/Core/Entities/RequestConvertible.swift; sourceTree = SOURCE_ROOT; };
 		63089A911BBB4216007220F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
-		63A5907F1BBB3F3600697E70 /* SCSRequestConvertibleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SCSRequestConvertibleTests.swift; path = Core/Entities/SCSRequestConvertibleTests.swift; sourceTree = "<group>"; };
+		63A5907F1BBB3F3600697E70 /* RequestConvertibleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestConvertibleTests.swift; path = Core/Entities/RequestConvertibleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,7 +262,7 @@
 		3D5396941BBA86C900791B49 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				63089A8F1BBB41F0007220F7 /* SCSRequestConvertible.swift */,
+				63089A8F1BBB41F0007220F7 /* RequestConvertible.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -342,7 +342,7 @@
 		63A5907E1BBB3EC000697E70 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				63A5907F1BBB3F3600697E70 /* SCSRequestConvertibleTests.swift */,
+				63A5907F1BBB3F3600697E70 /* RequestConvertibleTests.swift */,
 			);
 			name = Entities;
 			sourceTree = "<group>";
@@ -574,7 +574,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63089A901BBB41F0007220F7 /* SCSRequestConvertible.swift in Sources */,
+				63089A901BBB41F0007220F7 /* RequestConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,7 +582,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A590831BBB418100697E70 /* SCSRequestConvertibleTests.swift in Sources */,
+				63A590831BBB418100697E70 /* RequestConvertibleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

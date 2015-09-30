@@ -1,5 +1,5 @@
 //
-//  SCSRequestConvertible.swift
+//  RequestConvertible.swift
 //  SoundCloudSwift
 //
 //  Created by David Chavez on 9/29/15.
@@ -10,7 +10,7 @@ import Foundation
 import Alamofire
 
 /// Request creation struct
-struct SCSRequestConvertible {
+struct RequestConvertible {
     
     // MARK: - Attributes
     
