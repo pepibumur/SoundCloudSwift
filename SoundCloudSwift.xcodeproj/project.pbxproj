@@ -31,7 +31,6 @@
 		3D5397761BBA96F200791B49 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397711BBA96F200791B49 /* Result.framework */; };
 		3D5397771BBA96F200791B49 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397721BBA96F200791B49 /* Runes.framework */; };
 		63089A901BBB41F0007220F7 /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63089A8F1BBB41F0007220F7 /* RequestConvertible.swift */; settings = {ASSET_TAGS = (); }; };
-		63089A921BBB4216007220F7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63089A911BBB4216007220F7 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 		63089A931BBB42D7007220F7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; settings = {ASSET_TAGS = (); }; };
 		63089A941BBB42D7007220F7 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; settings = {ASSET_TAGS = (); }; };
 		63089A951BBB42D7007220F7 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; settings = {ASSET_TAGS = (); }; };
@@ -535,7 +534,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63089A921BBB4216007220F7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

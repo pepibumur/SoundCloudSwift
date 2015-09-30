@@ -22,12 +22,12 @@ struct RequestConvertible {
     // MARK: - Constructors
     
     /**
-    Initializes a SCSRequestConvertible object
+    Initializes a RequestConvertible object
     - Parameters:
         - path: The URL string representation of the base path
         - parameters: The dictionary representation of the query parameters
         - method: The HTTP request method _GET, POST, PUT, DELETE_
-    - Returns: An SCSRequestConvertible object initialized with given parameters
+    - Returns: An RequestConvertible object initialized with given parameters
     */
     init(path: String, parameters: [String: AnyObject], method: Alamofire.Method = .GET) {
         self.path = path
