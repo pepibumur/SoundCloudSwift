@@ -33,6 +33,15 @@ public protocol KeyValueStorable {
     static func restore<T: KeyValueStore>(key: String, store: T) throws -> Self?
     
     /**
+    Clears the object under the given key
+    
+    - parameter key:   key that identifies the object in the store
+    - parameter store: store where the object is persisted
+    
+    */
+    static func clear<T: KeyValueStore>(key: String, store: T)
+    
+    /**
     Returns a dictionary with the data to be stored
     
     - returns: dictionary with the data to be stored
@@ -64,5 +73,9 @@ public extension KeyValueStorable {
         guard let data = store.getData(key) else { return nil }
         guard let dict = NSKeyedUnarchiver.unarchiveObjectWithData(data) as? [String: String] else { return nil }
         return try Self(storeDict: dict)
+    }
+    
+    public static func clear<T: KeyValueStore>(key: String, store: T) {
+        store.clear(key)
     }
 }

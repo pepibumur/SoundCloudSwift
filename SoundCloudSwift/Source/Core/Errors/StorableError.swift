@@ -13,4 +13,5 @@ import Foundation
 */
 public enum StorableError: ErrorType {
     case InvalidData(String)
+    case MissingData(String)
 }

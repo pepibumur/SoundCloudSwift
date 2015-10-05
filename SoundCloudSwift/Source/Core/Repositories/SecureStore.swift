@@ -38,7 +38,12 @@ public struct SecureStore: KeyValueStore {
         return keychain.get(key)
     }
     
+    
     // MARK: - Helpers
+    
+    public func clear(key: String) {
+        keychain.delete(key)
+    }
     
     public func clearAll() {
         keychain.clear()

@@ -55,7 +55,14 @@ public protocol KeyValueStore {
     // MARK: - Helpers
     
     /**
-    Clear all the information in the store
+    Clears the object under the given key
+    
+    - parameter key: key that identifies the object in the store
+    */
+    func clear(key: String)
+    
+    /**
+    Clears all the information in the store
     */
     func clearAll()
 }

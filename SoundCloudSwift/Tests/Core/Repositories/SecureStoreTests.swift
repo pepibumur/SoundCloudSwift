@@ -42,11 +42,21 @@ class SecureStoreTests: QuickSpec {
         }
         
         describe("cleaners") { () -> Void in
-            let key: String = "my-key"
-            let value: String = "my-value"
-            store.setString(value, key: key)
-            store.clearAll()
-            expect(store.getString(key)).to(beNil())
+            it("should clear all the information with clearAll") {
+                let key: String = "my-key"
+                let value: String = "my-value"
+                store.setString(value, key: key)
+                store.clearAll()
+                expect(store.getString(key)).to(beNil())
+            }
+            
+            it("should clear the information under the given key") {
+                let key: String = "my-key"
+                let value: String = "my-value"
+                store.setString(value, key: key)
+                store.clear(key)
+                expect(store.getString(key)).to(beNil())
+            }
         }
     }
     

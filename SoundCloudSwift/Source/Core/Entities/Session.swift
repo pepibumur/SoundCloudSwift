@@ -79,7 +79,7 @@ public struct Session: KeyValueStorable {
 
     public init(storeDict: [String: String]) throws {
         guard let _accessToken = storeDict[StorableKeys.accessTokenKey] else { throw StorableError.InvalidData(StorableKeys.accessTokenKey) }
-        guard let _scope = storeDict[StorableKeys.accessTokenKey] else { throw StorableError.InvalidData(StorableKeys.scopeKey) }
+        guard let _scope = storeDict[StorableKeys.scopeKey] else { throw StorableError.InvalidData(StorableKeys.scopeKey) }
         self.accessToken = _accessToken
         self.scope = Scope.fromString(_scope)
     }
