@@ -1,0 +1,94 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RequestConvertible"
+provides-nominal:
+- "V15SoundCloudSwift18RequestConvertible"
+provides-member:
+- ["V15SoundCloudSwift18RequestConvertible", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "RequestConvertible"
+- "Alamofire"
+- !private "ParameterEncoding"
+- !private "NSURL"
+- !private "NSMutableURLRequest"
+- "String"
+- "AnyObject"
+- "NSURLRequest"
+depends-member:
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs9Equatable", "GET"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs8Hashable", "GET"]
+- !private ["PSs8Hashable", "init"]
+- !private ["O9Alamofire6Method", "GET"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo19NSMutableURLRequest", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["O9Alamofire17ParameterEncoding", "URLEncodedInURL"]
+- !private ["O9Alamofire17ParameterEncoding", "encode"]
+- !private ["PSs16RawRepresentable", "GET"]
+- ["V15SoundCloudSwift18RequestConvertible", "Alamofire"]
+- ["V15SoundCloudSwift18RequestConvertible", "AnyObject"]
+- !private ["V15SoundCloudSwift18RequestConvertible", "NSMutableURLRequest"]
+- !private ["V15SoundCloudSwift18RequestConvertible", "NSURL"]
+- ["V15SoundCloudSwift18RequestConvertible", "NSURLRequest"]
+- !private ["V15SoundCloudSwift18RequestConvertible", "ParameterEncoding"]
+- ["V15SoundCloudSwift18RequestConvertible", "String"]
+- ["V15SoundCloudSwift18RequestConvertible", "init"]
+- !private ["V15SoundCloudSwift18RequestConvertible", "method"]
+- !private ["V15SoundCloudSwift18RequestConvertible", "parameters"]
+- !private ["V15SoundCloudSwift18RequestConvertible", "path"]
+- ["V15SoundCloudSwift18RequestConvertible", "request"]
+- !private ["P9Alamofire21URLRequestConvertible", "init"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["PSs12_Reflectable", "init"]
+depends-nominal:
+- !private "PSs9AnyObject"
+- !private "PSs11CVarArgType"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "PSs8Hashable"
+- !private "O9Alamofire6Method"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo19NSMutableURLRequest"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSURL"
+- !private "CSo12NSURLRequest"
+- !private "O9Alamofire17ParameterEncoding"
+- !private "PSs16RawRepresentable"
+- "V15SoundCloudSwift18RequestConvertible"
+- !private "P9Alamofire21URLRequestConvertible"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/KeychainSwift.framework/Modules/KeychainSwift.swiftmodule/arm.swiftmodule"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/KeychainSwift.framework/Headers/KeychainSwift-Swift.h"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/KeychainSwift.framework/Headers/KeychainSwift.h"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/KeychainSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "e1ffb284354f1af3b012ea11ba3220d2"

@@ -54,6 +54,12 @@ pod "SoundCloudSwift", :git => "https://github.com/SugarTeam/SoundCloudSwift.git
 
 And execute `pod install`. Remember to open the project using the file `.xcworkspace`
 
+## Developer notes
+Before proposing a new PR, it must include update documentation. It's generated using [Jazzy](https://github.com/Realm/jazzy) and the following command:
+
+```bash
+jazzy -o Documentation -a SugarTeam -g https://github.com/sugarteam --readme README.md
+```
 
 ## Documentation
 - SoundCloud API: [Link](https://developers.soundcloud.com/docs/api/guide)

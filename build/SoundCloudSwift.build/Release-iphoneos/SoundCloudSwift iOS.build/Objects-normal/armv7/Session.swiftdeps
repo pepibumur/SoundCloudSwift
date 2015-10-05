@@ -1,0 +1,44 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Session"
+provides-nominal:
+- "V15SoundCloudSwift7Session"
+- "OV15SoundCloudSwift7Session5Scope"
+provides-member:
+- ["V15SoundCloudSwift7Session", ""]
+- ["OV15SoundCloudSwift7Session5Scope", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "Session"
+depends-member:
+- ["OV15SoundCloudSwift7Session5Scope", "All"]
+- ["OV15SoundCloudSwift7Session5Scope", "Some"]
+- ["OV15SoundCloudSwift7Session5Scope", "String"]
+- ["V15SoundCloudSwift7Session", "Scope"]
+- ["V15SoundCloudSwift7Session", "String"]
+- ["V15SoundCloudSwift7Session", "accessToken"]
+- ["V15SoundCloudSwift7Session", "init"]
+- ["V15SoundCloudSwift7Session", "scope"]
+depends-nominal:
+- "OV15SoundCloudSwift7Session5Scope"
+- "V15SoundCloudSwift7Session"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/KeychainSwift.framework/Modules/KeychainSwift.swiftmodule/arm.swiftmodule"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/KeychainSwift.framework/Headers/KeychainSwift-Swift.h"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/KeychainSwift.framework/Headers/KeychainSwift.h"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/KeychainSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "6d843c59df5ee9327834e9c959d979f6"

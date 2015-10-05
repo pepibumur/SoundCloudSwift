@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "0e313f458728dfc6d0309ca6fd03e726"
+build_time: [497364893, 347361000]
+inputs: 
+	"/Users/pedropinerabuendia/code/SoundCloudSwift/SoundCloudSwift/Source/Core/Entities/Session.swift": [497354765, 0]
+	"/Users/pedropinerabuendia/code/SoundCloudSwift/SoundCloudSwift/Source/Core/Repositories/SecureStore.swift": [497361657, 0]
+	"/Users/pedropinerabuendia/code/SoundCloudSwift/SoundCloudSwift/Source/Core/Protocols/KeyValueStore.swift": [497361531, 0]
+	"/Users/pedropinerabuendia/code/SoundCloudSwift/SoundCloudSwift/Source/Core/Entities/RequestConvertible.swift": [497348856, 0]
