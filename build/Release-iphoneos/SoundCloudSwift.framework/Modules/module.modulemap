@@ -1,0 +1,3 @@
+framework module SoundCloudSwift {
+    header "SoundCloudSwift-Swift.h"
+}

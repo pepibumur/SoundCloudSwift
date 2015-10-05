@@ -1,0 +1,68 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SecureStore"
+provides-nominal:
+- "V15SoundCloudSwift11SecureStore"
+provides-member:
+- ["V15SoundCloudSwift11SecureStore", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "KeyValueStore"
+- "NSData"
+- "KeychainSwift"
+- "SecureStore"
+depends-member:
+- !private ["PSs9AnyObject", "clear"]
+- !private ["PSs9AnyObject", "get"]
+- !private ["PSs9AnyObject", "getData"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "set"]
+- ["P15SoundCloudSwift13KeyValueStore", "KeychainSwift"]
+- ["P15SoundCloudSwift13KeyValueStore", "clearAll"]
+- ["P15SoundCloudSwift13KeyValueStore", "getData"]
+- ["P15SoundCloudSwift13KeyValueStore", "getString"]
+- !private ["P15SoundCloudSwift13KeyValueStore", "keychain"]
+- ["P15SoundCloudSwift13KeyValueStore", "setData"]
+- ["P15SoundCloudSwift13KeyValueStore", "setString"]
+- ["P15SoundCloudSwift13KeyValueStore", ""]
+- !private ["C13KeychainSwift13KeychainSwift", "clear"]
+- !private ["C13KeychainSwift13KeychainSwift", "get"]
+- !private ["C13KeychainSwift13KeychainSwift", "getData"]
+- ["C13KeychainSwift13KeychainSwift", "init"]
+- !private ["C13KeychainSwift13KeychainSwift", "set"]
+- ["V15SoundCloudSwift11SecureStore", "KeychainSwift"]
+- ["V15SoundCloudSwift11SecureStore", "NSData"]
+- ["V15SoundCloudSwift11SecureStore", "String"]
+- ["V15SoundCloudSwift11SecureStore", "clearAll"]
+- ["V15SoundCloudSwift11SecureStore", "deinit"]
+- ["V15SoundCloudSwift11SecureStore", "getData"]
+- ["V15SoundCloudSwift11SecureStore", "getString"]
+- ["V15SoundCloudSwift11SecureStore", "init"]
+- ["V15SoundCloudSwift11SecureStore", "keychain"]
+- ["V15SoundCloudSwift11SecureStore", "setData"]
+- ["V15SoundCloudSwift11SecureStore", "setString"]
+depends-nominal:
+- "PSs9AnyObject"
+- "P15SoundCloudSwift13KeyValueStore"
+- "C13KeychainSwift13KeychainSwift"
+- "V15SoundCloudSwift11SecureStore"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/KeychainSwift.framework/Modules/KeychainSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/KeychainSwift.framework/Headers/KeychainSwift-Swift.h"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/KeychainSwift.framework/Headers/KeychainSwift.h"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/KeychainSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/pedropinerabuendia/code/SoundCloudSwift/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "0bfb2d3cbd664a45827f37a4ff33fb06"

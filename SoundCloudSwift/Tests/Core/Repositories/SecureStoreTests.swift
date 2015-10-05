@@ -15,20 +15,33 @@ import Nimble
 class SecureStoreTests: QuickSpec {
     
     override func spec() {
+        
+        let store: SecureStore = SecureStore()
+        
+        beforeEach { () -> () in
+            store.clearAll()
+        }
+        
         describe("accessors") { () -> Void in
             
             it("should properly persist a string", closure: { () -> () in
-                
-                
+                let key: String = "my-key"
+                let value: String = "my-value"
+                store.setString(value, key: key)
+                expect(store.getString(key)) == value
+            })
+            
+            it("should properly persist data", closure: { () -> () in
+
             })
         }
         
-        describe("persistors") { () -> Void in
-            
-        }
-        
         describe("cleaners") { () -> Void in
-            
+            let key: String = "my-key"
+            let value: String = "my-value"
+            store.setString(value, key: key)
+            store.clearAll()
+            expect(store.getString(key)).to(beNil())
         }
     }
     
