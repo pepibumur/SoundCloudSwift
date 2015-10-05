@@ -10,3 +10,26 @@ import Foundation
 import Quick
 import Nimble
 
+@testable import SoundCloudSwift
+
+class SecureStoreTests: QuickSpec {
+    
+    override func spec() {
+        describe("accessors") { () -> Void in
+            
+            it("should properly persist a string", closure: { () -> () in
+                
+                
+            })
+        }
+        
+        describe("persistors") { () -> Void in
+            
+        }
+        
+        describe("cleaners") { () -> Void in
+            
+        }
+    }
+    
+}

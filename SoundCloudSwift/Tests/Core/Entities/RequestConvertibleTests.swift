@@ -8,6 +8,7 @@
 
 import Quick
 import Nimble
+
 @testable import SoundCloudSwift
 
 class RequestConvertibleTests: QuickSpec {

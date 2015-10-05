@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D53962D1BBA7A3A00791B49"
-               BuildableName = "SoundCloudSwift iOS Tests.xctest"
-               BlueprintName = "SoundCloudSwift iOS Tests"
+               BlueprintIdentifier = "232B4CA31BC2A259001F2B7A"
+               BuildableName = "SoundCloudSwift-iOS Tests.xctest"
+               BlueprintName = "SoundCloudSwift-iOS Tests"
                ReferencedContainer = "container:SoundCloudSwift.xcodeproj">
             </BuildableReference>
          </TestableReference>
