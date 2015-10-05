@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		232B4C601BC28400001F2B7A /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C5B1BC28400001F2B7A /* RequestConvertible.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4C611BC28400001F2B7A /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C5B1BC28400001F2B7A /* RequestConvertible.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4C621BC28400001F2B7A /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C5B1BC28400001F2B7A /* RequestConvertible.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4C631BC28400001F2B7A /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C5C1BC28400001F2B7A /* Session.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4C641BC28400001F2B7A /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C5C1BC28400001F2B7A /* Session.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4C651BC28400001F2B7A /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C5C1BC28400001F2B7A /* Session.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4C6B1BC2842A001F2B7A /* KeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C6A1BC2842A001F2B7A /* KeyValueStore.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4C6C1BC2842A001F2B7A /* KeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C6A1BC2842A001F2B7A /* KeyValueStore.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4C6D1BC2842A001F2B7A /* KeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C6A1BC2842A001F2B7A /* KeyValueStore.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4C701BC28506001F2B7A /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C6F1BC28506001F2B7A /* SecureStore.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4C711BC28506001F2B7A /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C6F1BC28506001F2B7A /* SecureStore.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4C721BC28506001F2B7A /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C6F1BC28506001F2B7A /* SecureStore.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4C961BC29B15001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4C951BC29B15001F2B7A /* KeychainSwift.framework */; };
+		232B4C981BC29B1F001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4C971BC29B1F001F2B7A /* KeychainSwift.framework */; };
+		232B4C991BC29B28001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4C731BC2854A001F2B7A /* KeychainSwift.framework */; };
+		232B4C9C1BC29DC9001F2B7A /* SecureStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C9B1BC29DC9001F2B7A /* SecureStoreTests.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4C9D1BC29DC9001F2B7A /* SecureStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4C9B1BC29DC9001F2B7A /* SecureStoreTests.swift */; settings = {ASSET_TAGS = (); }; };
 		3D53974B1BBA94C200791B49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; };
 		3D53974C1BBA94C200791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; };
 		3D53974D1BBA94C200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; };
@@ -30,7 +47,6 @@
 		3D5397751BBA96F200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397701BBA96F200791B49 /* ReactiveCocoa.framework */; };
 		3D5397761BBA96F200791B49 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397711BBA96F200791B49 /* Result.framework */; };
 		3D5397771BBA96F200791B49 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397721BBA96F200791B49 /* Runes.framework */; };
-		63089A901BBB41F0007220F7 /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63089A8F1BBB41F0007220F7 /* RequestConvertible.swift */; settings = {ASSET_TAGS = (); }; };
 		63089A931BBB42D7007220F7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; settings = {ASSET_TAGS = (); }; };
 		63089A941BBB42D7007220F7 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; settings = {ASSET_TAGS = (); }; };
 		63089A951BBB42D7007220F7 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; settings = {ASSET_TAGS = (); }; };
@@ -107,12 +123,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		232B4C5B1BC28400001F2B7A /* RequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConvertible.swift; sourceTree = "<group>"; };
+		232B4C5C1BC28400001F2B7A /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		232B4C5F1BC28400001F2B7A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		232B4C6A1BC2842A001F2B7A /* KeyValueStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueStore.swift; sourceTree = "<group>"; };
+		232B4C6F1BC28506001F2B7A /* SecureStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStore.swift; sourceTree = "<group>"; };
+		232B4C731BC2854A001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/iOS/KeychainSwift.framework; sourceTree = "<group>"; };
+		232B4C951BC29B15001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/Mac/KeychainSwift.framework; sourceTree = "<group>"; };
+		232B4C971BC29B1F001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/watchOS/KeychainSwift.framework; sourceTree = "<group>"; };
+		232B4C9B1BC29DC9001F2B7A /* SecureStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStoreTests.swift; sourceTree = "<group>"; };
 		3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D53962E1BBA7A3A00791B49 /* SoundCloudSwift iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5396661BBA7AB700791B49 /* SoundCloudSwift OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5396791BBA7B5800791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D5396981BBA86C900791B49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5397461BBA94C200791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		3D5397471BBA94C200791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/iOS/Genome.framework; sourceTree = "<group>"; };
 		3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
@@ -132,7 +156,6 @@
 		3D5397701BBA96F200791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/watchOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		3D5397711BBA96F200791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/watchOS/Result.framework; sourceTree = "<group>"; };
 		3D5397721BBA96F200791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/watchOS/Runes.framework; sourceTree = "<group>"; };
-		63089A8F1BBB41F0007220F7 /* RequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestConvertible.swift; path = SoundCloudSwift/Source/Core/Entities/RequestConvertible.swift; sourceTree = SOURCE_ROOT; };
 		63089A911BBB4216007220F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
 		63A5907F1BBB3F3600697E70 /* RequestConvertibleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestConvertibleTests.swift; path = Core/Entities/RequestConvertibleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,6 +170,7 @@
 				3D53974D1BBA94C200791B49 /* ReactiveCocoa.framework in Frameworks */,
 				3D53974E1BBA94C200791B49 /* Result.framework in Frameworks */,
 				3D53974F1BBA94C200791B49 /* Runes.framework in Frameworks */,
+				232B4C991BC29B28001F2B7A /* KeychainSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +196,7 @@
 				3D53975E1BBA967700791B49 /* Genome.framework in Frameworks */,
 				3D53975F1BBA967700791B49 /* ReactiveCocoa.framework in Frameworks */,
 				3D5397601BBA967700791B49 /* Result.framework in Frameworks */,
+				232B4C961BC29B15001F2B7A /* KeychainSwift.framework in Frameworks */,
 				3D5397611BBA967700791B49 /* Runes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,18 +224,89 @@
 				3D5397751BBA96F200791B49 /* ReactiveCocoa.framework in Frameworks */,
 				3D5397761BBA96F200791B49 /* Result.framework in Frameworks */,
 				3D5397771BBA96F200791B49 /* Runes.framework in Frameworks */,
+				232B4C981BC29B1F001F2B7A /* KeychainSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		232B4C581BC28400001F2B7A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				232B4C591BC28400001F2B7A /* Core */,
+				232B4C5E1BC28400001F2B7A /* Supporting Files */,
+			);
+			name = Source;
+			path = SoundCloudSwift/Source;
+			sourceTree = "<group>";
+		};
+		232B4C591BC28400001F2B7A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				232B4C6E1BC284FE001F2B7A /* Repositories */,
+				232B4C691BC28423001F2B7A /* Protocols */,
+				232B4C5A1BC28400001F2B7A /* Entities */,
+				232B4C5D1BC28400001F2B7A /* Manager */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		232B4C5A1BC28400001F2B7A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				232B4C5B1BC28400001F2B7A /* RequestConvertible.swift */,
+				232B4C5C1BC28400001F2B7A /* Session.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		232B4C5D1BC28400001F2B7A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		232B4C5E1BC28400001F2B7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				232B4C5F1BC28400001F2B7A /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		232B4C691BC28423001F2B7A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				232B4C6A1BC2842A001F2B7A /* KeyValueStore.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		232B4C6E1BC284FE001F2B7A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				232B4C6F1BC28506001F2B7A /* SecureStore.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		232B4C9A1BC29DAD001F2B7A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				232B4C9B1BC29DC9001F2B7A /* SecureStoreTests.swift */,
+			);
+			name = Repositories;
+			path = Core/Repositories;
+			sourceTree = "<group>";
+		};
 		3D27429A1BBA70E4007A1BCE = {
 			isa = PBXGroup;
 			children = (
 				3D5396BB1BBA886D00791B49 /* Frameworks */,
+				232B4C581BC28400001F2B7A /* Source */,
 				3D5396811BBA7B9300791B49 /* Assets */,
-				3D5396821BBA7B9300791B49 /* Source */,
 				3D5396851BBA7B9300791B49 /* Tests */,
 				3D2742A51BBA70E4007A1BCE /* Products */,
 			);
@@ -236,18 +332,6 @@
 			path = SoundCloudSwift/Assets;
 			sourceTree = "<group>";
 		};
-		3D5396821BBA7B9300791B49 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				3D5396941BBA86C900791B49 /* Entities */,
-				3D5396951BBA86C900791B49 /* Extensions */,
-				3D5396961BBA86C900791B49 /* Protocols */,
-				3D5396971BBA86C900791B49 /* Supporting Files */,
-			);
-			name = Source;
-			path = SoundCloudSwift/Source;
-			sourceTree = "<group>";
-		};
 		3D5396851BBA7B9300791B49 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,39 +342,12 @@
 			path = SoundCloudSwift/Tests;
 			sourceTree = "<group>";
 		};
-		3D5396941BBA86C900791B49 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-				63089A8F1BBB41F0007220F7 /* RequestConvertible.swift */,
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		3D5396951BBA86C900791B49 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		3D5396961BBA86C900791B49 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		3D5396971BBA86C900791B49 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3D5396981BBA86C900791B49 /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		3D5396BB1BBA886D00791B49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				232B4C971BC29B1F001F2B7A /* KeychainSwift.framework */,
+				232B4C951BC29B15001F2B7A /* KeychainSwift.framework */,
+				232B4C731BC2854A001F2B7A /* KeychainSwift.framework */,
 				3D5397781BBA96F500791B49 /* watchOS */,
 				3D5397671BBA969500791B49 /* OSX */,
 				3D5397541BBA94F200791B49 /* iOS */,
@@ -349,6 +406,7 @@
 		63A590811BBB3F3900697E70 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				232B4C9A1BC29DAD001F2B7A /* Repositories */,
 				63A5907E1BBB3EC000697E70 /* Entities */,
 			);
 			name = Core;
@@ -572,7 +630,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63089A901BBB41F0007220F7 /* RequestConvertible.swift in Sources */,
+				232B4C701BC28506001F2B7A /* SecureStore.swift in Sources */,
+				232B4C6B1BC2842A001F2B7A /* KeyValueStore.swift in Sources */,
+				232B4C631BC28400001F2B7A /* Session.swift in Sources */,
+				232B4C601BC28400001F2B7A /* RequestConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +641,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232B4C9C1BC29DC9001F2B7A /* SecureStoreTests.swift in Sources */,
 				63A590831BBB418100697E70 /* RequestConvertibleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +650,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232B4C711BC28506001F2B7A /* SecureStore.swift in Sources */,
+				232B4C6C1BC2842A001F2B7A /* KeyValueStore.swift in Sources */,
+				232B4C641BC28400001F2B7A /* Session.swift in Sources */,
+				232B4C611BC28400001F2B7A /* RequestConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,6 +661,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232B4C9D1BC29DC9001F2B7A /* SecureStoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +669,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232B4C721BC28506001F2B7A /* SecureStore.swift in Sources */,
+				232B4C6D1BC2842A001F2B7A /* KeyValueStore.swift in Sources */,
+				232B4C651BC28400001F2B7A /* Session.swift in Sources */,
+				232B4C621BC28400001F2B7A /* RequestConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -837,6 +908,7 @@
 		3D5396721BBA7AB700791B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -849,12 +921,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.SugarTeam.SoundCloudSwift-OSX-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3D5396731BBA7AB700791B49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -881,6 +955,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -906,6 +981,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
