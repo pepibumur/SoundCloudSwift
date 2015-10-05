@@ -66,7 +66,7 @@ class SessionTests: QuickSpec {
                 let session: Session = Session(accessToken: accessToken, scope: scope)
                 session.store("session", store: store)
                 Session.clear("session", store: store)
-                expect{ try Session.restore("session", store: store)}.to(throwError())
+                expect{ try Session.restore("session", store: store)}.to(beNil())
             }
             
         }
