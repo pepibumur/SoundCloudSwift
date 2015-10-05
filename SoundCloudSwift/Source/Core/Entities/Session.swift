@@ -11,7 +11,7 @@ import Foundation
 /**
 *  It represents an API session
 */
-public struct Session {
+public struct Session: KeyValueStorable {
     
     /**
     SoundCloud API scopes
@@ -22,6 +22,20 @@ public struct Session {
     enum Scope {
         case All
         case Some([String])
+        
+        func toString() -> String {
+            switch self {
+            case .All:
+                return "*"
+            case .Some(let scopes):
+                return scopes.joinWithSeparator(",")
+            }
+        }
+        
+        static func fromString(string: String) -> Scope {
+            if string == "*" { return .All }
+            return .Some(string.componentsSeparatedByString(","))
+        }
     }
     
     // MARK: - Attributes
@@ -46,5 +60,27 @@ public struct Session {
     init(accessToken: String, scope: Scope) {
         self.accessToken = accessToken
         self.scope = scope
+    }
+    
+    
+    // MARK: - KeyValueStorable
+    
+    private struct StorableKeys {
+        static let accessTokenKey: String = "access-token"
+        static let scopeKey: String = "scope"
+    }
+    
+    public func storeDict() -> [String: String] {
+        var dict: [String: String] = [:]
+        dict[StorableKeys.accessTokenKey] = accessToken
+        dict[StorableKeys.scopeKey] = scope.toString()
+        return dict
+    }
+
+    public init(storeDict: [String: String]) throws {
+        guard let _accessToken = storeDict[StorableKeys.accessTokenKey] else { throw StorableError.InvalidData(StorableKeys.accessTokenKey) }
+        guard let _scope = storeDict[StorableKeys.accessTokenKey] else { throw StorableError.InvalidData(StorableKeys.scopeKey) }
+        self.accessToken = _accessToken
+        self.scope = Scope.fromString(_scope)
     }
 }

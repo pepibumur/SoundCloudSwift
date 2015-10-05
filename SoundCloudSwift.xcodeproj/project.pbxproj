@@ -45,6 +45,14 @@
 		232B4CC81BC2A410001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC61BC2A404001F2B7A /* KeychainSwift.framework */; };
 		232B4CC91BC2A415001F2B7A /* KeychainSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 232B4CC61BC2A404001F2B7A /* KeychainSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		232B4CCB1BC2A433001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CCA1BC2A433001F2B7A /* KeychainSwift.framework */; };
+		232B4CCF1BC2B054001F2B7A /* KeyValueStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4CCC1BC2AD3B001F2B7A /* KeyValueStorable.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4CD01BC2B056001F2B7A /* KeyValueStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4CCC1BC2AD3B001F2B7A /* KeyValueStorable.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4CD11BC2B057001F2B7A /* KeyValueStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4CCC1BC2AD3B001F2B7A /* KeyValueStorable.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4CD41BC2B377001F2B7A /* StorableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4CD31BC2B377001F2B7A /* StorableError.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4CD51BC2B377001F2B7A /* StorableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4CD31BC2B377001F2B7A /* StorableError.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4CD61BC2B377001F2B7A /* StorableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4CD31BC2B377001F2B7A /* StorableError.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4CD81BC2B4A4001F2B7A /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4CD71BC2B4A4001F2B7A /* SessionTests.swift */; settings = {ASSET_TAGS = (); }; };
+		232B4CD91BC2B4A4001F2B7A /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B4CD71BC2B4A4001F2B7A /* SessionTests.swift */; settings = {ASSET_TAGS = (); }; };
 		3D53974B1BBA94C200791B49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; };
 		3D53974C1BBA94C200791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; };
 		3D53974D1BBA94C200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; };
@@ -142,6 +150,9 @@
 		232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/iOS/KeychainSwift.framework; sourceTree = "<group>"; };
 		232B4CC61BC2A404001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/Mac/KeychainSwift.framework; sourceTree = "<group>"; };
 		232B4CCA1BC2A433001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/watchOS/KeychainSwift.framework; sourceTree = "<group>"; };
+		232B4CCC1BC2AD3B001F2B7A /* KeyValueStorable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueStorable.swift; sourceTree = "<group>"; };
+		232B4CD31BC2B377001F2B7A /* StorableError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorableError.swift; sourceTree = "<group>"; };
+		232B4CD71BC2B4A4001F2B7A /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SessionTests.swift; path = Core/Entities/SessionTests.swift; sourceTree = "<group>"; };
 		3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5396661BBA7AB700791B49 /* SoundCloudSwift OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,6 +267,7 @@
 		232B4C591BC28400001F2B7A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				232B4CD21BC2B2EF001F2B7A /* Errors */,
 				232B4C6E1BC284FE001F2B7A /* Repositories */,
 				232B4C691BC28423001F2B7A /* Protocols */,
 				232B4C5A1BC28400001F2B7A /* Entities */,
@@ -292,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				232B4C6A1BC2842A001F2B7A /* KeyValueStore.swift */,
+				232B4CCC1BC2AD3B001F2B7A /* KeyValueStorable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -311,6 +324,14 @@
 			);
 			name = Repositories;
 			path = Core/Repositories;
+			sourceTree = "<group>";
+		};
+		232B4CD21BC2B2EF001F2B7A /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				232B4CD31BC2B377001F2B7A /* StorableError.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 		3D27429A1BBA70E4007A1BCE = {
@@ -411,6 +432,7 @@
 			isa = PBXGroup;
 			children = (
 				63A5907F1BBB3F3600697E70 /* RequestConvertibleTests.swift */,
+				232B4CD71BC2B4A4001F2B7A /* SessionTests.swift */,
 			);
 			name = Entities;
 			sourceTree = "<group>";
@@ -642,6 +664,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232B4CD81BC2B4A4001F2B7A /* SessionTests.swift in Sources */,
 				232B4CAF1BC2A275001F2B7A /* SecureStoreTests.swift in Sources */,
 				232B4CB01BC2A275001F2B7A /* RequestConvertibleTests.swift in Sources */,
 			);
@@ -653,6 +676,8 @@
 			files = (
 				232B4C701BC28506001F2B7A /* SecureStore.swift in Sources */,
 				232B4C6B1BC2842A001F2B7A /* KeyValueStore.swift in Sources */,
+				232B4CD41BC2B377001F2B7A /* StorableError.swift in Sources */,
+				232B4CCF1BC2B054001F2B7A /* KeyValueStorable.swift in Sources */,
 				232B4C631BC28400001F2B7A /* Session.swift in Sources */,
 				232B4C601BC28400001F2B7A /* RequestConvertible.swift in Sources */,
 			);
@@ -664,6 +689,8 @@
 			files = (
 				232B4C711BC28506001F2B7A /* SecureStore.swift in Sources */,
 				232B4C6C1BC2842A001F2B7A /* KeyValueStore.swift in Sources */,
+				232B4CD51BC2B377001F2B7A /* StorableError.swift in Sources */,
+				232B4CD01BC2B056001F2B7A /* KeyValueStorable.swift in Sources */,
 				232B4C641BC28400001F2B7A /* Session.swift in Sources */,
 				232B4C611BC28400001F2B7A /* RequestConvertible.swift in Sources */,
 			);
@@ -673,6 +700,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232B4CD91BC2B4A4001F2B7A /* SessionTests.swift in Sources */,
 				232B4CB11BC2A27C001F2B7A /* RequestConvertibleTests.swift in Sources */,
 				232B4C9D1BC29DC9001F2B7A /* SecureStoreTests.swift in Sources */,
 			);
@@ -684,6 +712,8 @@
 			files = (
 				232B4C721BC28506001F2B7A /* SecureStore.swift in Sources */,
 				232B4C6D1BC2842A001F2B7A /* KeyValueStore.swift in Sources */,
+				232B4CD61BC2B377001F2B7A /* StorableError.swift in Sources */,
+				232B4CD11BC2B057001F2B7A /* KeyValueStorable.swift in Sources */,
 				232B4C651BC28400001F2B7A /* Session.swift in Sources */,
 				232B4C621BC28400001F2B7A /* RequestConvertible.swift in Sources */,
 			);

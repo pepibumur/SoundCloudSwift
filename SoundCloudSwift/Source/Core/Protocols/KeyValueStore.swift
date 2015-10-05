@@ -11,7 +11,7 @@ import Foundation
 /**
 *  Protocol that defines a Key-Value store
 */
-protocol KeyValueStore {
+public protocol KeyValueStore {
     
     // MARK: - Accessors
     

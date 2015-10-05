@@ -32,7 +32,12 @@ class SecureStoreTests: QuickSpec {
             })
             
             it("should properly persist data", closure: { () -> () in
-
+                let value: String = "my-value"
+                let data: NSData = value.dataUsingEncoding(NSUTF8StringEncoding)!
+                let key: String = "my-key"
+                store.setData(data, key: key)
+                let restoredData: NSData? = store.getData(key)
+                expect(String(data: restoredData!, encoding: NSUTF8StringEncoding)) == value
             })
         }
         

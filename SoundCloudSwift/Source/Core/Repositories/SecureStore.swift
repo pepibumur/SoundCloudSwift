@@ -22,25 +22,25 @@ public struct SecureStore: KeyValueStore {
     
     // MARK: - KeyValueStore
     
-    func setString(value: String, key: String) {
+    public func setString(value: String, key: String) {
         keychain.set(value, forKey: key)
     }
     
-    func setData(value: NSData, key: String) {
+    public func setData(value: NSData, key: String) {
         keychain.set(value, forKey: key)
     }
     
-    func getData(key: String) -> NSData? {
+    public func getData(key: String) -> NSData? {
         return keychain.getData(key)
     }
     
-    func getString(key: String) -> String? {
+    public func getString(key: String) -> String? {
         return keychain.get(key)
     }
     
     // MARK: - Helpers
     
-    func clearAll() {
+    public func clearAll() {
         keychain.clear()
     }
 }
