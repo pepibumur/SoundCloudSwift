@@ -866,6 +866,7 @@
 				);
 				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.SugarTeam.SoundCloudSwift;
 				PRODUCT_NAME = SoundCloudSwift;
@@ -888,6 +889,7 @@
 				);
 				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.SugarTeam.SoundCloudSwift;
 				PRODUCT_NAME = SoundCloudSwift;
@@ -1046,6 +1048,7 @@
 				232B4CAE1BC2A259001F2B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D27429E1BBA70E4007A1BCE /* Build configuration list for PBXProject "SoundCloudSwift" */ = {
 			isa = XCConfigurationList;

@@ -30,5 +30,6 @@ Pod::Spec.new do |s|
   s.dependency 'Genome', '1.0'
   s.dependency 'ReactiveCocoa', '4.0.2-alpha-1'
   s.dependency 'Runes', '3.0.0'
+  s.dependency 'KeychainSwift'
 end 
 
