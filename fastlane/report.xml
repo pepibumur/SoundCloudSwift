@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="fastlane">
+  <testsuite name="deploy">
+    <testcase name="0: Verifying required fastlane version" time="0.000282"/>
+    <testcase name="1: xcodebuild test -project ../SoundCloudSwift.xcodeproj -scheme 'SoundCloudSwift iOS' -sdk iphonesimulator9.0 ONLY_ACTIVE_ARCH=NO | xcpretty -c" time="2.556776"/>
+    <testcase name="2: xcodebuild test -project ../SoundCloudSwift.xcodeproj -scheme 'SoundCloudSwift OSX' ONLY_ACTIVE_ARCH=NO | xcpretty -c" time="1.048426"/>
+  </testsuite>
+</testsuites>
