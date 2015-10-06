@@ -2,6 +2,8 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 language: objective-c
+notifications:
+  email: false
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
