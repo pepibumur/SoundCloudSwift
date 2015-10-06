@@ -2,6 +2,7 @@
 
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Build Status](https://travis-ci.org/SugarTeam/SoundCloudSwift.svg?branch=feature%2Fmodels)](https://travis-ci.org/SugarTeam/SoundCloudSwift)
+[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)]()
 
 SoundCloud client written on Swift to integrate it easily with your apps.
 Actively developed by [@pepibumur](https://github.com/pepibumur) & [@dcvz](https://github.com/dcvz)
