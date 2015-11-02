@@ -11,4 +11,3 @@ install:
 - carthage update
 script:
 - set -o pipefail && xcodebuild test -project SoundCloudSwift.xcodeproj -scheme "SoundCloudSwift iOS" -sdk iphonesimulator9.0 ONLY_ACTIVE_ARCH=NO | xcpretty -c
-- set -o pipefail && xcodebuild test -project SoundCloudSwift.xcodeproj -scheme "SoundCloudSwift OSX" ONLY_ACTIVE_ARCH=NO | xcpretty -c
