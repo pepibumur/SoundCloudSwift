@@ -1,4 +1,4 @@
-![image](https://github.com/SugarTeam/SoundCloudSwift/blob/master/Assets/header.png?raw=true)
+![image](https://github.com/gitdoapp/SoundCloudSwift/blob/master/Assets/header.png?raw=true)
 
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Build Status](https://travis-ci.org/SugarTeam/SoundCloudSwift.svg?branch=feature%2Fmodels)](https://travis-ci.org/SugarTeam/SoundCloudSwift)
