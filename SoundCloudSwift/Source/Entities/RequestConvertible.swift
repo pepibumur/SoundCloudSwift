@@ -1,11 +1,3 @@
-//
-//  RequestConvertible.swift
-//  SoundCloudSwift
-//
-//  Created by David Chavez on 9/29/15.
-//  Copyright © 2015 SugarTeam. All rights reserved.
-//
-
 import Foundation
 import Alamofire
 
