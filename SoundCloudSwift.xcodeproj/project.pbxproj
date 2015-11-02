@@ -1082,6 +1082,7 @@
 		};
 		3D2742B61BBA70E4007A1BCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F06D1BE7A73D00D64137 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1130,6 +1131,7 @@
 		};
 		3D2742B71BBA70E4007A1BCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F06F1BE7A73D00D64137 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
