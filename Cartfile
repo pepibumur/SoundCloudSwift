@@ -1,5 +1,4 @@
-github "Alamofire/Alamofire" "c2429d953b39ca11ebe3911be2744e0546ee4923"
-github "ReactiveCocoa/ReactiveCocoa" "37616fd2e465bb01b16e40425d5204b00c46d415"
-github "thoughtbot/Runes" "1826d19f7f9df8aeefbe1b8d07ab2ff636c6f2c1"
+github "Alamofire/Alamofire" "2159ce3c9f64a39ade643ee6967e901d51797e96"
+github "ReactiveCocoa/ReactiveCocoa" "96be9414c6c1b463803ebce5bfb591842d3a5f4a"
 github "LoganWright/Genome" "f84552027a1022480517f7299dd08f9c24b68095"
-github "exchangegroup/keychain-swift" "c54981eef8f2612f2dcd9bdd1238cac3c08d9a81"
+github "exchangegroup/keychain-swift" "42e302008225b3fa3e69e8b79933f0ed13bac2b3"

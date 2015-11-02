@@ -7,7 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		232B4CA91BC2A259001F2B7A /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */; settings = {ASSET_TAGS = (); }; };
+		2328F0621BE7A6DA00D64137 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328F05C1BE7A6DA00D64137 /* Alamofire.framework */; };
+		2328F0631BE7A6DA00D64137 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328F05D1BE7A6DA00D64137 /* Genome.framework */; };
+		2328F0641BE7A6DA00D64137 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328F05E1BE7A6DA00D64137 /* KeychainSwift.framework */; };
+		2328F0651BE7A6DA00D64137 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328F05F1BE7A6DA00D64137 /* ReactiveCocoa.framework */; };
+		2328F0661BE7A6DA00D64137 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328F0601BE7A6DA00D64137 /* Result.framework */; };
+		2328F08B1BE7A73D00D64137 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06B1BE7A73D00D64137 /* Common.xcconfig */; };
+		2328F08C1BE7A73D00D64137 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06B1BE7A73D00D64137 /* Common.xcconfig */; };
+		2328F08D1BE7A73D00D64137 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06B1BE7A73D00D64137 /* Common.xcconfig */; };
+		2328F08E1BE7A73D00D64137 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06B1BE7A73D00D64137 /* Common.xcconfig */; };
+		2328F08F1BE7A73D00D64137 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06D1BE7A73D00D64137 /* Debug.xcconfig */; };
+		2328F0901BE7A73D00D64137 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06D1BE7A73D00D64137 /* Debug.xcconfig */; };
+		2328F0911BE7A73D00D64137 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06D1BE7A73D00D64137 /* Debug.xcconfig */; };
+		2328F0921BE7A73D00D64137 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06D1BE7A73D00D64137 /* Debug.xcconfig */; };
+		2328F0931BE7A73D00D64137 /* Profile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06E1BE7A73D00D64137 /* Profile.xcconfig */; };
+		2328F0941BE7A73D00D64137 /* Profile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06E1BE7A73D00D64137 /* Profile.xcconfig */; };
+		2328F0951BE7A73D00D64137 /* Profile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06E1BE7A73D00D64137 /* Profile.xcconfig */; };
+		2328F0961BE7A73D00D64137 /* Profile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06E1BE7A73D00D64137 /* Profile.xcconfig */; };
+		2328F0971BE7A73D00D64137 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06F1BE7A73D00D64137 /* Release.xcconfig */; };
+		2328F0981BE7A73D00D64137 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06F1BE7A73D00D64137 /* Release.xcconfig */; };
+		2328F0991BE7A73D00D64137 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06F1BE7A73D00D64137 /* Release.xcconfig */; };
+		2328F09A1BE7A73D00D64137 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F06F1BE7A73D00D64137 /* Release.xcconfig */; };
+		2328F09B1BE7A73D00D64137 /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0701BE7A73D00D64137 /* Test.xcconfig */; };
+		2328F09C1BE7A73D00D64137 /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0701BE7A73D00D64137 /* Test.xcconfig */; };
+		2328F09D1BE7A73D00D64137 /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0701BE7A73D00D64137 /* Test.xcconfig */; };
+		2328F09E1BE7A73D00D64137 /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0701BE7A73D00D64137 /* Test.xcconfig */; };
+		2328F09F1BE7A73D00D64137 /* Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0721BE7A73D00D64137 /* Application.xcconfig */; };
+		2328F0A01BE7A73D00D64137 /* Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0721BE7A73D00D64137 /* Application.xcconfig */; };
+		2328F0A11BE7A73D00D64137 /* Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0721BE7A73D00D64137 /* Application.xcconfig */; };
+		2328F0A21BE7A73D00D64137 /* Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0721BE7A73D00D64137 /* Application.xcconfig */; };
+		2328F0A31BE7A73D00D64137 /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0731BE7A73D00D64137 /* Framework.xcconfig */; };
+		2328F0A41BE7A73D00D64137 /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0731BE7A73D00D64137 /* Framework.xcconfig */; };
+		2328F0A51BE7A73D00D64137 /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0731BE7A73D00D64137 /* Framework.xcconfig */; };
+		2328F0A61BE7A73D00D64137 /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0731BE7A73D00D64137 /* Framework.xcconfig */; };
+		2328F0A71BE7A73D00D64137 /* StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0741BE7A73D00D64137 /* StaticLibrary.xcconfig */; };
+		2328F0A81BE7A73D00D64137 /* StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0741BE7A73D00D64137 /* StaticLibrary.xcconfig */; };
+		2328F0A91BE7A73D00D64137 /* StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0741BE7A73D00D64137 /* StaticLibrary.xcconfig */; };
+		2328F0AA1BE7A73D00D64137 /* StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0741BE7A73D00D64137 /* StaticLibrary.xcconfig */; };
+		2328F0AB1BE7A73D00D64137 /* iOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0761BE7A73D00D64137 /* iOS-Application.xcconfig */; };
+		2328F0AC1BE7A73D00D64137 /* iOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0761BE7A73D00D64137 /* iOS-Application.xcconfig */; };
+		2328F0AD1BE7A73D00D64137 /* iOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0761BE7A73D00D64137 /* iOS-Application.xcconfig */; };
+		2328F0AE1BE7A73D00D64137 /* iOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0761BE7A73D00D64137 /* iOS-Application.xcconfig */; };
+		2328F0AF1BE7A73D00D64137 /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0771BE7A73D00D64137 /* iOS-Base.xcconfig */; };
+		2328F0B01BE7A73D00D64137 /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0771BE7A73D00D64137 /* iOS-Base.xcconfig */; };
+		2328F0B11BE7A73D00D64137 /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0771BE7A73D00D64137 /* iOS-Base.xcconfig */; };
+		2328F0B21BE7A73D00D64137 /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0771BE7A73D00D64137 /* iOS-Base.xcconfig */; };
+		2328F0B31BE7A73D00D64137 /* iOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0781BE7A73D00D64137 /* iOS-Framework.xcconfig */; };
+		2328F0B41BE7A73D00D64137 /* iOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0781BE7A73D00D64137 /* iOS-Framework.xcconfig */; };
+		2328F0B51BE7A73D00D64137 /* iOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0781BE7A73D00D64137 /* iOS-Framework.xcconfig */; };
+		2328F0B61BE7A73D00D64137 /* iOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0781BE7A73D00D64137 /* iOS-Framework.xcconfig */; };
+		2328F0B71BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0791BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig */; };
+		2328F0B81BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0791BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig */; };
+		2328F0B91BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0791BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig */; };
+		2328F0BA1BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0791BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig */; };
+		2328F0BB1BE7A73D00D64137 /* Mac-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07B1BE7A73D00D64137 /* Mac-Application.xcconfig */; };
+		2328F0BC1BE7A73D00D64137 /* Mac-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07B1BE7A73D00D64137 /* Mac-Application.xcconfig */; };
+		2328F0BD1BE7A73D00D64137 /* Mac-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07B1BE7A73D00D64137 /* Mac-Application.xcconfig */; };
+		2328F0BE1BE7A73D00D64137 /* Mac-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07B1BE7A73D00D64137 /* Mac-Application.xcconfig */; };
+		2328F0BF1BE7A73D00D64137 /* Mac-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07C1BE7A73D00D64137 /* Mac-Base.xcconfig */; };
+		2328F0C01BE7A73D00D64137 /* Mac-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07C1BE7A73D00D64137 /* Mac-Base.xcconfig */; };
+		2328F0C11BE7A73D00D64137 /* Mac-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07C1BE7A73D00D64137 /* Mac-Base.xcconfig */; };
+		2328F0C21BE7A73D00D64137 /* Mac-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07C1BE7A73D00D64137 /* Mac-Base.xcconfig */; };
+		2328F0C31BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07D1BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig */; };
+		2328F0C41BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07D1BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig */; };
+		2328F0C51BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07D1BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig */; };
+		2328F0C61BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07D1BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig */; };
+		2328F0C71BE7A73D00D64137 /* Mac-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07E1BE7A73D00D64137 /* Mac-Framework.xcconfig */; };
+		2328F0C81BE7A73D00D64137 /* Mac-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07E1BE7A73D00D64137 /* Mac-Framework.xcconfig */; };
+		2328F0C91BE7A73D00D64137 /* Mac-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07E1BE7A73D00D64137 /* Mac-Framework.xcconfig */; };
+		2328F0CA1BE7A73D00D64137 /* Mac-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07E1BE7A73D00D64137 /* Mac-Framework.xcconfig */; };
+		2328F0CB1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07F1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig */; };
+		2328F0CC1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07F1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig */; };
+		2328F0CD1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07F1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig */; };
+		2328F0CE1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07F1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig */; };
+		2328F0CF1BE7A73D00D64137 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2328F0801BE7A73D00D64137 /* README.md */; };
+		2328F0D01BE7A73D00D64137 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2328F0801BE7A73D00D64137 /* README.md */; };
+		2328F0D11BE7A73D00D64137 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2328F0801BE7A73D00D64137 /* README.md */; };
+		2328F0D21BE7A73D00D64137 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2328F0801BE7A73D00D64137 /* README.md */; };
+		2328F0D31BE7A73D00D64137 /* tvOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0821BE7A73D00D64137 /* tvOS-Application.xcconfig */; };
+		2328F0D41BE7A73D00D64137 /* tvOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0821BE7A73D00D64137 /* tvOS-Application.xcconfig */; };
+		2328F0D51BE7A73D00D64137 /* tvOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0821BE7A73D00D64137 /* tvOS-Application.xcconfig */; };
+		2328F0D61BE7A73D00D64137 /* tvOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0821BE7A73D00D64137 /* tvOS-Application.xcconfig */; };
+		2328F0D71BE7A73D00D64137 /* tvOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0831BE7A73D00D64137 /* tvOS-Base.xcconfig */; };
+		2328F0D81BE7A73D00D64137 /* tvOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0831BE7A73D00D64137 /* tvOS-Base.xcconfig */; };
+		2328F0D91BE7A73D00D64137 /* tvOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0831BE7A73D00D64137 /* tvOS-Base.xcconfig */; };
+		2328F0DA1BE7A73D00D64137 /* tvOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0831BE7A73D00D64137 /* tvOS-Base.xcconfig */; };
+		2328F0DB1BE7A73D00D64137 /* tvOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0841BE7A73D00D64137 /* tvOS-Framework.xcconfig */; };
+		2328F0DC1BE7A73D00D64137 /* tvOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0841BE7A73D00D64137 /* tvOS-Framework.xcconfig */; };
+		2328F0DD1BE7A73D00D64137 /* tvOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0841BE7A73D00D64137 /* tvOS-Framework.xcconfig */; };
+		2328F0DE1BE7A73D00D64137 /* tvOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0841BE7A73D00D64137 /* tvOS-Framework.xcconfig */; };
+		2328F0DF1BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0851BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig */; };
+		2328F0E01BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0851BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig */; };
+		2328F0E11BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0851BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig */; };
+		2328F0E21BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0851BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig */; };
+		2328F0E31BE7A73D00D64137 /* watchOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0871BE7A73D00D64137 /* watchOS-Application.xcconfig */; };
+		2328F0E41BE7A73D00D64137 /* watchOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0871BE7A73D00D64137 /* watchOS-Application.xcconfig */; };
+		2328F0E51BE7A73D00D64137 /* watchOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0871BE7A73D00D64137 /* watchOS-Application.xcconfig */; };
+		2328F0E61BE7A73D00D64137 /* watchOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0871BE7A73D00D64137 /* watchOS-Application.xcconfig */; };
+		2328F0E71BE7A73D00D64137 /* watchOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0881BE7A73D00D64137 /* watchOS-Base.xcconfig */; };
+		2328F0E81BE7A73D00D64137 /* watchOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0881BE7A73D00D64137 /* watchOS-Base.xcconfig */; };
+		2328F0E91BE7A73D00D64137 /* watchOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0881BE7A73D00D64137 /* watchOS-Base.xcconfig */; };
+		2328F0EA1BE7A73D00D64137 /* watchOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0881BE7A73D00D64137 /* watchOS-Base.xcconfig */; };
+		2328F0EB1BE7A73D00D64137 /* watchOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0891BE7A73D00D64137 /* watchOS-Framework.xcconfig */; };
+		2328F0EC1BE7A73D00D64137 /* watchOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0891BE7A73D00D64137 /* watchOS-Framework.xcconfig */; };
+		2328F0ED1BE7A73D00D64137 /* watchOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0891BE7A73D00D64137 /* watchOS-Framework.xcconfig */; };
+		2328F0EE1BE7A73D00D64137 /* watchOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0891BE7A73D00D64137 /* watchOS-Framework.xcconfig */; };
+		2328F0EF1BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F08A1BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig */; };
+		2328F0F01BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F08A1BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig */; };
+		2328F0F11BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F08A1BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig */; };
+		2328F0F21BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F08A1BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig */; };
+		232B4CA91BC2A259001F2B7A /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */; };
 		232B4CB21BC2A2E8001F2B7A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; };
 		232B4CB31BC2A2E8001F2B7A /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; };
 		232B4CB51BC2A2E8001F2B7A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397501BBA94EE00791B49 /* Nimble.framework */; };
@@ -26,62 +135,40 @@
 		232B4CC41BC2A3DC001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */; };
 		232B4CC51BC2A3F6001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */; };
 		232B4CC71BC2A404001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC61BC2A404001F2B7A /* KeychainSwift.framework */; };
-		232B4CC81BC2A410001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC61BC2A404001F2B7A /* KeychainSwift.framework */; };
-		232B4CC91BC2A415001F2B7A /* KeychainSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 232B4CC61BC2A404001F2B7A /* KeychainSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		232B4CCB1BC2A433001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CCA1BC2A433001F2B7A /* KeychainSwift.framework */; };
-		236F03561BC3D10300659BF4 /* RequestConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03521BC3D10300659BF4 /* RequestConvertibleTests.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03571BC3D10300659BF4 /* RequestConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03521BC3D10300659BF4 /* RequestConvertibleTests.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03581BC3D10300659BF4 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03531BC3D10300659BF4 /* SessionTests.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03591BC3D10300659BF4 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03531BC3D10300659BF4 /* SessionTests.swift */; settings = {ASSET_TAGS = (); }; };
-		236F035A1BC3D10300659BF4 /* SecureStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03551BC3D10300659BF4 /* SecureStoreTests.swift */; settings = {ASSET_TAGS = (); }; };
-		236F035B1BC3D10300659BF4 /* SecureStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03551BC3D10300659BF4 /* SecureStoreTests.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03661BC3D11000659BF4 /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F035D1BC3D11000659BF4 /* RequestConvertible.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03671BC3D11000659BF4 /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F035D1BC3D11000659BF4 /* RequestConvertible.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03681BC3D11000659BF4 /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F035D1BC3D11000659BF4 /* RequestConvertible.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03691BC3D11000659BF4 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F035E1BC3D11000659BF4 /* Session.swift */; settings = {ASSET_TAGS = (); }; };
-		236F036A1BC3D11000659BF4 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F035E1BC3D11000659BF4 /* Session.swift */; settings = {ASSET_TAGS = (); }; };
-		236F036B1BC3D11000659BF4 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F035E1BC3D11000659BF4 /* Session.swift */; settings = {ASSET_TAGS = (); }; };
-		236F036C1BC3D11000659BF4 /* StorableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03601BC3D11000659BF4 /* StorableError.swift */; settings = {ASSET_TAGS = (); }; };
-		236F036D1BC3D11000659BF4 /* StorableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03601BC3D11000659BF4 /* StorableError.swift */; settings = {ASSET_TAGS = (); }; };
-		236F036E1BC3D11000659BF4 /* StorableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03601BC3D11000659BF4 /* StorableError.swift */; settings = {ASSET_TAGS = (); }; };
-		236F036F1BC3D11000659BF4 /* KeyValueStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03621BC3D11000659BF4 /* KeyValueStorable.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03701BC3D11000659BF4 /* KeyValueStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03621BC3D11000659BF4 /* KeyValueStorable.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03711BC3D11000659BF4 /* KeyValueStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03621BC3D11000659BF4 /* KeyValueStorable.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03721BC3D11000659BF4 /* KeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03631BC3D11000659BF4 /* KeyValueStore.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03731BC3D11000659BF4 /* KeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03631BC3D11000659BF4 /* KeyValueStore.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03741BC3D11000659BF4 /* KeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03631BC3D11000659BF4 /* KeyValueStore.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03751BC3D11000659BF4 /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03651BC3D11000659BF4 /* SecureStore.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03761BC3D11000659BF4 /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03651BC3D11000659BF4 /* SecureStore.swift */; settings = {ASSET_TAGS = (); }; };
-		236F03771BC3D11000659BF4 /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03651BC3D11000659BF4 /* SecureStore.swift */; settings = {ASSET_TAGS = (); }; };
+		236F03561BC3D10300659BF4 /* RequestConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03521BC3D10300659BF4 /* RequestConvertibleTests.swift */; };
+		236F03581BC3D10300659BF4 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03531BC3D10300659BF4 /* SessionTests.swift */; };
+		236F035A1BC3D10300659BF4 /* SecureStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03551BC3D10300659BF4 /* SecureStoreTests.swift */; };
+		236F03661BC3D11000659BF4 /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F035D1BC3D11000659BF4 /* RequestConvertible.swift */; };
+		236F03671BC3D11000659BF4 /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F035D1BC3D11000659BF4 /* RequestConvertible.swift */; };
+		236F03681BC3D11000659BF4 /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F035D1BC3D11000659BF4 /* RequestConvertible.swift */; };
+		236F03691BC3D11000659BF4 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F035E1BC3D11000659BF4 /* Session.swift */; };
+		236F036A1BC3D11000659BF4 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F035E1BC3D11000659BF4 /* Session.swift */; };
+		236F036B1BC3D11000659BF4 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F035E1BC3D11000659BF4 /* Session.swift */; };
+		236F036C1BC3D11000659BF4 /* StorableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03601BC3D11000659BF4 /* StorableError.swift */; };
+		236F036D1BC3D11000659BF4 /* StorableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03601BC3D11000659BF4 /* StorableError.swift */; };
+		236F036E1BC3D11000659BF4 /* StorableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03601BC3D11000659BF4 /* StorableError.swift */; };
+		236F036F1BC3D11000659BF4 /* KeyValueStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03621BC3D11000659BF4 /* KeyValueStorable.swift */; };
+		236F03701BC3D11000659BF4 /* KeyValueStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03621BC3D11000659BF4 /* KeyValueStorable.swift */; };
+		236F03711BC3D11000659BF4 /* KeyValueStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03621BC3D11000659BF4 /* KeyValueStorable.swift */; };
+		236F03721BC3D11000659BF4 /* KeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03631BC3D11000659BF4 /* KeyValueStore.swift */; };
+		236F03731BC3D11000659BF4 /* KeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03631BC3D11000659BF4 /* KeyValueStore.swift */; };
+		236F03741BC3D11000659BF4 /* KeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03631BC3D11000659BF4 /* KeyValueStore.swift */; };
+		236F03751BC3D11000659BF4 /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03651BC3D11000659BF4 /* SecureStore.swift */; };
+		236F03761BC3D11000659BF4 /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03651BC3D11000659BF4 /* SecureStore.swift */; };
+		236F03771BC3D11000659BF4 /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03651BC3D11000659BF4 /* SecureStore.swift */; };
 		3D53974B1BBA94C200791B49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; };
 		3D53974C1BBA94C200791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; };
 		3D53974D1BBA94C200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; };
 		3D53974E1BBA94C200791B49 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397491BBA94C200791B49 /* Result.framework */; };
-		3D53974F1BBA94C200791B49 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53974A1BBA94C200791B49 /* Runes.framework */; };
 		3D53975D1BBA967700791B49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397581BBA967700791B49 /* Alamofire.framework */; };
 		3D53975E1BBA967700791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397591BBA967700791B49 /* Genome.framework */; };
 		3D53975F1BBA967700791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53975A1BBA967700791B49 /* ReactiveCocoa.framework */; };
 		3D5397601BBA967700791B49 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53975B1BBA967700791B49 /* Result.framework */; };
-		3D5397611BBA967700791B49 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53975C1BBA967700791B49 /* Runes.framework */; };
-		3D53976A1BBA96D900791B49 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397631BBA968A00791B49 /* Quick.framework */; };
-		3D53976B1BBA96D900791B49 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397621BBA968A00791B49 /* Nimble.framework */; };
-		3D53976C1BBA96DF00791B49 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D5397631BBA968A00791B49 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3D53976D1BBA96DF00791B49 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D5397621BBA968A00791B49 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3D5397731BBA96F200791B49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53976E1BBA96F200791B49 /* Alamofire.framework */; };
 		3D5397741BBA96F200791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53976F1BBA96F200791B49 /* Genome.framework */; };
 		3D5397751BBA96F200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397701BBA96F200791B49 /* ReactiveCocoa.framework */; };
 		3D5397761BBA96F200791B49 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397711BBA96F200791B49 /* Result.framework */; };
-		3D5397771BBA96F200791B49 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397721BBA96F200791B49 /* Runes.framework */; };
-		6323FC9C1BBB43D400344D17 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397581BBA967700791B49 /* Alamofire.framework */; settings = {ASSET_TAGS = (); }; };
-		6323FC9D1BBB43D400344D17 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397591BBA967700791B49 /* Genome.framework */; settings = {ASSET_TAGS = (); }; };
-		6323FC9E1BBB43D400344D17 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53975A1BBA967700791B49 /* ReactiveCocoa.framework */; settings = {ASSET_TAGS = (); }; };
-		6323FC9F1BBB43D400344D17 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53975B1BBA967700791B49 /* Result.framework */; settings = {ASSET_TAGS = (); }; };
-		6323FCA01BBB43D400344D17 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53975C1BBA967700791B49 /* Runes.framework */; settings = {ASSET_TAGS = (); }; };
-		63C579421BBB47A700209E05 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D5397581BBA967700791B49 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		63C579431BBB47A700209E05 /* Genome.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D5397591BBA967700791B49 /* Genome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		63C579441BBB47A700209E05 /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D53975A1BBA967700791B49 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		63C579451BBB47A700209E05 /* Result.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D53975B1BBA967700791B49 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		63C579461BBB47A700209E05 /* Runes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D53975C1BBA967700791B49 /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,13 +178,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 3D5396241BBA7A3A00791B49;
 			remoteInfo = "SoundCloudSwift iOS";
-		};
-		3D5396681BBA7AB700791B49 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D27429B1BBA70E4007A1BCE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3D53965C1BBA7AB700791B49;
-			remoteInfo = "SoundCloudSwift OSX";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -120,28 +200,43 @@
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D5397661BBA969000791B49 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				63C579421BBB47A700209E05 /* Alamofire.framework in CopyFiles */,
-				63C579431BBB47A700209E05 /* Genome.framework in CopyFiles */,
-				63C579441BBB47A700209E05 /* ReactiveCocoa.framework in CopyFiles */,
-				63C579451BBB47A700209E05 /* Result.framework in CopyFiles */,
-				63C579461BBB47A700209E05 /* Runes.framework in CopyFiles */,
-				3D53976C1BBA96DF00791B49 /* Quick.framework in CopyFiles */,
-				3D53976D1BBA96DF00791B49 /* Nimble.framework in CopyFiles */,
-				232B4CC91BC2A415001F2B7A /* KeychainSwift.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2328F0191BE79EF000D64137 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2328F05C1BE7A6DA00D64137 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
+		2328F05D1BE7A6DA00D64137 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/tvOS/Genome.framework; sourceTree = "<group>"; };
+		2328F05E1BE7A6DA00D64137 /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/tvOS/KeychainSwift.framework; sourceTree = "<group>"; };
+		2328F05F1BE7A6DA00D64137 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/tvOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		2328F0601BE7A6DA00D64137 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/tvOS/Result.framework; sourceTree = "<group>"; };
+		2328F06B1BE7A73D00D64137 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		2328F06D1BE7A73D00D64137 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		2328F06E1BE7A73D00D64137 /* Profile.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		2328F06F1BE7A73D00D64137 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		2328F0701BE7A73D00D64137 /* Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		2328F0721BE7A73D00D64137 /* Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		2328F0731BE7A73D00D64137 /* Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
+		2328F0741BE7A73D00D64137 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		2328F0761BE7A73D00D64137 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		2328F0771BE7A73D00D64137 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
+		2328F0781BE7A73D00D64137 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		2328F0791BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		2328F07B1BE7A73D00D64137 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
+		2328F07C1BE7A73D00D64137 /* Mac-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
+		2328F07D1BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		2328F07E1BE7A73D00D64137 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
+		2328F07F1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		2328F0801BE7A73D00D64137 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2328F0821BE7A73D00D64137 /* tvOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "tvOS-Application.xcconfig"; sourceTree = "<group>"; };
+		2328F0831BE7A73D00D64137 /* tvOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "tvOS-Base.xcconfig"; sourceTree = "<group>"; };
+		2328F0841BE7A73D00D64137 /* tvOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "tvOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		2328F0851BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "tvOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		2328F0871BE7A73D00D64137 /* watchOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Application.xcconfig"; sourceTree = "<group>"; };
+		2328F0881BE7A73D00D64137 /* watchOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Base.xcconfig"; sourceTree = "<group>"; };
+		2328F0891BE7A73D00D64137 /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		2328F08A1BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		232B4C5F1BC28400001F2B7A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		232B4CA41BC2A259001F2B7A /* SoundCloudSwift-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		232B4CA41BC2A259001F2B7A /* SoundCloudSwift Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/iOS/KeychainSwift.framework; sourceTree = "<group>"; };
 		232B4CC61BC2A404001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/Mac/KeychainSwift.framework; sourceTree = "<group>"; };
 		232B4CCA1BC2A433001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/watchOS/KeychainSwift.framework; sourceTree = "<group>"; };
@@ -156,7 +251,6 @@
 		236F03651BC3D11000659BF4 /* SecureStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStore.swift; sourceTree = "<group>"; };
 		3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D5396661BBA7AB700791B49 /* SoundCloudSwift OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5396791BBA7B5800791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5397461BBA94C200791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		3D5397471BBA94C200791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/iOS/Genome.framework; sourceTree = "<group>"; };
@@ -181,6 +275,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2328F0151BE79EF000D64137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2328F0621BE7A6DA00D64137 /* Alamofire.framework in Frameworks */,
+				2328F0631BE7A6DA00D64137 /* Genome.framework in Frameworks */,
+				2328F0641BE7A6DA00D64137 /* KeychainSwift.framework in Frameworks */,
+				2328F0651BE7A6DA00D64137 /* ReactiveCocoa.framework in Frameworks */,
+				2328F0661BE7A6DA00D64137 /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		232B4CA11BC2A259001F2B7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,7 +311,6 @@
 				3D53974C1BBA94C200791B49 /* Genome.framework in Frameworks */,
 				3D53974D1BBA94C200791B49 /* ReactiveCocoa.framework in Frameworks */,
 				3D53974E1BBA94C200791B49 /* Result.framework in Frameworks */,
-				3D53974F1BBA94C200791B49 /* Runes.framework in Frameworks */,
 				232B4CC51BC2A3F6001F2B7A /* KeychainSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,23 +323,7 @@
 				3D53975E1BBA967700791B49 /* Genome.framework in Frameworks */,
 				3D53975F1BBA967700791B49 /* ReactiveCocoa.framework in Frameworks */,
 				3D5397601BBA967700791B49 /* Result.framework in Frameworks */,
-				3D5397611BBA967700791B49 /* Runes.framework in Frameworks */,
 				232B4CC71BC2A404001F2B7A /* KeychainSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D5396631BBA7AB700791B49 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D53976A1BBA96D900791B49 /* Quick.framework in Frameworks */,
-				6323FC9C1BBB43D400344D17 /* Alamofire.framework in Frameworks */,
-				3D53976B1BBA96D900791B49 /* Nimble.framework in Frameworks */,
-				6323FC9F1BBB43D400344D17 /* Result.framework in Frameworks */,
-				6323FC9D1BBB43D400344D17 /* Genome.framework in Frameworks */,
-				6323FC9E1BBB43D400344D17 /* ReactiveCocoa.framework in Frameworks */,
-				6323FCA01BBB43D400344D17 /* Runes.framework in Frameworks */,
-				232B4CC81BC2A410001F2B7A /* KeychainSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +335,6 @@
 				3D5397741BBA96F200791B49 /* Genome.framework in Frameworks */,
 				3D5397751BBA96F200791B49 /* ReactiveCocoa.framework in Frameworks */,
 				3D5397761BBA96F200791B49 /* Result.framework in Frameworks */,
-				3D5397771BBA96F200791B49 /* Runes.framework in Frameworks */,
 				232B4CCB1BC2A433001F2B7A /* KeychainSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +342,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2328F0681BE7A6E300D64137 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				2328F05C1BE7A6DA00D64137 /* Alamofire.framework */,
+				2328F05D1BE7A6DA00D64137 /* Genome.framework */,
+				2328F05E1BE7A6DA00D64137 /* KeychainSwift.framework */,
+				2328F05F1BE7A6DA00D64137 /* ReactiveCocoa.framework */,
+				2328F0601BE7A6DA00D64137 /* Result.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		2328F0691BE7A73D00D64137 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2328F06A1BE7A73D00D64137 /* Base */,
+				2328F0751BE7A73D00D64137 /* iOS */,
+				2328F07A1BE7A73D00D64137 /* Mac OS X */,
+				2328F0801BE7A73D00D64137 /* README.md */,
+				2328F0811BE7A73D00D64137 /* tvOS */,
+				2328F0861BE7A73D00D64137 /* watchOS */,
+			);
+			name = Config;
+			path = SoundCloudSwift/Config;
+			sourceTree = "<group>";
+		};
+		2328F06A1BE7A73D00D64137 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2328F06B1BE7A73D00D64137 /* Common.xcconfig */,
+				2328F06C1BE7A73D00D64137 /* Configurations */,
+				2328F0711BE7A73D00D64137 /* Targets */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2328F06C1BE7A73D00D64137 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				2328F06D1BE7A73D00D64137 /* Debug.xcconfig */,
+				2328F06E1BE7A73D00D64137 /* Profile.xcconfig */,
+				2328F06F1BE7A73D00D64137 /* Release.xcconfig */,
+				2328F0701BE7A73D00D64137 /* Test.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		2328F0711BE7A73D00D64137 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				2328F0721BE7A73D00D64137 /* Application.xcconfig */,
+				2328F0731BE7A73D00D64137 /* Framework.xcconfig */,
+				2328F0741BE7A73D00D64137 /* StaticLibrary.xcconfig */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		2328F0751BE7A73D00D64137 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2328F0761BE7A73D00D64137 /* iOS-Application.xcconfig */,
+				2328F0771BE7A73D00D64137 /* iOS-Base.xcconfig */,
+				2328F0781BE7A73D00D64137 /* iOS-Framework.xcconfig */,
+				2328F0791BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		2328F07A1BE7A73D00D64137 /* Mac OS X */ = {
+			isa = PBXGroup;
+			children = (
+				2328F07B1BE7A73D00D64137 /* Mac-Application.xcconfig */,
+				2328F07C1BE7A73D00D64137 /* Mac-Base.xcconfig */,
+				2328F07D1BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig */,
+				2328F07E1BE7A73D00D64137 /* Mac-Framework.xcconfig */,
+				2328F07F1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig */,
+			);
+			path = "Mac OS X";
+			sourceTree = "<group>";
+		};
+		2328F0811BE7A73D00D64137 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				2328F0821BE7A73D00D64137 /* tvOS-Application.xcconfig */,
+				2328F0831BE7A73D00D64137 /* tvOS-Base.xcconfig */,
+				2328F0841BE7A73D00D64137 /* tvOS-Framework.xcconfig */,
+				2328F0851BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		2328F0861BE7A73D00D64137 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				2328F0871BE7A73D00D64137 /* watchOS-Application.xcconfig */,
+				2328F0881BE7A73D00D64137 /* watchOS-Base.xcconfig */,
+				2328F0891BE7A73D00D64137 /* watchOS-Framework.xcconfig */,
+				2328F08A1BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
 		232B4C581BC28400001F2B7A /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,6 +520,7 @@
 			isa = PBXGroup;
 			children = (
 				3D5396BB1BBA886D00791B49 /* Frameworks */,
+				2328F0691BE7A73D00D64137 /* Config */,
 				232B4C581BC28400001F2B7A /* Source */,
 				3D5396811BBA7B9300791B49 /* Assets */,
 				3D5396851BBA7B9300791B49 /* Tests */,
@@ -342,9 +533,9 @@
 			children = (
 				3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */,
 				3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */,
-				3D5396661BBA7AB700791B49 /* SoundCloudSwift OSX Tests.xctest */,
 				3D5396791BBA7B5800791B49 /* SoundCloudSwift.framework */,
-				232B4CA41BC2A259001F2B7A /* SoundCloudSwift-iOS Tests.xctest */,
+				232B4CA41BC2A259001F2B7A /* SoundCloudSwift Tests.xctest */,
+				2328F0191BE79EF000D64137 /* SoundCloudSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -371,6 +562,7 @@
 		3D5396BB1BBA886D00791B49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2328F0681BE7A6E300D64137 /* tvOS */,
 				3D5397781BBA96F500791B49 /* watchOS */,
 				3D5397671BBA969500791B49 /* OSX */,
 				3D5397541BBA94F200791B49 /* iOS */,
@@ -432,6 +624,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2328F0161BE79EF000D64137 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D5396221BBA7A3A00791B49 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,9 +655,27 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		232B4CA31BC2A259001F2B7A /* SoundCloudSwift-iOS Tests */ = {
+		2328F0181BE79EF000D64137 /* SoundCloudSwift tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 232B4CAC1BC2A259001F2B7A /* Build configuration list for PBXNativeTarget "SoundCloudSwift-iOS Tests" */;
+			buildConfigurationList = 2328F01E1BE79EF000D64137 /* Build configuration list for PBXNativeTarget "SoundCloudSwift tvOS" */;
+			buildPhases = (
+				2328F0141BE79EF000D64137 /* Sources */,
+				2328F0151BE79EF000D64137 /* Frameworks */,
+				2328F0161BE79EF000D64137 /* Headers */,
+				2328F0171BE79EF000D64137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SoundCloudSwift tvOS";
+			productName = "SoundCloudSwift tvOS";
+			productReference = 2328F0191BE79EF000D64137 /* SoundCloudSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		232B4CA31BC2A259001F2B7A /* SoundCloudSwift Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232B4CAC1BC2A259001F2B7A /* Build configuration list for PBXNativeTarget "SoundCloudSwift Tests" */;
 			buildPhases = (
 				232B4CA01BC2A259001F2B7A /* Sources */,
 				232B4CA11BC2A259001F2B7A /* Frameworks */,
@@ -470,9 +687,9 @@
 			dependencies = (
 				232B4CAB1BC2A259001F2B7A /* PBXTargetDependency */,
 			);
-			name = "SoundCloudSwift-iOS Tests";
+			name = "SoundCloudSwift Tests";
 			productName = "SoundCloudSwift-iOS Tests";
-			productReference = 232B4CA41BC2A259001F2B7A /* SoundCloudSwift-iOS Tests.xctest */;
+			productReference = 232B4CA41BC2A259001F2B7A /* SoundCloudSwift Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		3D5396241BBA7A3A00791B49 /* SoundCloudSwift iOS */ = {
@@ -511,25 +728,6 @@
 			productReference = 3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3D5396651BBA7AB700791B49 /* SoundCloudSwift OSX Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D5396711BBA7AB700791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift OSX Tests" */;
-			buildPhases = (
-				3D5396621BBA7AB700791B49 /* Sources */,
-				3D5396631BBA7AB700791B49 /* Frameworks */,
-				3D5396641BBA7AB700791B49 /* Resources */,
-				3D5397661BBA969000791B49 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3D5396691BBA7AB700791B49 /* PBXTargetDependency */,
-			);
-			name = "SoundCloudSwift OSX Tests";
-			productName = "SoundCloudSwift OSXTests";
-			productReference = 3D5396661BBA7AB700791B49 /* SoundCloudSwift OSX Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		3D5396781BBA7B5800791B49 /* SoundCloudSwift watchOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D53967E1BBA7B5800791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift watchOS" */;
@@ -558,6 +756,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = SugarTeam;
 				TargetAttributes = {
+					2328F0181BE79EF000D64137 = {
+						CreatedOnToolsVersion = 7.1;
+					};
 					232B4CA31BC2A259001F2B7A = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
@@ -565,9 +766,6 @@
 						CreatedOnToolsVersion = 7.0;
 					};
 					3D53965C1BBA7AB700791B49 = {
-						CreatedOnToolsVersion = 7.0;
-					};
-					3D5396651BBA7AB700791B49 = {
 						CreatedOnToolsVersion = 7.0;
 					};
 					3D5396781BBA7B5800791B49 = {
@@ -588,15 +786,47 @@
 			projectRoot = "";
 			targets = (
 				3D5396241BBA7A3A00791B49 /* SoundCloudSwift iOS */,
-				232B4CA31BC2A259001F2B7A /* SoundCloudSwift-iOS Tests */,
 				3D53965C1BBA7AB700791B49 /* SoundCloudSwift OSX */,
-				3D5396651BBA7AB700791B49 /* SoundCloudSwift OSX Tests */,
 				3D5396781BBA7B5800791B49 /* SoundCloudSwift watchOS */,
+				2328F0181BE79EF000D64137 /* SoundCloudSwift tvOS */,
+				232B4CA31BC2A259001F2B7A /* SoundCloudSwift Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2328F0171BE79EF000D64137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2328F09A1BE7A73D00D64137 /* Release.xcconfig in Resources */,
+				2328F0D61BE7A73D00D64137 /* tvOS-Application.xcconfig in Resources */,
+				2328F0EA1BE7A73D00D64137 /* watchOS-Base.xcconfig in Resources */,
+				2328F0CA1BE7A73D00D64137 /* Mac-Framework.xcconfig in Resources */,
+				2328F0961BE7A73D00D64137 /* Profile.xcconfig in Resources */,
+				2328F0BA1BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig in Resources */,
+				2328F0AA1BE7A73D00D64137 /* StaticLibrary.xcconfig in Resources */,
+				2328F0B21BE7A73D00D64137 /* iOS-Base.xcconfig in Resources */,
+				2328F0921BE7A73D00D64137 /* Debug.xcconfig in Resources */,
+				2328F08E1BE7A73D00D64137 /* Common.xcconfig in Resources */,
+				2328F0E21BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig in Resources */,
+				2328F0A61BE7A73D00D64137 /* Framework.xcconfig in Resources */,
+				2328F0F21BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig in Resources */,
+				2328F0BE1BE7A73D00D64137 /* Mac-Application.xcconfig in Resources */,
+				2328F0C21BE7A73D00D64137 /* Mac-Base.xcconfig in Resources */,
+				2328F0DA1BE7A73D00D64137 /* tvOS-Base.xcconfig in Resources */,
+				2328F09E1BE7A73D00D64137 /* Test.xcconfig in Resources */,
+				2328F0CE1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig in Resources */,
+				2328F0A21BE7A73D00D64137 /* Application.xcconfig in Resources */,
+				2328F0C61BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig in Resources */,
+				2328F0DE1BE7A73D00D64137 /* tvOS-Framework.xcconfig in Resources */,
+				2328F0E61BE7A73D00D64137 /* watchOS-Application.xcconfig in Resources */,
+				2328F0EE1BE7A73D00D64137 /* watchOS-Framework.xcconfig in Resources */,
+				2328F0B61BE7A73D00D64137 /* iOS-Framework.xcconfig in Resources */,
+				2328F0AE1BE7A73D00D64137 /* iOS-Application.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		232B4CA21BC2A259001F2B7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -608,6 +838,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2328F0971BE7A73D00D64137 /* Release.xcconfig in Resources */,
+				2328F0D31BE7A73D00D64137 /* tvOS-Application.xcconfig in Resources */,
+				2328F0E71BE7A73D00D64137 /* watchOS-Base.xcconfig in Resources */,
+				2328F0C71BE7A73D00D64137 /* Mac-Framework.xcconfig in Resources */,
+				2328F0931BE7A73D00D64137 /* Profile.xcconfig in Resources */,
+				2328F0B71BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig in Resources */,
+				2328F0A71BE7A73D00D64137 /* StaticLibrary.xcconfig in Resources */,
+				2328F0AF1BE7A73D00D64137 /* iOS-Base.xcconfig in Resources */,
+				2328F08F1BE7A73D00D64137 /* Debug.xcconfig in Resources */,
+				2328F08B1BE7A73D00D64137 /* Common.xcconfig in Resources */,
+				2328F0DF1BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig in Resources */,
+				2328F0A31BE7A73D00D64137 /* Framework.xcconfig in Resources */,
+				2328F0EF1BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig in Resources */,
+				2328F0BB1BE7A73D00D64137 /* Mac-Application.xcconfig in Resources */,
+				2328F0BF1BE7A73D00D64137 /* Mac-Base.xcconfig in Resources */,
+				2328F0D71BE7A73D00D64137 /* tvOS-Base.xcconfig in Resources */,
+				2328F09B1BE7A73D00D64137 /* Test.xcconfig in Resources */,
+				2328F0CB1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig in Resources */,
+				2328F09F1BE7A73D00D64137 /* Application.xcconfig in Resources */,
+				2328F0C31BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig in Resources */,
+				2328F0DB1BE7A73D00D64137 /* tvOS-Framework.xcconfig in Resources */,
+				2328F0E31BE7A73D00D64137 /* watchOS-Application.xcconfig in Resources */,
+				2328F0EB1BE7A73D00D64137 /* watchOS-Framework.xcconfig in Resources */,
+				2328F0B31BE7A73D00D64137 /* iOS-Framework.xcconfig in Resources */,
+				2328F0AB1BE7A73D00D64137 /* iOS-Application.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,13 +870,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D5396641BBA7AB700791B49 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2328F0981BE7A73D00D64137 /* Release.xcconfig in Resources */,
+				2328F0D41BE7A73D00D64137 /* tvOS-Application.xcconfig in Resources */,
+				2328F0E81BE7A73D00D64137 /* watchOS-Base.xcconfig in Resources */,
+				2328F0C81BE7A73D00D64137 /* Mac-Framework.xcconfig in Resources */,
+				2328F0941BE7A73D00D64137 /* Profile.xcconfig in Resources */,
+				2328F0B81BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig in Resources */,
+				2328F0A81BE7A73D00D64137 /* StaticLibrary.xcconfig in Resources */,
+				2328F0B01BE7A73D00D64137 /* iOS-Base.xcconfig in Resources */,
+				2328F0901BE7A73D00D64137 /* Debug.xcconfig in Resources */,
+				2328F08C1BE7A73D00D64137 /* Common.xcconfig in Resources */,
+				2328F0E01BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig in Resources */,
+				2328F0A41BE7A73D00D64137 /* Framework.xcconfig in Resources */,
+				2328F0F01BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig in Resources */,
+				2328F0BC1BE7A73D00D64137 /* Mac-Application.xcconfig in Resources */,
+				2328F0C01BE7A73D00D64137 /* Mac-Base.xcconfig in Resources */,
+				2328F0D81BE7A73D00D64137 /* tvOS-Base.xcconfig in Resources */,
+				2328F09C1BE7A73D00D64137 /* Test.xcconfig in Resources */,
+				2328F0CC1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig in Resources */,
+				2328F0A01BE7A73D00D64137 /* Application.xcconfig in Resources */,
+				2328F0C41BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig in Resources */,
+				2328F0DC1BE7A73D00D64137 /* tvOS-Framework.xcconfig in Resources */,
+				2328F0E41BE7A73D00D64137 /* watchOS-Application.xcconfig in Resources */,
+				2328F0EC1BE7A73D00D64137 /* watchOS-Framework.xcconfig in Resources */,
+				2328F0B41BE7A73D00D64137 /* iOS-Framework.xcconfig in Resources */,
+				2328F0AC1BE7A73D00D64137 /* iOS-Application.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,12 +902,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2328F0991BE7A73D00D64137 /* Release.xcconfig in Resources */,
+				2328F0D51BE7A73D00D64137 /* tvOS-Application.xcconfig in Resources */,
+				2328F0E91BE7A73D00D64137 /* watchOS-Base.xcconfig in Resources */,
+				2328F0C91BE7A73D00D64137 /* Mac-Framework.xcconfig in Resources */,
+				2328F0951BE7A73D00D64137 /* Profile.xcconfig in Resources */,
+				2328F0B91BE7A73D00D64137 /* iOS-StaticLibrary.xcconfig in Resources */,
+				2328F0A91BE7A73D00D64137 /* StaticLibrary.xcconfig in Resources */,
+				2328F0B11BE7A73D00D64137 /* iOS-Base.xcconfig in Resources */,
+				2328F0911BE7A73D00D64137 /* Debug.xcconfig in Resources */,
+				2328F08D1BE7A73D00D64137 /* Common.xcconfig in Resources */,
+				2328F0E11BE7A73D00D64137 /* tvOS-StaticLibrary.xcconfig in Resources */,
+				2328F0A51BE7A73D00D64137 /* Framework.xcconfig in Resources */,
+				2328F0F11BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig in Resources */,
+				2328F0BD1BE7A73D00D64137 /* Mac-Application.xcconfig in Resources */,
+				2328F0C11BE7A73D00D64137 /* Mac-Base.xcconfig in Resources */,
+				2328F0D91BE7A73D00D64137 /* tvOS-Base.xcconfig in Resources */,
+				2328F09D1BE7A73D00D64137 /* Test.xcconfig in Resources */,
+				2328F0CD1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig in Resources */,
+				2328F0A11BE7A73D00D64137 /* Application.xcconfig in Resources */,
+				2328F0C51BE7A73D00D64137 /* Mac-DynamicLibrary.xcconfig in Resources */,
+				2328F0DD1BE7A73D00D64137 /* tvOS-Framework.xcconfig in Resources */,
+				2328F0E51BE7A73D00D64137 /* watchOS-Application.xcconfig in Resources */,
+				2328F0ED1BE7A73D00D64137 /* watchOS-Framework.xcconfig in Resources */,
+				2328F0B51BE7A73D00D64137 /* iOS-Framework.xcconfig in Resources */,
+				2328F0AD1BE7A73D00D64137 /* iOS-Application.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2328F0141BE79EF000D64137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2328F0D21BE7A73D00D64137 /* README.md in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		232B4CA01BC2A259001F2B7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -652,6 +958,7 @@
 				236F03721BC3D11000659BF4 /* KeyValueStore.swift in Sources */,
 				236F03691BC3D11000659BF4 /* Session.swift in Sources */,
 				236F03751BC3D11000659BF4 /* SecureStore.swift in Sources */,
+				2328F0CF1BE7A73D00D64137 /* README.md in Sources */,
 				236F03661BC3D11000659BF4 /* RequestConvertible.swift in Sources */,
 				236F036C1BC3D11000659BF4 /* StorableError.swift in Sources */,
 				236F036F1BC3D11000659BF4 /* KeyValueStorable.swift in Sources */,
@@ -665,19 +972,10 @@
 				236F03731BC3D11000659BF4 /* KeyValueStore.swift in Sources */,
 				236F036A1BC3D11000659BF4 /* Session.swift in Sources */,
 				236F03761BC3D11000659BF4 /* SecureStore.swift in Sources */,
+				2328F0D01BE7A73D00D64137 /* README.md in Sources */,
 				236F03671BC3D11000659BF4 /* RequestConvertible.swift in Sources */,
 				236F036D1BC3D11000659BF4 /* StorableError.swift in Sources */,
 				236F03701BC3D11000659BF4 /* KeyValueStorable.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D5396621BBA7AB700791B49 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				236F03591BC3D10300659BF4 /* SessionTests.swift in Sources */,
-				236F03571BC3D10300659BF4 /* RequestConvertibleTests.swift in Sources */,
-				236F035B1BC3D10300659BF4 /* SecureStoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,6 +986,7 @@
 				236F03741BC3D11000659BF4 /* KeyValueStore.swift in Sources */,
 				236F036B1BC3D11000659BF4 /* Session.swift in Sources */,
 				236F03771BC3D11000659BF4 /* SecureStore.swift in Sources */,
+				2328F0D11BE7A73D00D64137 /* README.md in Sources */,
 				236F03681BC3D11000659BF4 /* RequestConvertible.swift in Sources */,
 				236F036E1BC3D11000659BF4 /* StorableError.swift in Sources */,
 				236F03711BC3D11000659BF4 /* KeyValueStorable.swift in Sources */,
@@ -702,14 +1001,57 @@
 			target = 3D5396241BBA7A3A00791B49 /* SoundCloudSwift iOS */;
 			targetProxy = 232B4CAA1BC2A259001F2B7A /* PBXContainerItemProxy */;
 		};
-		3D5396691BBA7AB700791B49 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3D53965C1BBA7AB700791B49 /* SoundCloudSwift OSX */;
-			targetProxy = 3D5396681BBA7AB700791B49 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2328F01F1BE79EF000D64137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F0841BE7A73D00D64137 /* tvOS-Framework.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.gitdo.SoundCloudSwift-tvOS";
+				PRODUCT_NAME = SoundCloudSwift;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		2328F0201BE79EF000D64137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F0841BE7A73D00D64137 /* tvOS-Framework.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.gitdo.SoundCloudSwift-tvOS";
+				PRODUCT_NAME = SoundCloudSwift;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 		232B4CAD1BC2A259001F2B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -719,7 +1061,7 @@
 				);
 				INFOPLIST_FILE = "SoundCloudSwift/Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.SugarTeam.SoundCloudSwift-iOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.gitdo.SoundCloudSwift-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -733,7 +1075,7 @@
 				);
 				INFOPLIST_FILE = "SoundCloudSwift/Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.SugarTeam.SoundCloudSwift-iOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.gitdo.SoundCloudSwift-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -829,6 +1171,7 @@
 		};
 		3D5396371BBA7A3A00791B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F0781BE7A73D00D64137 /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -843,7 +1186,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.SugarTeam.SoundCloudSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gitdo.SoundCloudSwift;
 				PRODUCT_NAME = SoundCloudSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -852,6 +1195,7 @@
 		};
 		3D5396381BBA7A3A00791B49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F0781BE7A73D00D64137 /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -866,7 +1210,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.SugarTeam.SoundCloudSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gitdo.SoundCloudSwift;
 				PRODUCT_NAME = SoundCloudSwift;
 				SKIP_INSTALL = YES;
 			};
@@ -874,6 +1218,7 @@
 		};
 		3D53966F1BBA7AB700791B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F07E1BE7A73D00D64137 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -890,7 +1235,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = io.SugarTeam.SoundCloudSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gitdo.SoundCloudSwift;
 				PRODUCT_NAME = SoundCloudSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -900,6 +1245,7 @@
 		};
 		3D5396701BBA7AB700791B49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F07E1BE7A73D00D64137 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -916,54 +1262,16 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = io.SugarTeam.SoundCloudSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gitdo.SoundCloudSwift;
 				PRODUCT_NAME = SoundCloudSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		3D5396721BBA7AB700791B49 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				INFOPLIST_FILE = "SoundCloudSwift/Tests/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.SugarTeam.SoundCloudSwift-OSX-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		3D5396731BBA7AB700791B49 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				INFOPLIST_FILE = "SoundCloudSwift/Tests/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.SugarTeam.SoundCloudSwift-OSX-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
 		3D53967F1BBA7B5800791B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F0891BE7A73D00D64137 /* watchOS-Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -978,7 +1286,7 @@
 				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.SugarTeam.SoundCloudSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gitdo.SoundCloudSwift;
 				PRODUCT_NAME = SoundCloudSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -990,6 +1298,7 @@
 		};
 		3D5396801BBA7B5800791B49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F0891BE7A73D00D64137 /* watchOS-Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -1004,7 +1313,7 @@
 				INFOPLIST_FILE = "SoundCloudSwift/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.SugarTeam.SoundCloudSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gitdo.SoundCloudSwift;
 				PRODUCT_NAME = SoundCloudSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1016,7 +1325,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		232B4CAC1BC2A259001F2B7A /* Build configuration list for PBXNativeTarget "SoundCloudSwift-iOS Tests" */ = {
+		2328F01E1BE79EF000D64137 /* Build configuration list for PBXNativeTarget "SoundCloudSwift tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2328F01F1BE79EF000D64137 /* Debug */,
+				2328F0201BE79EF000D64137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		232B4CAC1BC2A259001F2B7A /* Build configuration list for PBXNativeTarget "SoundCloudSwift Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				232B4CAD1BC2A259001F2B7A /* Debug */,
@@ -1048,15 +1366,6 @@
 			buildConfigurations = (
 				3D53966F1BBA7AB700791B49 /* Debug */,
 				3D5396701BBA7AB700791B49 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3D5396711BBA7AB700791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift OSX Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D5396721BBA7AB700791B49 /* Debug */,
-				3D5396731BBA7AB700791B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
