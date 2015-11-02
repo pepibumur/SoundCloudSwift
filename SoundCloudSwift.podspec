@@ -26,10 +26,9 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'SoundCloudSwift' => ['SoundCloudSwift/Assets/*.png']
   }
-  s.dependency 'Alamofire', '3.0.0-beta.3'
-  s.dependency 'Genome', '1.0'
-  s.dependency 'ReactiveCocoa', '4.0.2-alpha-1'
-  s.dependency 'Runes', '3.0.0'
-  s.dependency 'KeychainSwift'
+  s.dependency 'Alamofire', '3.1.1'
+  s.dependency 'Genome', '1.0.4'
+  s.dependency 'ReactiveCocoa', '4.0.4-alpha-1'
+  s.dependency 'KeychainSwift', '3.0.8'
 end 
 
