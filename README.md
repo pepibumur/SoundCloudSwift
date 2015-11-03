@@ -19,7 +19,7 @@ Actively developed by [@pepibumur](https://github.com/pepibumur)
 ## Requirements
 
 - iOS 8.0+ / Mac OS X 10.9+ / watchOS 2
-- XCode 7.0+
+- XCode 7.1+
 
 ## Communication
 - If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/soundcloudswift)
