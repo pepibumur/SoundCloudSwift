@@ -60,7 +60,7 @@ And execute `pod install`. Remember to open the project using the file `.xcworks
 Before proposing a new PR, it must include update documentation. It's generated using [Jazzy](https://github.com/Realm/jazzy) and the following command:
 
 ```bash
-jazzy -o Documentation -a GitDo -g https://github.com/gitdoapp --readme README.md
+jazzy -o Documentation -a GitDo -g https://github.com/gitdoapp --readme README.md --swift-version 2.1
 ```
 
 ## Documentation
