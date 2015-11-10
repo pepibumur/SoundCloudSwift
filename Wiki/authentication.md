@@ -4,13 +4,10 @@ SoundCloudSwift provides tools for authentication that you can use within your a
 ### iOS & OSX
 
 1. Create an `Oauth2` object *(handler)* passing the `Oauth2Config` which includes *(client id, client secret and redirect uri)* provided by the API.
-
 ```swift
 let oauth2: Oauth2 = Oauth2(config: Oauth2Config(clientId: clientId, clientSecret: clientSecret, redirectUri: redirect), scope: .All)
 ```
-
 2. Subscribe to the Oauth2 signal to listen for status changes during the Oauth2 flow:
-
 ```swift
 oauth2.signal.observeNext { (next) -> () in
   switch next {
@@ -21,17 +18,17 @@ oauth2.signal.observeNext { (next) -> () in
 }
 ```
 Notice the kind of events that are sent:
-- **OpenUrl**: When this event is sent you have to open the provided link in your webview.
-- **NewSession**: When this event is received we have a new user session that we can use to authenticate API requests.
+  - **OpenUrl**: When this event is sent you have to open the provided link in your webview.
+  - **NewSession**: When this event is received we have a new user session that we can use to authenticate API requests.
 
-2. Connect your webview with `Oauth2` sending redirect URLs from the browser:
+3. Connect your webview with `Oauth2` sending redirect URLs from the browser:
 ```swift
 oauth2.validate(url: newUrl)
 ```
 
-3. Start the Oauth2 flow with `oauth2.start()`
+4. Start the Oauth2 flow with `oauth2.start()`
 
-#### Oauth2WebView and Oauth2WebViewController 
+#### Oauth2WebView and Oauth2WebViewController
 
 If you're going to use the native Webkit we provide you with a class, `Oauth2WebView` that automatizes the process. This class is initialized with the Oauth2 object and internally connects the Webview delegate with that object.
 
