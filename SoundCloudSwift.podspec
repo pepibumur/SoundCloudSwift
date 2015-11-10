@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   # Deployment targets
   s.tvos.deployment_target = '9.0'
   s.ios.deployment_target = '8.0'
+  s.watchos.deployment_target = '2.0'
 
   # Source files
   s.source_files = 'SoundCloudSwift/Source/Core/**/*'
@@ -32,5 +33,4 @@ Pod::Spec.new do |s|
   s.dependency 'Genome', '1.0.4'
   s.dependency 'ReactiveCocoa', '4.0.4-alpha-1'
   s.dependency 'KeychainSwift', '3.0.8'
-end 
-
+end

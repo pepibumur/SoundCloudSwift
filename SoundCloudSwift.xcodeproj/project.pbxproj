@@ -80,10 +80,6 @@
 		2328F0CC1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07F1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig */; };
 		2328F0CD1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07F1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig */; };
 		2328F0CE1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F07F1BE7A73D00D64137 /* Mac-StaticLibrary.xcconfig */; };
-		2328F0CF1BE7A73D00D64137 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2328F0801BE7A73D00D64137 /* README.md */; };
-		2328F0D01BE7A73D00D64137 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2328F0801BE7A73D00D64137 /* README.md */; };
-		2328F0D11BE7A73D00D64137 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2328F0801BE7A73D00D64137 /* README.md */; };
-		2328F0D21BE7A73D00D64137 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2328F0801BE7A73D00D64137 /* README.md */; };
 		2328F0D31BE7A73D00D64137 /* tvOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0821BE7A73D00D64137 /* tvOS-Application.xcconfig */; };
 		2328F0D41BE7A73D00D64137 /* tvOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0821BE7A73D00D64137 /* tvOS-Application.xcconfig */; };
 		2328F0D51BE7A73D00D64137 /* tvOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2328F0821BE7A73D00D64137 /* tvOS-Application.xcconfig */; };
@@ -120,10 +116,10 @@
 		2328F1321BE7BAE900D64137 /* Oauth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1211BE7BAE900D64137 /* Oauth2.swift */; };
 		2328F1331BE7BAE900D64137 /* Oauth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1211BE7BAE900D64137 /* Oauth2.swift */; };
 		2328F1341BE7BAE900D64137 /* Oauth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1211BE7BAE900D64137 /* Oauth2.swift */; };
-		2328F1351BE7BAE900D64137 /* OauthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1221BE7BAE900D64137 /* OauthConfig.swift */; };
-		2328F1361BE7BAE900D64137 /* OauthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1221BE7BAE900D64137 /* OauthConfig.swift */; };
-		2328F1371BE7BAE900D64137 /* OauthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1221BE7BAE900D64137 /* OauthConfig.swift */; };
-		2328F1381BE7BAE900D64137 /* OauthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1221BE7BAE900D64137 /* OauthConfig.swift */; };
+		2328F1351BE7BAE900D64137 /* Oauth2Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1221BE7BAE900D64137 /* Oauth2Config.swift */; };
+		2328F1361BE7BAE900D64137 /* Oauth2Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1221BE7BAE900D64137 /* Oauth2Config.swift */; };
+		2328F1371BE7BAE900D64137 /* Oauth2Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1221BE7BAE900D64137 /* Oauth2Config.swift */; };
+		2328F1381BE7BAE900D64137 /* Oauth2Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1221BE7BAE900D64137 /* Oauth2Config.swift */; };
 		2328F1391BE7BAE900D64137 /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1231BE7BAE900D64137 /* RequestConvertible.swift */; };
 		2328F13A1BE7BAE900D64137 /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1231BE7BAE900D64137 /* RequestConvertible.swift */; };
 		2328F13B1BE7BAE900D64137 /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1231BE7BAE900D64137 /* RequestConvertible.swift */; };
@@ -180,9 +176,36 @@
 		232B4CC51BC2A3F6001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */; };
 		232B4CC71BC2A404001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC61BC2A404001F2B7A /* KeychainSwift.framework */; };
 		232B4CCB1BC2A433001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CCA1BC2A433001F2B7A /* KeychainSwift.framework */; };
-		236F03561BC3D10300659BF4 /* RequestConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03521BC3D10300659BF4 /* RequestConvertibleTests.swift */; };
-		236F03581BC3D10300659BF4 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03531BC3D10300659BF4 /* SessionTests.swift */; };
-		236F035A1BC3D10300659BF4 /* SecureStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F03551BC3D10300659BF4 /* SecureStoreTests.swift */; };
+		235E259D1BECF117006C32D3 /* NSURL+QueryParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 235E259B1BECF117006C32D3 /* NSURL+QueryParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		235E259E1BECF117006C32D3 /* NSURL+QueryParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 235E259B1BECF117006C32D3 /* NSURL+QueryParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		235E259F1BECF117006C32D3 /* NSURL+QueryParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 235E259B1BECF117006C32D3 /* NSURL+QueryParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		235E25A01BECF117006C32D3 /* NSURL+QueryParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 235E259B1BECF117006C32D3 /* NSURL+QueryParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		235E25A11BECF117006C32D3 /* NSURL+QueryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 235E259C1BECF117006C32D3 /* NSURL+QueryParser.m */; };
+		235E25A21BECF117006C32D3 /* NSURL+QueryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 235E259C1BECF117006C32D3 /* NSURL+QueryParser.m */; };
+		235E25A31BECF117006C32D3 /* NSURL+QueryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 235E259C1BECF117006C32D3 /* NSURL+QueryParser.m */; };
+		235E25A41BECF117006C32D3 /* NSURL+QueryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 235E259C1BECF117006C32D3 /* NSURL+QueryParser.m */; };
+		235E25AD1BECF284006C32D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235E25AC1BECF284006C32D3 /* AppDelegate.swift */; };
+		235E25AF1BECF284006C32D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235E25AE1BECF284006C32D3 /* ViewController.swift */; };
+		235E25B41BECF284006C32D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235E25B31BECF284006C32D3 /* Assets.xcassets */; };
+		235E25C61BECF462006C32D3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235E25C51BECF462006C32D3 /* Launch Screen.storyboard */; };
+		235E25C91BECF927006C32D3 /* Oauth2WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235E25C71BECF91D006C32D3 /* Oauth2WebViewController.swift */; };
+		235E25D21BECFAF8006C32D3 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */; };
+		235E25D31BECFAF8006C32D3 /* KeychainSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		235E25D81BECFB04006C32D3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; };
+		235E25D91BECFB04006C32D3 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		235E25DA1BECFB0B006C32D3 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; };
+		235E25DB1BECFB0B006C32D3 /* Genome.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		235E25DC1BECFB0E006C32D3 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; };
+		235E25DD1BECFB0E006C32D3 /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		235E25DE1BECFB10006C32D3 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397491BBA94C200791B49 /* Result.framework */; };
+		235E25DF1BECFB10006C32D3 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397491BBA94C200791B49 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		235E25E01BECFB12006C32D3 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53974A1BBA94C200791B49 /* Runes.framework */; };
+		235E25E11BECFB12006C32D3 /* Runes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53974A1BBA94C200791B49 /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		235E25E91BECFCB1006C32D3 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */; };
+		23A847BA1BEA4E56000A48A6 /* Oauth2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B51BEA4E56000A48A6 /* Oauth2Tests.swift */; };
+		23A847BB1BEA4E56000A48A6 /* RequestConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B61BEA4E56000A48A6 /* RequestConvertibleTests.swift */; };
+		23A847BC1BEA4E56000A48A6 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B71BEA4E56000A48A6 /* SessionTests.swift */; };
+		23A847BD1BEA4E56000A48A6 /* SecureStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B91BEA4E56000A48A6 /* SecureStoreTests.swift */; };
 		3D53974B1BBA94C200791B49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; };
 		3D53974C1BBA94C200791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; };
 		3D53974D1BBA94C200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; };
@@ -199,6 +222,13 @@
 
 /* Begin PBXContainerItemProxy section */
 		232B4CAA1BC2A259001F2B7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D27429B1BBA70E4007A1BCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5396241BBA7A3A00791B49;
+			remoteInfo = "SoundCloudSwift iOS";
+		};
+		235E25E41BECFB8F006C32D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3D27429B1BBA70E4007A1BCE /* Project object */;
 			proxyType = 1;
@@ -224,6 +254,22 @@
 				232B4CC11BC2A3B1001F2B7A /* Runes.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235E25CF1BECFAE3006C32D3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				235E25D31BECFAF8006C32D3 /* KeychainSwift.framework in Embed Frameworks */,
+				235E25D91BECFB04006C32D3 /* Alamofire.framework in Embed Frameworks */,
+				235E25DF1BECFB10006C32D3 /* Result.framework in Embed Frameworks */,
+				235E25DB1BECFB0B006C32D3 /* Genome.framework in Embed Frameworks */,
+				235E25DD1BECFB0E006C32D3 /* ReactiveCocoa.framework in Embed Frameworks */,
+				235E25E11BECFB12006C32D3 /* Runes.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -262,7 +308,7 @@
 		2328F0891BE7A73D00D64137 /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		2328F08A1BE7A73D00D64137 /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		2328F1211BE7BAE900D64137 /* Oauth2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2.swift; sourceTree = "<group>"; };
-		2328F1221BE7BAE900D64137 /* OauthConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OauthConfig.swift; sourceTree = "<group>"; };
+		2328F1221BE7BAE900D64137 /* Oauth2Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2Config.swift; sourceTree = "<group>"; };
 		2328F1231BE7BAE900D64137 /* RequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConvertible.swift; sourceTree = "<group>"; };
 		2328F1241BE7BAE900D64137 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		2328F1261BE7BAE900D64137 /* OauthError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OauthError.swift; sourceTree = "<group>"; };
@@ -280,9 +326,20 @@
 		232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/iOS/KeychainSwift.framework; sourceTree = "<group>"; };
 		232B4CC61BC2A404001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/Mac/KeychainSwift.framework; sourceTree = "<group>"; };
 		232B4CCA1BC2A433001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/watchOS/KeychainSwift.framework; sourceTree = "<group>"; };
-		236F03521BC3D10300659BF4 /* RequestConvertibleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConvertibleTests.swift; sourceTree = "<group>"; };
-		236F03531BC3D10300659BF4 /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
-		236F03551BC3D10300659BF4 /* SecureStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStoreTests.swift; sourceTree = "<group>"; };
+		2353E6091BED04680081E6E7 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		235E259B1BECF117006C32D3 /* NSURL+QueryParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryParser.h"; sourceTree = "<group>"; };
+		235E259C1BECF117006C32D3 /* NSURL+QueryParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryParser.m"; sourceTree = "<group>"; };
+		235E25AA1BECF284006C32D3 /* SoundCloudApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundCloudApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		235E25AC1BECF284006C32D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		235E25AE1BECF284006C32D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		235E25B31BECF284006C32D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		235E25B81BECF284006C32D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235E25C51BECF462006C32D3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		235E25C71BECF91D006C32D3 /* Oauth2WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2WebViewController.swift; sourceTree = "<group>"; };
+		23A847B51BEA4E56000A48A6 /* Oauth2Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2Tests.swift; sourceTree = "<group>"; };
+		23A847B61BEA4E56000A48A6 /* RequestConvertibleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConvertibleTests.swift; sourceTree = "<group>"; };
+		23A847B71BEA4E56000A48A6 /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
+		23A847B91BEA4E56000A48A6 /* SecureStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStoreTests.swift; sourceTree = "<group>"; };
 		3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5396791BBA7B5800791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -334,6 +391,20 @@
 				232B4CB81BC2A2E8001F2B7A /* Result.framework in Frameworks */,
 				232B4CB91BC2A2E8001F2B7A /* Runes.framework in Frameworks */,
 				232B4CC41BC2A3DC001F2B7A /* KeychainSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235E25A71BECF284006C32D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235E25E91BECFCB1006C32D3 /* SoundCloudSwift.framework in Frameworks */,
+				235E25D21BECFAF8006C32D3 /* KeychainSwift.framework in Frameworks */,
+				235E25D81BECFB04006C32D3 /* Alamofire.framework in Frameworks */,
+				235E25DE1BECFB10006C32D3 /* Result.framework in Frameworks */,
+				235E25DA1BECFB0B006C32D3 /* Genome.framework in Frameworks */,
+				235E25E01BECFB12006C32D3 /* Runes.framework in Frameworks */,
+				235E25DC1BECFB0E006C32D3 /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +554,7 @@
 		2328F11F1BE7BAE900D64137 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				235E25991BECF117006C32D3 /* Vendor */,
 				2328F1201BE7BAE900D64137 /* Entities */,
 				2328F1251BE7BAE900D64137 /* Errors */,
 				2328F1281BE7BAE900D64137 /* Protocols */,
@@ -496,7 +568,7 @@
 			isa = PBXGroup;
 			children = (
 				2328F1211BE7BAE900D64137 /* Oauth2.swift */,
-				2328F1221BE7BAE900D64137 /* OauthConfig.swift */,
+				2328F1221BE7BAE900D64137 /* Oauth2Config.swift */,
 				2328F1231BE7BAE900D64137 /* RequestConvertible.swift */,
 				2328F1241BE7BAE900D64137 /* Session.swift */,
 			);
@@ -541,6 +613,7 @@
 			isa = PBXGroup;
 			children = (
 				2328F1301BE7BAE900D64137 /* Info.plist */,
+				2353E6091BED04680081E6E7 /* Bridging-Header.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -565,6 +638,7 @@
 			isa = PBXGroup;
 			children = (
 				2328F1721BE7C91800D64137 /* Oauth2WebView.swift */,
+				235E25C71BECF91D006C32D3 /* Oauth2WebViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -589,19 +663,58 @@
 			path = SoundCloudSwift/Source;
 			sourceTree = "<group>";
 		};
-		236F03511BC3D10300659BF4 /* Entities */ = {
+		235E25991BECF117006C32D3 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				236F03521BC3D10300659BF4 /* RequestConvertibleTests.swift */,
-				236F03531BC3D10300659BF4 /* SessionTests.swift */,
+				235E259A1BECF117006C32D3 /* NSURL-QueryParser */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		235E259A1BECF117006C32D3 /* NSURL-QueryParser */ = {
+			isa = PBXGroup;
+			children = (
+				235E259B1BECF117006C32D3 /* NSURL+QueryParser.h */,
+				235E259C1BECF117006C32D3 /* NSURL+QueryParser.m */,
+			);
+			path = "NSURL-QueryParser";
+			sourceTree = "<group>";
+		};
+		235E25AB1BECF284006C32D3 /* SoundCloudApp */ = {
+			isa = PBXGroup;
+			children = (
+				235E25AC1BECF284006C32D3 /* AppDelegate.swift */,
+				235E25AE1BECF284006C32D3 /* ViewController.swift */,
+				235E25B31BECF284006C32D3 /* Assets.xcassets */,
+				235E25C51BECF462006C32D3 /* Launch Screen.storyboard */,
+				235E25B81BECF284006C32D3 /* Info.plist */,
+			);
+			path = SoundCloudApp;
+			sourceTree = "<group>";
+		};
+		23A847B31BEA4E56000A48A6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				23A847B41BEA4E56000A48A6 /* Entities */,
+				23A847B81BEA4E56000A48A6 /* Repositories */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		23A847B41BEA4E56000A48A6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				23A847B51BEA4E56000A48A6 /* Oauth2Tests.swift */,
+				23A847B61BEA4E56000A48A6 /* RequestConvertibleTests.swift */,
+				23A847B71BEA4E56000A48A6 /* SessionTests.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
 		};
-		236F03541BC3D10300659BF4 /* Repositories */ = {
+		23A847B81BEA4E56000A48A6 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				236F03551BC3D10300659BF4 /* SecureStoreTests.swift */,
+				23A847B91BEA4E56000A48A6 /* SecureStoreTests.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -609,6 +722,7 @@
 		3D27429A1BBA70E4007A1BCE = {
 			isa = PBXGroup;
 			children = (
+				235E25AB1BECF284006C32D3 /* SoundCloudApp */,
 				3D5396BB1BBA886D00791B49 /* Frameworks */,
 				2328F0691BE7A73D00D64137 /* Config */,
 				232B4C581BC28400001F2B7A /* Source */,
@@ -626,6 +740,7 @@
 				3D5396791BBA7B5800791B49 /* SoundCloudSwift.framework */,
 				232B4CA41BC2A259001F2B7A /* SoundCloudSwift Tests.xctest */,
 				2328F0191BE79EF000D64137 /* SoundCloudSwift.framework */,
+				235E25AA1BECF284006C32D3 /* SoundCloudApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -641,8 +756,7 @@
 		3D5396851BBA7B9300791B49 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				236F03511BC3D10300659BF4 /* Entities */,
-				236F03541BC3D10300659BF4 /* Repositories */,
+				23A847B31BEA4E56000A48A6 /* Core */,
 				63A590821BBB3F6800697E70 /* Supporting Files */,
 			);
 			name = Tests;
@@ -652,8 +766,6 @@
 		3D5396BB1BBA886D00791B49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2328F16D1BE7BF8A00D64137 /* WebKit.framework */,
-				2328F16B1BE7BB9900D64137 /* WebKit.framework */,
 				2328F0681BE7A6E300D64137 /* tvOS */,
 				3D5397781BBA96F500791B49 /* watchOS */,
 				3D5397671BBA969500791B49 /* OSX */,
@@ -665,6 +777,7 @@
 		3D5397541BBA94F200791B49 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				2328F16B1BE7BB9900D64137 /* WebKit.framework */,
 				232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */,
 				3D5397501BBA94EE00791B49 /* Nimble.framework */,
 				3D5397511BBA94EE00791B49 /* Quick.framework */,
@@ -680,6 +793,7 @@
 		3D5397671BBA969500791B49 /* OSX */ = {
 			isa = PBXGroup;
 			children = (
+				2328F16D1BE7BF8A00D64137 /* WebKit.framework */,
 				232B4CC61BC2A404001F2B7A /* KeychainSwift.framework */,
 				3D5397631BBA968A00791B49 /* Quick.framework */,
 				3D5397581BBA967700791B49 /* Alamofire.framework */,
@@ -720,6 +834,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235E25A01BECF117006C32D3 /* NSURL+QueryParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,6 +842,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235E259D1BECF117006C32D3 /* NSURL+QueryParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,6 +850,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235E259E1BECF117006C32D3 /* NSURL+QueryParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,6 +858,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235E259F1BECF117006C32D3 /* NSURL+QueryParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -783,6 +901,26 @@
 			productName = "SoundCloudSwift-iOS Tests";
 			productReference = 232B4CA41BC2A259001F2B7A /* SoundCloudSwift Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		235E25A91BECF284006C32D3 /* SoundCloudApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235E25B91BECF284006C32D3 /* Build configuration list for PBXNativeTarget "SoundCloudApp" */;
+			buildPhases = (
+				235E25A61BECF284006C32D3 /* Sources */,
+				235E25A71BECF284006C32D3 /* Frameworks */,
+				235E25A81BECF284006C32D3 /* Resources */,
+				235E25C41BECF2E7006C32D3 /* Carthage */,
+				235E25CF1BECFAE3006C32D3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				235E25E51BECFB8F006C32D3 /* PBXTargetDependency */,
+			);
+			name = SoundCloudApp;
+			productName = SoundCloudApp;
+			productReference = 235E25AA1BECF284006C32D3 /* SoundCloudApp.app */;
+			productType = "com.apple.product-type.application";
 		};
 		3D5396241BBA7A3A00791B49 /* SoundCloudSwift iOS */ = {
 			isa = PBXNativeTarget;
@@ -844,15 +982,18 @@
 		3D27429B1BBA70E4007A1BCE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = SugarTeam;
+				ORGANIZATIONNAME = GitDo;
 				TargetAttributes = {
 					2328F0181BE79EF000D64137 = {
 						CreatedOnToolsVersion = 7.1;
 					};
 					232B4CA31BC2A259001F2B7A = {
 						CreatedOnToolsVersion = 7.0.1;
+					};
+					235E25A91BECF284006C32D3 = {
+						CreatedOnToolsVersion = 7.1;
 					};
 					3D5396241BBA7A3A00791B49 = {
 						CreatedOnToolsVersion = 7.0;
@@ -871,6 +1012,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 3D27429A1BBA70E4007A1BCE;
 			productRefGroup = 3D2742A51BBA70E4007A1BCE /* Products */;
@@ -882,6 +1024,7 @@
 				3D5396781BBA7B5800791B49 /* SoundCloudSwift watchOS */,
 				2328F0181BE79EF000D64137 /* SoundCloudSwift tvOS */,
 				232B4CA31BC2A259001F2B7A /* SoundCloudSwift Tests */,
+				235E25A91BECF284006C32D3 /* SoundCloudApp */,
 			);
 		};
 /* End PBXProject section */
@@ -923,6 +1066,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235E25A81BECF284006C32D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235E25C61BECF462006C32D3 /* Launch Screen.storyboard in Resources */,
+				235E25B41BECF284006C32D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1024,21 +1176,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		235E25C41BECF2E7006C32D3 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Genome.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Runes.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KeychainSwift.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2328F0141BE79EF000D64137 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235E25A41BECF117006C32D3 /* NSURL+QueryParser.m in Sources */,
 				2328F1441BE7BAE900D64137 /* OauthError.swift in Sources */,
 				2328F1401BE7BAE900D64137 /* Session.swift in Sources */,
 				2328F1481BE7BAE900D64137 /* StorableError.swift in Sources */,
 				2328F14C1BE7BAE900D64137 /* KeyValueStorable.swift in Sources */,
 				2328F1541BE7BAE900D64137 /* SecureStore.swift in Sources */,
 				2328F1581BE7BAE900D64137 /* Randomizer.swift in Sources */,
-				2328F1381BE7BAE900D64137 /* OauthConfig.swift in Sources */,
+				2328F1381BE7BAE900D64137 /* Oauth2Config.swift in Sources */,
 				2328F13C1BE7BAE900D64137 /* RequestConvertible.swift in Sources */,
 				2328F1341BE7BAE900D64137 /* Oauth2.swift in Sources */,
-				2328F0D21BE7A73D00D64137 /* README.md in Sources */,
 				2328F1501BE7BAE900D64137 /* KeyValueStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1047,9 +1222,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				236F03581BC3D10300659BF4 /* SessionTests.swift in Sources */,
-				236F03561BC3D10300659BF4 /* RequestConvertibleTests.swift in Sources */,
-				236F035A1BC3D10300659BF4 /* SecureStoreTests.swift in Sources */,
+				23A847BD1BEA4E56000A48A6 /* SecureStoreTests.swift in Sources */,
+				23A847BC1BEA4E56000A48A6 /* SessionTests.swift in Sources */,
+				23A847BA1BEA4E56000A48A6 /* Oauth2Tests.swift in Sources */,
+				23A847BB1BEA4E56000A48A6 /* RequestConvertibleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235E25A61BECF284006C32D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235E25AF1BECF284006C32D3 /* ViewController.swift in Sources */,
+				235E25AD1BECF284006C32D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1060,13 +1245,14 @@
 				2328F1411BE7BAE900D64137 /* OauthError.swift in Sources */,
 				2328F13D1BE7BAE900D64137 /* Session.swift in Sources */,
 				2328F1451BE7BAE900D64137 /* StorableError.swift in Sources */,
+				235E25A11BECF117006C32D3 /* NSURL+QueryParser.m in Sources */,
 				2328F1491BE7BAE900D64137 /* KeyValueStorable.swift in Sources */,
 				2328F1511BE7BAE900D64137 /* SecureStore.swift in Sources */,
+				235E25C91BECF927006C32D3 /* Oauth2WebViewController.swift in Sources */,
 				2328F1551BE7BAE900D64137 /* Randomizer.swift in Sources */,
-				2328F1351BE7BAE900D64137 /* OauthConfig.swift in Sources */,
+				2328F1351BE7BAE900D64137 /* Oauth2Config.swift in Sources */,
 				2328F1391BE7BAE900D64137 /* RequestConvertible.swift in Sources */,
 				2328F1311BE7BAE900D64137 /* Oauth2.swift in Sources */,
-				2328F0CF1BE7A73D00D64137 /* README.md in Sources */,
 				2328F1731BE7C91800D64137 /* Oauth2WebView.swift in Sources */,
 				2328F14D1BE7BAE900D64137 /* KeyValueStore.swift in Sources */,
 			);
@@ -1079,13 +1265,13 @@
 				2328F1421BE7BAE900D64137 /* OauthError.swift in Sources */,
 				2328F13E1BE7BAE900D64137 /* Session.swift in Sources */,
 				2328F1461BE7BAE900D64137 /* StorableError.swift in Sources */,
+				235E25A21BECF117006C32D3 /* NSURL+QueryParser.m in Sources */,
 				2328F14A1BE7BAE900D64137 /* KeyValueStorable.swift in Sources */,
 				2328F1521BE7BAE900D64137 /* SecureStore.swift in Sources */,
 				2328F1561BE7BAE900D64137 /* Randomizer.swift in Sources */,
-				2328F1361BE7BAE900D64137 /* OauthConfig.swift in Sources */,
+				2328F1361BE7BAE900D64137 /* Oauth2Config.swift in Sources */,
 				2328F13A1BE7BAE900D64137 /* RequestConvertible.swift in Sources */,
 				2328F1321BE7BAE900D64137 /* Oauth2.swift in Sources */,
-				2328F0D01BE7A73D00D64137 /* README.md in Sources */,
 				2328F1761BE7C92200D64137 /* Oauth2WebView.swift in Sources */,
 				2328F14E1BE7BAE900D64137 /* KeyValueStore.swift in Sources */,
 			);
@@ -1095,16 +1281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235E25A31BECF117006C32D3 /* NSURL+QueryParser.m in Sources */,
 				2328F1431BE7BAE900D64137 /* OauthError.swift in Sources */,
 				2328F13F1BE7BAE900D64137 /* Session.swift in Sources */,
 				2328F1471BE7BAE900D64137 /* StorableError.swift in Sources */,
 				2328F14B1BE7BAE900D64137 /* KeyValueStorable.swift in Sources */,
 				2328F1531BE7BAE900D64137 /* SecureStore.swift in Sources */,
 				2328F1571BE7BAE900D64137 /* Randomizer.swift in Sources */,
-				2328F1371BE7BAE900D64137 /* OauthConfig.swift in Sources */,
+				2328F1371BE7BAE900D64137 /* Oauth2Config.swift in Sources */,
 				2328F13B1BE7BAE900D64137 /* RequestConvertible.swift in Sources */,
 				2328F1331BE7BAE900D64137 /* Oauth2.swift in Sources */,
-				2328F0D11BE7A73D00D64137 /* README.md in Sources */,
 				2328F14F1BE7BAE900D64137 /* KeyValueStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1116,6 +1302,11 @@
 			isa = PBXTargetDependency;
 			target = 3D5396241BBA7A3A00791B49 /* SoundCloudSwift iOS */;
 			targetProxy = 232B4CAA1BC2A259001F2B7A /* PBXContainerItemProxy */;
+		};
+		235E25E51BECFB8F006C32D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5396241BBA7A3A00791B49 /* SoundCloudSwift iOS */;
+			targetProxy = 235E25E41BECFB8F006C32D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1139,6 +1330,7 @@
 				PRODUCT_NAME = SoundCloudSwift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SoundCloudSwift/Source/Supporting Files/Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1163,6 +1355,7 @@
 				PRODUCT_NAME = SoundCloudSwift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SoundCloudSwift/Source/Supporting Files/Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1193,6 +1386,40 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.gitdo.SoundCloudSwift-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		235E25BA1BECF284006C32D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SoundCloudApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.GitDo.SoundCloudApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		235E25BB1BECF284006C32D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SoundCloudApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.GitDo.SoundCloudApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1307,6 +1534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.gitdo.SoundCloudSwift;
 				PRODUCT_NAME = SoundCloudSwift;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SoundCloudSwift/Source/Supporting Files/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -1331,6 +1559,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.gitdo.SoundCloudSwift;
 				PRODUCT_NAME = SoundCloudSwift;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SoundCloudSwift/Source/Supporting Files/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -1357,6 +1586,7 @@
 				PRODUCT_NAME = SoundCloudSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SoundCloudSwift/Source/Supporting Files/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -1384,6 +1614,7 @@
 				PRODUCT_NAME = SoundCloudSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SoundCloudSwift/Source/Supporting Files/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -1408,6 +1639,7 @@
 				PRODUCT_NAME = SoundCloudSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SoundCloudSwift/Source/Supporting Files/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -1435,6 +1667,7 @@
 				PRODUCT_NAME = SoundCloudSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SoundCloudSwift/Source/Supporting Files/Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -1457,6 +1690,15 @@
 			buildConfigurations = (
 				232B4CAD1BC2A259001F2B7A /* Debug */,
 				232B4CAE1BC2A259001F2B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235E25B91BECF284006C32D3 /* Build configuration list for PBXNativeTarget "SoundCloudApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235E25BA1BECF284006C32D3 /* Debug */,
+				235E25BB1BECF284006C32D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

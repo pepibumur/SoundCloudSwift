@@ -2,7 +2,7 @@ import Foundation
 import WebKit
 
 /// WKWebView subclass that internally interacts with the Oauth2 handler connecting its delegate with the handler
-public class Oauth2WebView: WKWebView, WKNavigationDelegate {
+public final class Oauth2WebView: WKWebView, WKNavigationDelegate {
     
     // MARK: - Attributes
     
@@ -21,7 +21,7 @@ public class Oauth2WebView: WKWebView, WKNavigationDelegate {
     
     - returns: initialized Oauth2WebView
     */
-    public init(oauth2: Oauth2, scope: Oauth2.Scope, frame: CGRect) {
+    public init(oauth2: Oauth2, scope: Session.Scope, frame: CGRect) {
         self.oauth2 = oauth2
         super.init(frame: frame, configuration: WKWebViewConfiguration())
         self.navigationDelegate = self
@@ -31,7 +31,7 @@ public class Oauth2WebView: WKWebView, WKNavigationDelegate {
     
     // MARK: - Private
     
-    private func setup(withScope scope: Oauth2.Scope) {
+    private func setup(withScope scope: Session.Scope) {
         self.oauth2.signal.observeNext { (event) -> () in
             switch event {
             case .OpenUrl(let url):
@@ -39,13 +39,13 @@ public class Oauth2WebView: WKWebView, WKNavigationDelegate {
             default: break
             }
         }
-        self.oauth2.start(withScope: scope)
+        self.oauth2.start()
     }
     
     
     // MARK: - WKNavigationDelegate
     
-    public func webView(webView: WKWebView, didFinishNavigation navigation: WKNavigation!) {
+    public func webView(webView: WKWebView, didReceiveServerRedirectForProvisionalNavigation navigation: WKNavigation!) {
         guard let url = webView.URL else { return }
         self.oauth2.validate(url: url)
     }

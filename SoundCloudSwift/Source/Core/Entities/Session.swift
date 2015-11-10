@@ -11,7 +11,7 @@ public struct Session: KeyValueStorable {
     - All:  Access all features
     - Some: Access some features
     */
-    enum Scope {
+    public enum Scope {
         case All
         case Some([String])
         

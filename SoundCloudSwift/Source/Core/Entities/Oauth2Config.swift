@@ -3,7 +3,7 @@ import Foundation
 /**
  *  Entity that represents the app configuration in the SoundCloud API
  */
-public struct OauthConfig {
+public struct Oauth2Config {
     
     // MARK: - Attributes
     
