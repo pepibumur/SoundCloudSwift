@@ -39,7 +39,9 @@ class SessionTests: QuickSpec {
             it("should properly save and restore a session on a given store") {
                 let scope: Session.Scope = .All
                 let accessToken: String = "access-token"
-                let session: Session = Session(accessToken: accessToken, scope: scope)
+                let refreshToken: String = "refresh-token"
+                let expiresIn: Int = 25
+                let session: Session = Session(accessToken: accessToken, refreshToken: refreshToken, expiresIn: expiresIn, scope: scope)
                 session.store("session", store: store)
                 let restoredSession: Session = try! Session.restore("session", store: store)!
                 expect(restoredSession.accessToken) == accessToken
@@ -55,7 +57,9 @@ class SessionTests: QuickSpec {
             it("should properly clear the session from a given store") {
                 let scope: Session.Scope = .All
                 let accessToken: String = "access-token"
-                let session: Session = Session(accessToken: accessToken, scope: scope)
+                let refreshToken: String = "refresh-token"
+                let expiresIn: Int = 25
+                let session: Session = Session(accessToken: accessToken, refreshToken: refreshToken, expiresIn: expiresIn, scope: scope)
                 session.store("session", store: store)
                 Session.clear("session", store: store)
                 expect{ try Session.restore("session", store: store)}.to(beNil())

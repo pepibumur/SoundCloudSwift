@@ -39,7 +39,7 @@ public struct Session: KeyValueStorable {
     let refreshToken: String
     
     /// Time until access token expiration
-    let expiresIn: Int
+    let expiresDate: NSDate
     
     /// Session scope
     let scope: Scope
@@ -60,7 +60,7 @@ public struct Session: KeyValueStorable {
     init(accessToken: String, refreshToken: String, expiresIn: Int, scope: Scope) {
         self.accessToken = accessToken
         self.refreshToken = refreshToken
-        self.expiresIn = expiresIn
+        self.expiresDate = NSDate().dateByAddingTimeInterval(NSTimeInterval(expiresIn))
         self.scope = scope
     }
     
@@ -72,10 +72,20 @@ public struct Session: KeyValueStorable {
      - returns: initialized session
      */
     init(dictionary: [String: AnyObject]) {
-        self.accessToken = dictionary["access_token"] as! String
-        self.expiresIn = dictionary["expires_in"] as! Int
-        self.refreshToken = dictionary["refresh_token"] as! String
-        self.scope = Scope.fromString(dictionary["scope"] as! String)
+        let _accessToken = dictionary["access_token"] as! String
+        let _expiresIn = dictionary["expires_in"] as! Int
+        let _refreshToken = dictionary["refresh_token"] as! String
+        let _scope = Scope.fromString(dictionary["scope"] as! String)
+        self.init(accessToken: _accessToken, refreshToken: _refreshToken, expiresIn: _expiresIn, scope: _scope)
+    }
+    
+    
+    // MARK: - Public
+    
+    var expired: Bool {
+        get {
+            return expiresDate.timeIntervalSince1970 > NSDate().timeIntervalSince1970
+        }
     }
     
     
@@ -84,7 +94,7 @@ public struct Session: KeyValueStorable {
     private struct StorableKeys {
         static let accessTokenKey: String = "access-token"
         static let refreshTokenKey: String = "refresh-token"
-        static let expiresInKey: String = "expires-in"
+        static let expiresDateKey: String = "expires-date"
         static let scopeKey: String = "scope"
     }
     
@@ -98,11 +108,11 @@ public struct Session: KeyValueStorable {
     public init(storeDict: [String: AnyObject]) throws {
         guard let _accessToken = storeDict[StorableKeys.accessTokenKey] as? String else { throw StorableError.InvalidData(StorableKeys.accessTokenKey) }
         guard let _refreshToken = storeDict[StorableKeys.refreshTokenKey] as? String else { throw StorableError.InvalidData(StorableKeys.refreshTokenKey) }
-        guard let _expiresIn = storeDict[StorableKeys.expiresInKey] as? Int else { throw StorableError.InvalidData(StorableKeys.expiresInKey) }
+        guard let _expiresDate = storeDict[StorableKeys.expiresDateKey] as? NSDate else { throw StorableError.InvalidData(StorableKeys.expiresDateKey) }
         guard let _scope = storeDict[StorableKeys.scopeKey] as? String else { throw StorableError.InvalidData(StorableKeys.scopeKey) }
         self.accessToken = _accessToken
         self.scope = Scope.fromString(_scope)
-        self.expiresIn = _expiresIn
+        self.expiresDate = _expiresDate
         self.refreshToken = _refreshToken
     }
 }

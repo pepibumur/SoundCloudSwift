@@ -41,9 +41,7 @@ class ViewController: UIViewController {
         let oauth2: Oauth2 = Oauth2(config: Oauth2Config(clientId: clientId, clientSecret: clientSecret, redirectUri: redirect), scope: .All)
         let viewController: Oauth2WebViewController = Oauth2WebViewController(oauth2: oauth2, scope: .All)
         self.navigationController?.presentViewController(UINavigationController(rootViewController: viewController), animated: true, completion: nil)
-        oauth2.signal.observeNext { (next) -> () in
-            print(next)
-        }
+        oauth2.signal.observeNext { (next) -> () in }
     }
 }
 

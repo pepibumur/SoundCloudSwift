@@ -153,7 +153,6 @@
 		2328F1571BE7BAE900D64137 /* Randomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F12E1BE7BAE900D64137 /* Randomizer.swift */; };
 		2328F1581BE7BAE900D64137 /* Randomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F12E1BE7BAE900D64137 /* Randomizer.swift */; };
 		2328F16C1BE7BB9900D64137 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328F16B1BE7BB9900D64137 /* WebKit.framework */; };
-		2328F16E1BE7BF8A00D64137 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328F16D1BE7BF8A00D64137 /* WebKit.framework */; };
 		2328F1731BE7C91800D64137 /* Oauth2WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1721BE7C91800D64137 /* Oauth2WebView.swift */; };
 		2328F1761BE7C92200D64137 /* Oauth2WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328F1751BE7C92200D64137 /* Oauth2WebView.swift */; };
 		232B4CA91BC2A259001F2B7A /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */; };
@@ -174,7 +173,6 @@
 		232B4CC31BC2A3D4001F2B7A /* KeychainSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		232B4CC41BC2A3DC001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */; };
 		232B4CC51BC2A3F6001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */; };
-		232B4CC71BC2A404001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC61BC2A404001F2B7A /* KeychainSwift.framework */; };
 		232B4CCB1BC2A433001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CCA1BC2A433001F2B7A /* KeychainSwift.framework */; };
 		235E259D1BECF117006C32D3 /* NSURL+QueryParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 235E259B1BECF117006C32D3 /* NSURL+QueryParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		235E259E1BECF117006C32D3 /* NSURL+QueryParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 235E259B1BECF117006C32D3 /* NSURL+QueryParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -202,6 +200,34 @@
 		235E25E01BECFB12006C32D3 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53974A1BBA94C200791B49 /* Runes.framework */; };
 		235E25E11BECFB12006C32D3 /* Runes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53974A1BBA94C200791B49 /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		235E25E91BECFCB1006C32D3 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */; };
+		237AD4591BF20A400038A541 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */; };
+		237AD47D1BF20B740038A541 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4741BF20B740038A541 /* Alamofire.framework */; };
+		237AD47E1BF20B740038A541 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4751BF20B740038A541 /* CocoaAsyncSocket.framework */; };
+		237AD47F1BF20B740038A541 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4761BF20B740038A541 /* Genome.framework */; };
+		237AD4801BF20B740038A541 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4771BF20B740038A541 /* KeychainSwift.framework */; };
+		237AD4811BF20B740038A541 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4781BF20B740038A541 /* Nimble.framework */; };
+		237AD4821BF20B740038A541 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4791BF20B740038A541 /* Quick.framework */; };
+		237AD4831BF20B740038A541 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47A1BF20B740038A541 /* ReactiveCocoa.framework */; };
+		237AD4841BF20B740038A541 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47B1BF20B740038A541 /* Result.framework */; };
+		237AD4851BF20B740038A541 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47C1BF20B740038A541 /* Runes.framework */; };
+		237AD4861BF20B850038A541 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4741BF20B740038A541 /* Alamofire.framework */; };
+		237AD4871BF20B850038A541 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4751BF20B740038A541 /* CocoaAsyncSocket.framework */; };
+		237AD4881BF20B850038A541 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4761BF20B740038A541 /* Genome.framework */; };
+		237AD4891BF20B850038A541 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4771BF20B740038A541 /* KeychainSwift.framework */; };
+		237AD48A1BF20B850038A541 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4781BF20B740038A541 /* Nimble.framework */; };
+		237AD48B1BF20B850038A541 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4791BF20B740038A541 /* Quick.framework */; };
+		237AD48C1BF20B850038A541 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47A1BF20B740038A541 /* ReactiveCocoa.framework */; };
+		237AD48D1BF20B850038A541 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47B1BF20B740038A541 /* Result.framework */; };
+		237AD48E1BF20B850038A541 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47C1BF20B740038A541 /* Runes.framework */; };
+		237AD48F1BF20B880038A541 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4741BF20B740038A541 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		237AD4901BF20B880038A541 /* CocoaAsyncSocket.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4751BF20B740038A541 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		237AD4911BF20B880038A541 /* Genome.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4761BF20B740038A541 /* Genome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		237AD4921BF20B880038A541 /* KeychainSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4771BF20B740038A541 /* KeychainSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		237AD4931BF20B880038A541 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4781BF20B740038A541 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		237AD4941BF20B880038A541 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4791BF20B740038A541 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		237AD4951BF20B880038A541 /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47A1BF20B740038A541 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		237AD4961BF20B880038A541 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47B1BF20B740038A541 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		237AD4971BF20B880038A541 /* Runes.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47C1BF20B740038A541 /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		23A847BA1BEA4E56000A48A6 /* Oauth2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B51BEA4E56000A48A6 /* Oauth2Tests.swift */; };
 		23A847BB1BEA4E56000A48A6 /* RequestConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B61BEA4E56000A48A6 /* RequestConvertibleTests.swift */; };
 		23A847BC1BEA4E56000A48A6 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B71BEA4E56000A48A6 /* SessionTests.swift */; };
@@ -210,10 +236,6 @@
 		3D53974C1BBA94C200791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; };
 		3D53974D1BBA94C200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; };
 		3D53974E1BBA94C200791B49 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397491BBA94C200791B49 /* Result.framework */; };
-		3D53975D1BBA967700791B49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397581BBA967700791B49 /* Alamofire.framework */; };
-		3D53975E1BBA967700791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397591BBA967700791B49 /* Genome.framework */; };
-		3D53975F1BBA967700791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53975A1BBA967700791B49 /* ReactiveCocoa.framework */; };
-		3D5397601BBA967700791B49 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53975B1BBA967700791B49 /* Result.framework */; };
 		3D5397731BBA96F200791B49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53976E1BBA96F200791B49 /* Alamofire.framework */; };
 		3D5397741BBA96F200791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53976F1BBA96F200791B49 /* Genome.framework */; };
 		3D5397751BBA96F200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397701BBA96F200791B49 /* ReactiveCocoa.framework */; };
@@ -234,6 +256,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 3D5396241BBA7A3A00791B49;
 			remoteInfo = "SoundCloudSwift iOS";
+		};
+		237AD45A1BF20A400038A541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D27429B1BBA70E4007A1BCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D53965C1BBA7AB700791B49;
+			remoteInfo = "SoundCloudSwift OSX";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -270,6 +299,25 @@
 				235E25E11BECFB12006C32D3 /* Runes.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		237AD4681BF20AD70038A541 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				237AD48F1BF20B880038A541 /* Alamofire.framework in Copy Frameworks */,
+				237AD4901BF20B880038A541 /* CocoaAsyncSocket.framework in Copy Frameworks */,
+				237AD4911BF20B880038A541 /* Genome.framework in Copy Frameworks */,
+				237AD4921BF20B880038A541 /* KeychainSwift.framework in Copy Frameworks */,
+				237AD4931BF20B880038A541 /* Nimble.framework in Copy Frameworks */,
+				237AD4941BF20B880038A541 /* Quick.framework in Copy Frameworks */,
+				237AD4951BF20B880038A541 /* ReactiveCocoa.framework in Copy Frameworks */,
+				237AD4961BF20B880038A541 /* Result.framework in Copy Frameworks */,
+				237AD4971BF20B880038A541 /* Runes.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -319,12 +367,10 @@
 		2328F12E1BE7BAE900D64137 /* Randomizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Randomizer.swift; sourceTree = "<group>"; };
 		2328F1301BE7BAE900D64137 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2328F16B1BE7BB9900D64137 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		2328F16D1BE7BF8A00D64137 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		2328F1721BE7C91800D64137 /* Oauth2WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2WebView.swift; sourceTree = "<group>"; };
 		2328F1751BE7C92200D64137 /* Oauth2WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2WebView.swift; sourceTree = "<group>"; };
-		232B4CA41BC2A259001F2B7A /* SoundCloudSwift Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		232B4CA41BC2A259001F2B7A /* SoundCloudSwift iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/iOS/KeychainSwift.framework; sourceTree = "<group>"; };
-		232B4CC61BC2A404001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/Mac/KeychainSwift.framework; sourceTree = "<group>"; };
 		232B4CCA1BC2A433001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/watchOS/KeychainSwift.framework; sourceTree = "<group>"; };
 		2353E6091BED04680081E6E7 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		235E259B1BECF117006C32D3 /* NSURL+QueryParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryParser.h"; sourceTree = "<group>"; };
@@ -336,6 +382,16 @@
 		235E25B81BECF284006C32D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		235E25C51BECF462006C32D3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		235E25C71BECF91D006C32D3 /* Oauth2WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2WebViewController.swift; sourceTree = "<group>"; };
+		237AD4541BF20A400038A541 /* SoundCloudSwift OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		237AD4741BF20B740038A541 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		237AD4751BF20B740038A541 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		237AD4761BF20B740038A541 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/Mac/Genome.framework; sourceTree = "<group>"; };
+		237AD4771BF20B740038A541 /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/Mac/KeychainSwift.framework; sourceTree = "<group>"; };
+		237AD4781BF20B740038A541 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		237AD4791BF20B740038A541 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		237AD47A1BF20B740038A541 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/Mac/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		237AD47B1BF20B740038A541 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
+		237AD47C1BF20B740038A541 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/Mac/Runes.framework; sourceTree = "<group>"; };
 		23A847B51BEA4E56000A48A6 /* Oauth2Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2Tests.swift; sourceTree = "<group>"; };
 		23A847B61BEA4E56000A48A6 /* RequestConvertibleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConvertibleTests.swift; sourceTree = "<group>"; };
 		23A847B71BEA4E56000A48A6 /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
@@ -350,13 +406,6 @@
 		3D53974A1BBA94C200791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/iOS/Runes.framework; sourceTree = "<group>"; };
 		3D5397501BBA94EE00791B49 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		3D5397511BBA94EE00791B49 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		3D5397581BBA967700791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
-		3D5397591BBA967700791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/Mac/Genome.framework; sourceTree = "<group>"; };
-		3D53975A1BBA967700791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/Mac/ReactiveCocoa.framework; sourceTree = "<group>"; };
-		3D53975B1BBA967700791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
-		3D53975C1BBA967700791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/Mac/Runes.framework; sourceTree = "<group>"; };
-		3D5397621BBA968A00791B49 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
-		3D5397631BBA968A00791B49 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
 		3D53976E1BBA96F200791B49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/watchOS/Alamofire.framework; sourceTree = "<group>"; };
 		3D53976F1BBA96F200791B49 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/watchOS/Genome.framework; sourceTree = "<group>"; };
 		3D5397701BBA96F200791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/watchOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
@@ -408,6 +457,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		237AD4511BF20A400038A541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237AD4591BF20A400038A541 /* SoundCloudSwift.framework in Frameworks */,
+				237AD4861BF20B850038A541 /* Alamofire.framework in Frameworks */,
+				237AD4871BF20B850038A541 /* CocoaAsyncSocket.framework in Frameworks */,
+				237AD4881BF20B850038A541 /* Genome.framework in Frameworks */,
+				237AD4891BF20B850038A541 /* KeychainSwift.framework in Frameworks */,
+				237AD48A1BF20B850038A541 /* Nimble.framework in Frameworks */,
+				237AD48B1BF20B850038A541 /* Quick.framework in Frameworks */,
+				237AD48C1BF20B850038A541 /* ReactiveCocoa.framework in Frameworks */,
+				237AD48D1BF20B850038A541 /* Result.framework in Frameworks */,
+				237AD48E1BF20B850038A541 /* Runes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D5396211BBA7A3A00791B49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,12 +491,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2328F16E1BE7BF8A00D64137 /* WebKit.framework in Frameworks */,
-				3D53975D1BBA967700791B49 /* Alamofire.framework in Frameworks */,
-				3D53975E1BBA967700791B49 /* Genome.framework in Frameworks */,
-				3D53975F1BBA967700791B49 /* ReactiveCocoa.framework in Frameworks */,
-				3D5397601BBA967700791B49 /* Result.framework in Frameworks */,
-				232B4CC71BC2A404001F2B7A /* KeychainSwift.framework in Frameworks */,
+				237AD4811BF20B740038A541 /* Nimble.framework in Frameworks */,
+				237AD4851BF20B740038A541 /* Runes.framework in Frameworks */,
+				237AD4801BF20B740038A541 /* KeychainSwift.framework in Frameworks */,
+				237AD4821BF20B740038A541 /* Quick.framework in Frameworks */,
+				237AD4841BF20B740038A541 /* Result.framework in Frameworks */,
+				237AD47E1BF20B740038A541 /* CocoaAsyncSocket.framework in Frameworks */,
+				237AD4831BF20B740038A541 /* ReactiveCocoa.framework in Frameworks */,
+				237AD47D1BF20B740038A541 /* Alamofire.framework in Frameworks */,
+				237AD47F1BF20B740038A541 /* Genome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -738,9 +807,10 @@
 				3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */,
 				3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */,
 				3D5396791BBA7B5800791B49 /* SoundCloudSwift.framework */,
-				232B4CA41BC2A259001F2B7A /* SoundCloudSwift Tests.xctest */,
+				232B4CA41BC2A259001F2B7A /* SoundCloudSwift iOS Tests.xctest */,
 				2328F0191BE79EF000D64137 /* SoundCloudSwift.framework */,
 				235E25AA1BECF284006C32D3 /* SoundCloudApp.app */,
+				237AD4541BF20A400038A541 /* SoundCloudSwift OSX Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -793,15 +863,15 @@
 		3D5397671BBA969500791B49 /* OSX */ = {
 			isa = PBXGroup;
 			children = (
-				2328F16D1BE7BF8A00D64137 /* WebKit.framework */,
-				232B4CC61BC2A404001F2B7A /* KeychainSwift.framework */,
-				3D5397631BBA968A00791B49 /* Quick.framework */,
-				3D5397581BBA967700791B49 /* Alamofire.framework */,
-				3D5397591BBA967700791B49 /* Genome.framework */,
-				3D53975A1BBA967700791B49 /* ReactiveCocoa.framework */,
-				3D53975B1BBA967700791B49 /* Result.framework */,
-				3D53975C1BBA967700791B49 /* Runes.framework */,
-				3D5397621BBA968A00791B49 /* Nimble.framework */,
+				237AD4741BF20B740038A541 /* Alamofire.framework */,
+				237AD4751BF20B740038A541 /* CocoaAsyncSocket.framework */,
+				237AD4761BF20B740038A541 /* Genome.framework */,
+				237AD4771BF20B740038A541 /* KeychainSwift.framework */,
+				237AD4781BF20B740038A541 /* Nimble.framework */,
+				237AD4791BF20B740038A541 /* Quick.framework */,
+				237AD47A1BF20B740038A541 /* ReactiveCocoa.framework */,
+				237AD47B1BF20B740038A541 /* Result.framework */,
+				237AD47C1BF20B740038A541 /* Runes.framework */,
 			);
 			name = OSX;
 			sourceTree = "<group>";
@@ -883,9 +953,9 @@
 			productReference = 2328F0191BE79EF000D64137 /* SoundCloudSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		232B4CA31BC2A259001F2B7A /* SoundCloudSwift Tests */ = {
+		232B4CA31BC2A259001F2B7A /* SoundCloudSwift iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 232B4CAC1BC2A259001F2B7A /* Build configuration list for PBXNativeTarget "SoundCloudSwift Tests" */;
+			buildConfigurationList = 232B4CAC1BC2A259001F2B7A /* Build configuration list for PBXNativeTarget "SoundCloudSwift iOS Tests" */;
 			buildPhases = (
 				232B4CA01BC2A259001F2B7A /* Sources */,
 				232B4CA11BC2A259001F2B7A /* Frameworks */,
@@ -897,9 +967,9 @@
 			dependencies = (
 				232B4CAB1BC2A259001F2B7A /* PBXTargetDependency */,
 			);
-			name = "SoundCloudSwift Tests";
+			name = "SoundCloudSwift iOS Tests";
 			productName = "SoundCloudSwift-iOS Tests";
-			productReference = 232B4CA41BC2A259001F2B7A /* SoundCloudSwift Tests.xctest */;
+			productReference = 232B4CA41BC2A259001F2B7A /* SoundCloudSwift iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		235E25A91BECF284006C32D3 /* SoundCloudApp */ = {
@@ -921,6 +991,25 @@
 			productName = SoundCloudApp;
 			productReference = 235E25AA1BECF284006C32D3 /* SoundCloudApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		237AD4531BF20A400038A541 /* SoundCloudSwift OSX Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 237AD45C1BF20A400038A541 /* Build configuration list for PBXNativeTarget "SoundCloudSwift OSX Tests" */;
+			buildPhases = (
+				237AD4501BF20A400038A541 /* Sources */,
+				237AD4511BF20A400038A541 /* Frameworks */,
+				237AD4521BF20A400038A541 /* Resources */,
+				237AD4681BF20AD70038A541 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				237AD45B1BF20A400038A541 /* PBXTargetDependency */,
+			);
+			name = "SoundCloudSwift OSX Tests";
+			productName = "SoundCloudSwift OSX Tests";
+			productReference = 237AD4541BF20A400038A541 /* SoundCloudSwift OSX Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		3D5396241BBA7A3A00791B49 /* SoundCloudSwift iOS */ = {
 			isa = PBXNativeTarget;
@@ -995,6 +1084,9 @@
 					235E25A91BECF284006C32D3 = {
 						CreatedOnToolsVersion = 7.1;
 					};
+					237AD4531BF20A400038A541 = {
+						CreatedOnToolsVersion = 7.1;
+					};
 					3D5396241BBA7A3A00791B49 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -1023,7 +1115,8 @@
 				3D53965C1BBA7AB700791B49 /* SoundCloudSwift OSX */,
 				3D5396781BBA7B5800791B49 /* SoundCloudSwift watchOS */,
 				2328F0181BE79EF000D64137 /* SoundCloudSwift tvOS */,
-				232B4CA31BC2A259001F2B7A /* SoundCloudSwift Tests */,
+				232B4CA31BC2A259001F2B7A /* SoundCloudSwift iOS Tests */,
+				237AD4531BF20A400038A541 /* SoundCloudSwift OSX Tests */,
 				235E25A91BECF284006C32D3 /* SoundCloudApp */,
 			);
 		};
@@ -1075,6 +1168,13 @@
 			files = (
 				235E25C61BECF462006C32D3 /* Launch Screen.storyboard in Resources */,
 				235E25B41BECF284006C32D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		237AD4521BF20A400038A541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1238,6 +1338,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		237AD4501BF20A400038A541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D5396201BBA7A3A00791B49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1308,6 +1415,11 @@
 			target = 3D5396241BBA7A3A00791B49 /* SoundCloudSwift iOS */;
 			targetProxy = 235E25E41BECFB8F006C32D3 /* PBXContainerItemProxy */;
 		};
+		237AD45B1BF20A400038A541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D53965C1BBA7AB700791B49 /* SoundCloudSwift OSX */;
+			targetProxy = 237AD45A1BF20A400038A541 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -1363,6 +1475,7 @@
 		};
 		232B4CAD1BC2A259001F2B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F0771BE7A73D00D64137 /* iOS-Base.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1377,6 +1490,7 @@
 		};
 		232B4CAE1BC2A259001F2B7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F0771BE7A73D00D64137 /* iOS-Base.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1391,6 +1505,7 @@
 		};
 		235E25BA1BECF284006C32D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F0761BE7A73D00D64137 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1408,6 +1523,7 @@
 		};
 		235E25BB1BECF284006C32D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F0761BE7A73D00D64137 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1420,6 +1536,44 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.GitDo.SoundCloudApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		237AD45D1BF20A400038A541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F07C1BE7A73D00D64137 /* Mac-Base.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "SoundCloudSwift/Tests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.GitDo.SoundCloudSwift-OSX-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		237AD45E1BF20A400038A541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2328F07C1BE7A73D00D64137 /* Mac-Base.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "SoundCloudSwift/Tests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.GitDo.SoundCloudSwift-OSX-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -1685,7 +1839,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		232B4CAC1BC2A259001F2B7A /* Build configuration list for PBXNativeTarget "SoundCloudSwift Tests" */ = {
+		232B4CAC1BC2A259001F2B7A /* Build configuration list for PBXNativeTarget "SoundCloudSwift iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				232B4CAD1BC2A259001F2B7A /* Debug */,
@@ -1702,6 +1856,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		237AD45C1BF20A400038A541 /* Build configuration list for PBXNativeTarget "SoundCloudSwift OSX Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				237AD45D1BF20A400038A541 /* Debug */,
+				237AD45E1BF20A400038A541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		3D27429E1BBA70E4007A1BCE /* Build configuration list for PBXProject "SoundCloudSwift" */ = {
 			isa = XCConfigurationList;

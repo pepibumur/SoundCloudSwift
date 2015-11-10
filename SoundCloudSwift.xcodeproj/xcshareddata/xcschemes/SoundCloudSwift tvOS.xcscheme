@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "237AD49B1BF20BC90038A541"
+               BuildableName = "SoundCloudSwift tvOS Tests.xctest"
+               BlueprintName = "SoundCloudSwift tvOS Tests"
+               ReferencedContainer = "container:SoundCloudSwift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2328F0181BE79EF000D64137"
+            BuildableName = "SoundCloudSwift.framework"
+            BlueprintName = "SoundCloudSwift tvOS"
+            ReferencedContainer = "container:SoundCloudSwift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
