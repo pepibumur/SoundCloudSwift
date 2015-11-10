@@ -35,6 +35,12 @@ public struct Session: KeyValueStorable {
     /// Access token (needed to authorize requests)
     let accessToken: String
     
+    /// Refresh tooken (needed to refresh the access token)
+    let refreshToken: String
+    
+    /// Time until access token expiration
+    let expiresIn: Int
+    
     /// Session scope
     let scope: Scope
     
@@ -44,14 +50,32 @@ public struct Session: KeyValueStorable {
     /**
     Default constructor
     
-    - parameter accessToken: session access token
-    - parameter scope:       session scope
+    - parameter accessToken:    session access token
+    - parameter refreshToken:   session refresh token
+    - parameter expiresIn:      session expires in time
+    - parameter scope:          session scope
     
     - returns: initialized session
     */
-    init(accessToken: String, scope: Scope) {
+    init(accessToken: String, refreshToken: String, expiresIn: Int, scope: Scope) {
         self.accessToken = accessToken
+        self.refreshToken = refreshToken
+        self.expiresIn = expiresIn
         self.scope = scope
+    }
+    
+    /**
+     Initializes the Session from a dictionary
+     
+     - parameter dictionary: dictionary with session information
+     
+     - returns: initialized session
+     */
+    init(dictionary: [String: AnyObject]) {
+        self.accessToken = dictionary["access_token"] as! String
+        self.expiresIn = dictionary["expires_in"] as! Int
+        self.refreshToken = dictionary["refresh_token"] as! String
+        self.scope = Scope.fromString(dictionary["scope"] as! String)
     }
     
     
@@ -59,6 +83,8 @@ public struct Session: KeyValueStorable {
     
     private struct StorableKeys {
         static let accessTokenKey: String = "access-token"
+        static let refreshTokenKey: String = "refresh-token"
+        static let expiresInKey: String = "expires-in"
         static let scopeKey: String = "scope"
     }
     
@@ -69,10 +95,14 @@ public struct Session: KeyValueStorable {
         return dict
     }
 
-    public init(storeDict: [String: String]) throws {
-        guard let _accessToken = storeDict[StorableKeys.accessTokenKey] else { throw StorableError.InvalidData(StorableKeys.accessTokenKey) }
-        guard let _scope = storeDict[StorableKeys.scopeKey] else { throw StorableError.InvalidData(StorableKeys.scopeKey) }
+    public init(storeDict: [String: AnyObject]) throws {
+        guard let _accessToken = storeDict[StorableKeys.accessTokenKey] as? String else { throw StorableError.InvalidData(StorableKeys.accessTokenKey) }
+        guard let _refreshToken = storeDict[StorableKeys.refreshTokenKey] as? String else { throw StorableError.InvalidData(StorableKeys.refreshTokenKey) }
+        guard let _expiresIn = storeDict[StorableKeys.expiresInKey] as? Int else { throw StorableError.InvalidData(StorableKeys.expiresInKey) }
+        guard let _scope = storeDict[StorableKeys.scopeKey] as? String else { throw StorableError.InvalidData(StorableKeys.scopeKey) }
         self.accessToken = _accessToken
         self.scope = Scope.fromString(_scope)
+        self.expiresIn = _expiresIn
+        self.refreshToken = _refreshToken
     }
 }

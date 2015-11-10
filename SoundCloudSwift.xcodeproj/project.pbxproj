@@ -202,6 +202,10 @@
 		235E25E01BECFB12006C32D3 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53974A1BBA94C200791B49 /* Runes.framework */; };
 		235E25E11BECFB12006C32D3 /* Runes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53974A1BBA94C200791B49 /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		235E25E91BECFCB1006C32D3 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */; };
+		237AD44C1BF1F9DB0038A541 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237AD44B1BF1F9DB0038A541 /* Networking.swift */; };
+		237AD44D1BF1F9DB0038A541 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237AD44B1BF1F9DB0038A541 /* Networking.swift */; };
+		237AD44E1BF1F9DB0038A541 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237AD44B1BF1F9DB0038A541 /* Networking.swift */; };
+		237AD44F1BF1F9DB0038A541 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237AD44B1BF1F9DB0038A541 /* Networking.swift */; };
 		23A847BA1BEA4E56000A48A6 /* Oauth2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B51BEA4E56000A48A6 /* Oauth2Tests.swift */; };
 		23A847BB1BEA4E56000A48A6 /* RequestConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B61BEA4E56000A48A6 /* RequestConvertibleTests.swift */; };
 		23A847BC1BEA4E56000A48A6 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B71BEA4E56000A48A6 /* SessionTests.swift */; };
@@ -336,6 +340,7 @@
 		235E25B81BECF284006C32D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		235E25C51BECF462006C32D3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		235E25C71BECF91D006C32D3 /* Oauth2WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2WebViewController.swift; sourceTree = "<group>"; };
+		237AD44B1BF1F9DB0038A541 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		23A847B51BEA4E56000A48A6 /* Oauth2Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2Tests.swift; sourceTree = "<group>"; };
 		23A847B61BEA4E56000A48A6 /* RequestConvertibleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConvertibleTests.swift; sourceTree = "<group>"; };
 		23A847B71BEA4E56000A48A6 /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
@@ -605,6 +610,7 @@
 			isa = PBXGroup;
 			children = (
 				2328F12E1BE7BAE900D64137 /* Randomizer.swift */,
+				237AD44B1BF1F9DB0038A541 /* Networking.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -1207,6 +1213,7 @@
 				235E25A41BECF117006C32D3 /* NSURL+QueryParser.m in Sources */,
 				2328F1441BE7BAE900D64137 /* OauthError.swift in Sources */,
 				2328F1401BE7BAE900D64137 /* Session.swift in Sources */,
+				237AD44F1BF1F9DB0038A541 /* Networking.swift in Sources */,
 				2328F1481BE7BAE900D64137 /* StorableError.swift in Sources */,
 				2328F14C1BE7BAE900D64137 /* KeyValueStorable.swift in Sources */,
 				2328F1541BE7BAE900D64137 /* SecureStore.swift in Sources */,
@@ -1255,6 +1262,7 @@
 				2328F1311BE7BAE900D64137 /* Oauth2.swift in Sources */,
 				2328F1731BE7C91800D64137 /* Oauth2WebView.swift in Sources */,
 				2328F14D1BE7BAE900D64137 /* KeyValueStore.swift in Sources */,
+				237AD44C1BF1F9DB0038A541 /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1265,6 +1273,7 @@
 				2328F1421BE7BAE900D64137 /* OauthError.swift in Sources */,
 				2328F13E1BE7BAE900D64137 /* Session.swift in Sources */,
 				2328F1461BE7BAE900D64137 /* StorableError.swift in Sources */,
+				237AD44D1BF1F9DB0038A541 /* Networking.swift in Sources */,
 				235E25A21BECF117006C32D3 /* NSURL+QueryParser.m in Sources */,
 				2328F14A1BE7BAE900D64137 /* KeyValueStorable.swift in Sources */,
 				2328F1521BE7BAE900D64137 /* SecureStore.swift in Sources */,
@@ -1284,6 +1293,7 @@
 				235E25A31BECF117006C32D3 /* NSURL+QueryParser.m in Sources */,
 				2328F1431BE7BAE900D64137 /* OauthError.swift in Sources */,
 				2328F13F1BE7BAE900D64137 /* Session.swift in Sources */,
+				237AD44E1BF1F9DB0038A541 /* Networking.swift in Sources */,
 				2328F1471BE7BAE900D64137 /* StorableError.swift in Sources */,
 				2328F14B1BE7BAE900D64137 /* KeyValueStorable.swift in Sources */,
 				2328F1531BE7BAE900D64137 /* SecureStore.swift in Sources */,

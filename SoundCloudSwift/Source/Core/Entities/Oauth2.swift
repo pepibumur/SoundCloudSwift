@@ -7,8 +7,8 @@ import Alamofire
  *  Internal constants
  */
 private struct Constants {
-    static let urlConnect: String = "https://soundcloud.com/connect"
-    static let urlToken: String = "https://api.soundcloud.com/oauth2/token"
+    static let urlConnect: String = "https://soundcloud.com/connect/"
+    static let urlToken: String = "https://api.soundcloud.com/oauth2/token/"
 }
 
 /**
@@ -205,26 +205,22 @@ func validateParameters(fromUrl url: NSURL, redirectUri: String, sourceState: St
  */
 func authenticate(config: Oauth2Config)(scope: Session.Scope)(withCode code: String) -> SignalProducer<Oauth2.Event, OauthError> {
     return SignalProducer { (observer, disposable) in
-        var parameters: [String: String] = [:]
+        var parameters: [String: AnyObject] = [:]
         parameters["client_id"] = config.clientId
         parameters["client_secret"] = config.clientSecret
         parameters["redirect_uri"] = config.redirectUri
         parameters["grant_type"] = "authorization_code"
         parameters["code"] = code
-        Alamofire.request(.POST, Constants.urlToken, parameters: parameters, encoding: ParameterEncoding.URL, headers: nil).responseJSON(completionHandler: { (response) -> Void in
+        Alamofire.request(.POST, Constants.urlToken, parameters: parameters, encoding: ParameterEncoding.URL).responseJSON(completionHandler: { (response) -> Void in
             if let error = response.result.error {
                 observer.sendFailed(.APIError(error))
                 return
             }
-            guard let jsonResponse = response.result.value as? [String: String] else {
+            guard let jsonResponse = response.result.value as? [String: AnyObject] else {
                 observer.sendFailed(.InvalidResponse)
                 return
             }
-            guard let token = jsonResponse["access_token"] else {
-                observer.sendFailed(.TokenNotFound)
-                return
-            }
-            observer.sendNext(Oauth2.Event.NewSession(Session(accessToken: token, scope: scope)))
+            observer.sendNext(Oauth2.Event.NewSession(Session(dictionary: jsonResponse)))
             observer.sendCompleted()
         })
     }

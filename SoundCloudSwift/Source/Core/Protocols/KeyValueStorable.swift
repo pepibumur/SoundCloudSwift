@@ -49,7 +49,7 @@ public protocol KeyValueStorable {
     
     - returns: initialized instance
     */
-    init(storeDict: [String: String]) throws
+    init(storeDict: [String: AnyObject]) throws
 }
 
 // MARK: - KeyValueStorable extension
