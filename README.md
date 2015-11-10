@@ -56,6 +56,11 @@ pod "SoundCloudSwift", :git => "https://github.com/gitdoapp/SoundCloudSwift.git"
 
 And execute `pod install`. Remember to open the project using the file `.xcworkspace`
 
+
+## Wiki
+
+- [Authentication](Wiki/authentication.md)
+
 ## Developer notes
 Before proposing a new PR, it must include update documentation. It's generated using [Jazzy](https://github.com/Realm/jazzy) and the following command:
 
