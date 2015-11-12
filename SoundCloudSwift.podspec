@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
   It offers session management, API interaction and music playing with a fresh Swift fluent interface
   taking advantage of  Swift features
                        DESC
-  s.homepage         = "https://github.com/gitdoapp/SoundCloudSwift"
+  s.homepage         = "https://github.com/pepibumur/SoundCloudSwift"
   s.license          = 'MIT'
   s.author           = { "Pepi" => "pepibumur@gmail.com" }
-  s.source           = { :git => "https://github.com/gitdoapp/SoundCloudSwift.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/pepibumur/SoundCloudSwift.git", :tag => s.version.to_s }
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 

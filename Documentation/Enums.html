@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Structs  Reference</title>
+    <title>Enums  Reference</title>
     <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="css/highlight.css" />
     <meta charset='utf-8'>
@@ -9,7 +9,7 @@
     <script src="js/jazzy.js" defer></script>
   </head>
   <body>
-    <a title="Structs  Reference"></a>
+    <a title="Enums  Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="index.html">SoundCloudSwift Docs</a> (58% documented)</p>
@@ -20,7 +20,7 @@
       <p id="breadcrumbs">
         <a href="index.html">SoundCloudSwift Reference</a>
         <img id="carat" src="img/carat.png" />
-        Structs  Reference
+        Enums  Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -90,8 +90,8 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>Structs</h1>
-            <p>The following structs are available globally.</p>
+            <h1>Enums</h1>
+            <p>The following enums are available globally.</p>
 
           </section>
           <section class="section task-group-section">
@@ -100,9 +100,33 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:V15SoundCloudSwift7Session"></a>
-                    <a name="//apple_ref/swift/Struct/Session" class="dashAnchor"></a>
-                    <a class="token" href="#/s:V15SoundCloudSwift7Session">Session</a>
+                    <a name="/s:O15SoundCloudSwift10OauthError"></a>
+                    <a name="//apple_ref/swift/Enum/OauthError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:O15SoundCloudSwift10OauthError">OauthError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Enums/OauthError.html" class="slightly-smaller">See more</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:O15SoundCloudSwift13StorableError"></a>
+                    <a name="//apple_ref/swift/Enum/StorableError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:O15SoundCloudSwift13StorableError">StorableError</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -111,16 +135,16 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <ul>
-<li>It represents an API session</li>
+<li>Errors thrown by the Storable protocol</li>
 </ul>
 
-                        <a href="Structs/Session.html" class="slightly-smaller">See more</a>
+                        <a href="Enums/StorableError.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Session</span><span class="p">:</span> <span class="kt">KeyValueStorable</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">StorableError</span><span class="p">:</span> <span class="kt">ErrorType</span></code></pre>
 
                         </div>
                       </div>
@@ -134,9 +158,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:V15SoundCloudSwift11SecureStore"></a>
-                    <a name="//apple_ref/swift/Struct/SecureStore" class="dashAnchor"></a>
-                    <a class="token" href="#/s:V15SoundCloudSwift11SecureStore">SecureStore</a>
+                    <a name="/s:O15SoundCloudSwift8ApiError"></a>
+                    <a name="//apple_ref/swift/Enum/ApiError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:O15SoundCloudSwift8ApiError">ApiError</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -145,50 +169,15 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <ul>
-<li>Store that persist the data on a secure environment</li>
+<li>Error when interacting with the API</li>
 </ul>
 
-                        <a href="Structs/SecureStore.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SecureStore</span><span class="p">:</span> <span class="kt">KeyValueStore</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:V15SoundCloudSwift12Oauth2Config"></a>
-                    <a name="//apple_ref/swift/Struct/Oauth2Config" class="dashAnchor"></a>
-                    <a class="token" href="#/s:V15SoundCloudSwift12Oauth2Config">Oauth2Config</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <ul>
-<li>Entity that represents the app configuration in the SoundCloud API</li>
-</ul>
-
-                        <a href="Structs/Oauth2Config.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Oauth2Config</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">ApiError</span><span class="p">:</span> <span class="kt">ErrorType</span></code></pre>
 
                         </div>
                       </div>

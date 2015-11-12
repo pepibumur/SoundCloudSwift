@@ -1,7 +1,7 @@
-![image](https://github.com/gitdoapp/SoundCloudSwift/blob/master/Assets/header.png?raw=true)
+![image](https://github.com/pepibumur/SoundCloudSwift/blob/master/Assets/header.png?raw=true)
 
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Build Status](https://travis-ci.org/gitdoapp/SoundCloudSwift.svg?branch=feature%2Fmodels)](https://travis-ci.org/gitdoapp/SoundCloudSwift)
+[![Build Status](https://travis-ci.org/pepibumur/SoundCloudSwift.svg?branch=feature%2Fmodels)](https://travis-ci.org/pepibumur/SoundCloudSwift)
 ![platforms](https://img.shields.io/badge/platform-ios|osx|watchos-lightgrey.svg?style=flat)
 
 SoundCloud client written on Swift to integrate it easily with your apps.
@@ -43,7 +43,7 @@ $ brew install carthage
 To integrate SoundCloudSwift into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ruby
-github "gitdoapp/SoundCloudSwift"
+github "pepibumur/SoundCloudSwift"
 ```
 
 ### Cocoapods
@@ -51,7 +51,7 @@ github "gitdoapp/SoundCloudSwift"
 You can also integrate SoundCloudSwift using CocoaPods. Just add the following line to your `Podfile`:
 
 ```ruby
-pod "SoundCloudSwift", :git => "https://github.com/gitdoapp/SoundCloudSwift.git"
+pod "SoundCloudSwift", :git => "https://github.com/pepibumur/SoundCloudSwift.git"
 ```
 
 And execute `pod install`. Remember to open the project using the file `.xcworkspace`
@@ -65,7 +65,8 @@ And execute `pod install`. Remember to open the project using the file `.xcworks
 Before proposing a new PR, it must include update documentation. It's generated using [Jazzy](https://github.com/Realm/jazzy) and the following command:
 
 ```bash
-jazzy -o Documentation -a GitDo -g https://github.com/gitdoapp --readme README.md
+bundle install
+make doc
 ```
 
 ## Documentation
@@ -74,7 +75,7 @@ jazzy -o Documentation -a GitDo -g https://github.com/gitdoapp --readme README.m
 
 ## Credits
 
-SoundCloudSwift is owned and maintained by the [@gitdoapp](https://github.com/gitdoapp).
+SoundCloudSwift is owned and maintained by the [@pepibumur](https://github.com/pepibumur).
 
 ## Security Disclosure
 
