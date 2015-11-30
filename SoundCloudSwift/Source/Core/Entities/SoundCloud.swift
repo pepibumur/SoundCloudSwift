@@ -7,11 +7,18 @@ public struct SoundCloud {
     
     // MARK: - Me
     
+    /**
+    Gets user profile
+    
+    - parameter session: session
+    
+    - returns: signal producer that executes the action
+    */
     public static func me(session: Session) -> SignalProducer<User, RequestError> {
         return get("me", session: session)
             .flatMap(.Latest, transform: { (input) -> SignalProducer<User, RequestError> in
                 do {
-                   let user = try User.mappedInstance(input as! JSON)
+                    let user = try User.mappedInstance(input as! JSON)
                     return SignalProducer(value: user)
                 }
                 catch {
