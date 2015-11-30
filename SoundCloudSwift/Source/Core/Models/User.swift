@@ -8,28 +8,73 @@ public struct  User: BasicMappable {
 
     // MARK: - Attributes
     
+    /// Identifier
     public var identifier: Int = -1
+    
+    /// Permalink
     public var permalink: String = ""
+    
+    /// Username
     public var username: String = ""
+    
+    /// URI
     public var uri: String = ""
+    
+    /// Permalink URL
     public var permalinkUrl: String = ""
+    
+    /// Avatar URL
     public var avatarUrl: String = ""
+    
+    /// Country
     public var country: String = ""
+    
+    /// Full name
     public var fullName: String = ""
+    
+    /// City
     public var city: String?
+    
+    /// Description
     public var description: String?
+    
+    /// Discogs name
     public var discogsName: String?
+    
+    /// MySpace name
     public var myspaceName: String?
+    
+    /// Website
     public var website: String?
+    
+    /// Online status
     public var online: Bool = false
+    
+    /// Number of tracks
     public var tracksCount: Int?
+    
+    /// Number of playlists
     public var playlistCount: Int?
+    
+    /// Number of followers
     public var followersCount: Int = 0
+    
+    /// Number of followings
     public var followingsCount: Int = 0
+    
+    /// Public favorites count
     public var publicFavoritesCount: Int = 0
+    
+    /// Plan
     public var plan: String = ""
+    
+    /// Private tracks count
     public var privateTracksCount: Int = 0
+    
+    /// Private playlists count
     public var privatePlaylistsCount: Int = 0
+    
+    /// True if the primary email is confirmed
     public var primaryEmailConfirmed: Bool = false
 
 

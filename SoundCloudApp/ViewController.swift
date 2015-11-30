@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         oauth2.signal.observeNext { (next) in
             switch next {
             case .NewSession(let session):
-                SoundCloud.connections(session).startWithNext({ (connections) -> () in
+                SoundCloud.createConnection("myspace", redirectUrl: "soundcloud://asga")(session: session).startWithNext({ (connections) -> () in
                     print(connections)
                 })
             default:
