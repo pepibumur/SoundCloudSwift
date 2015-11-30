@@ -248,6 +248,10 @@
 		237AD4F91BF21E4B0038A541 /* SoundCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237AD4F71BF21E4B0038A541 /* SoundCloud.swift */; };
 		237AD4FA1BF21E4B0038A541 /* SoundCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237AD4F71BF21E4B0038A541 /* SoundCloud.swift */; };
 		237AD4FB1BF21E4B0038A541 /* SoundCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237AD4F71BF21E4B0038A541 /* SoundCloud.swift */; };
+		238A76FD1C0C8C180020B4F9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A76FC1C0C8C180020B4F9 /* Date.swift */; };
+		238A76FE1C0C8D180020B4F9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A76FC1C0C8C180020B4F9 /* Date.swift */; };
+		238A76FF1C0C8D190020B4F9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A76FC1C0C8C180020B4F9 /* Date.swift */; };
+		238A77001C0C8D1A0020B4F9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A76FC1C0C8C180020B4F9 /* Date.swift */; };
 		239C8E0F1BF4B0EC0025DB9A /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C8E0E1BF4B0EC0025DB9A /* RequestError.swift */; };
 		239C8E101BF4B0FD0025DB9A /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C8E0E1BF4B0EC0025DB9A /* RequestError.swift */; };
 		239C8E111BF4B0FE0025DB9A /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C8E0E1BF4B0EC0025DB9A /* RequestError.swift */; };
@@ -439,6 +443,7 @@
 		237AD4ED1BF21D360038A541 /* Requestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
 		237AD4F21BF21D810038A541 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		237AD4F71BF21E4B0038A541 /* SoundCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundCloud.swift; sourceTree = "<group>"; };
+		238A76FC1C0C8C180020B4F9 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		239C8E0E1BF4B0EC0025DB9A /* RequestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
 		239C8E131BF4B2380025DB9A /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		239C8E181BF4B2C20025DB9A /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
@@ -739,6 +744,7 @@
 			isa = PBXGroup;
 			children = (
 				2328F12E1BE7BAE900D64137 /* Randomizer.swift */,
+				238A76FC1C0C8C180020B4F9 /* Date.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -1434,6 +1440,7 @@
 				239C8E2C1BF4BC3E0025DB9A /* Track.swift in Sources */,
 				237AD4F61BF21D810038A541 /* ApiError.swift in Sources */,
 				2328F1341BE7BAE900D64137 /* Oauth2.swift in Sources */,
+				238A77001C0C8D1A0020B4F9 /* Date.swift in Sources */,
 				239C8E121BF4B0FE0025DB9A /* RequestError.swift in Sources */,
 				2328F1501BE7BAE900D64137 /* KeyValueStore.swift in Sources */,
 			);
@@ -1489,6 +1496,7 @@
 				2328F1391BE7BAE900D64137 /* RequestConvertible.swift in Sources */,
 				239C8E191BF4B2C20025DB9A /* Application.swift in Sources */,
 				239C8E0F1BF4B0EC0025DB9A /* RequestError.swift in Sources */,
+				238A76FD1C0C8C180020B4F9 /* Date.swift in Sources */,
 				2328F1311BE7BAE900D64137 /* Oauth2.swift in Sources */,
 				2328F1731BE7C91800D64137 /* Oauth2WebView.swift in Sources */,
 				237AD4EE1BF21D360038A541 /* Requestable.swift in Sources */,
@@ -1500,6 +1508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238A76FE1C0C8D180020B4F9 /* Date.swift in Sources */,
 				239C8E1A1BF4B2C20025DB9A /* Application.swift in Sources */,
 				237AD4DF1BF21C0F0038A541 /* Path.swift in Sources */,
 				237AD4F41BF21D810038A541 /* ApiError.swift in Sources */,
@@ -1545,6 +1554,7 @@
 				2328F13B1BE7BAE900D64137 /* RequestConvertible.swift in Sources */,
 				237AD4EB1BF21C4F0038A541 /* User.swift in Sources */,
 				237AD4E01BF21C0F0038A541 /* Path.swift in Sources */,
+				238A76FF1C0C8D190020B4F9 /* Date.swift in Sources */,
 				237AD4F51BF21D810038A541 /* ApiError.swift in Sources */,
 				2328F1331BE7BAE900D64137 /* Oauth2.swift in Sources */,
 				239C8E111BF4B0FE0025DB9A /* RequestError.swift in Sources */,

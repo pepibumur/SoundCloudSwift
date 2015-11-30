@@ -27,7 +27,21 @@ public struct SoundCloud {
             })
     }
     
-    public static func connections(session: Session) -> SignalProducer<Connection, RequestError> {
+    
+    public static func connections(session: Session) -> SignalProducer<[Connection], RequestError> {
+        return get("me/connections", session: session)
+        .flatMap(.Latest, transform: { (input) -> SignalProducer<[Connection], RequestError> in
+            do {
+                guard let connections = input as? [AnyObject] else { return SignalProducer(error: .InvalidType) }
+                return try SignalProducer(value: connections.map { try Connection.mappedInstance($0 as! JSON) })
+            }
+            catch {
+                return SignalProducer(error: .MappingError(error))
+            }
+        })
+    }
+    
+    public static func connection(id: String)(session: Session) -> SignalProducer<Connection, RequestError> {
         return SignalProducer.empty
     }
     

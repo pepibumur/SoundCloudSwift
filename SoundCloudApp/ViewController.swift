@@ -44,10 +44,9 @@ class ViewController: UIViewController {
         oauth2.signal.observeNext { (next) in
             switch next {
             case .NewSession(let session):
-                SoundCloud.me(session).startWithNext({ (user) -> () in
-                    print(user)
+                SoundCloud.connections(session).startWithNext({ (connections) -> () in
+                    print(connections)
                 })
-                
             default:
                 break
             }
