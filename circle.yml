@@ -1,5 +1,6 @@
 dependencies:
   pre:
+    - brew install carthage
     - carthage update
 test:
   override:
