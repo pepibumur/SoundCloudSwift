@@ -2,32 +2,29 @@ import Foundation
 import Genome
 
 /**
- *  SoundCloud Connection
+ *  SoundCloud Comment
  */
-public struct Connection: BasicMappable {
+public struct Comment: BasicMappable {
     
     // MARK: - Attributes
     
     /// Created at date
     public var createdAt: NSDate = NSDate()
     
-    /// Display name
-    public var displayName: String = ""
-    
     /// SoundCloud Identifier
     public var id: Int = -1
     
-    /// Post favorite
-    public var postFavorite: Bool = false
+    /// User identifier
+    public var userId: Int = -1
     
-    /// Post publish
-    public var postPublish: Bool = false
+    /// Track identifier
+    public var trackId: Int = -1
     
-    /// Service
-    public var service: String = ""
+    /// Timestamp
+    public var timestamp: Int = -1
     
-    /// Type
-    public var type: String = ""
+    /// Body
+    public var body: String = ""
     
     /// URI
     public var uri: String = ""
@@ -36,18 +33,17 @@ public struct Connection: BasicMappable {
     // MARK: - Constructors
     
     public init() {}
-
+    
     
     // MARK: - BasicMappable
     
     public mutating func sequence(map: Map) throws {
         try createdAt <~ map["created_at"].transformFromJson { date($0) }
-        try displayName <~ map["display_name"]
         try id <~ map["id"]
-        try postFavorite <~ map["post_favorite"]
-        try postPublish <~ map["post_publish"]
-        try service <~ map["service"]
-        try type <~ map["type"]
+        try userId <~ map["user_id"]
+        try trackId <~ map["track_id"]
+        try timestamp <~ map["timestamp"]
+        try body <~ map["body"]
         try uri <~ map["uri"]
     }
 }

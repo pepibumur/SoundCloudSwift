@@ -1,23 +1,33 @@
 import Foundation
 import Genome
 
+/**
+ *  SoundCloud Application
+ */
 public struct Application: BasicMappable {
     
     // MARK: - Attributes
     
-    var identifier: String = ""
+    /// Identifier
+    var identifier: Int = -1
     
+    /// Kind
     var kind: String?
     
+    /// Name
     var name: String = ""
     
+    /// URI
     var uri: String = ""
     
+    /// Permalink URL
     var permalinkUrl: String = ""
     
-    var externalUrl: String = ""
+    /// External URL
+    var externalUrl: String?
     
-    var creator: String = ""
+    /// Creator name
+    var creator: String?
     
     
     // MARK: - Constructor
@@ -32,8 +42,8 @@ public struct Application: BasicMappable {
         kind = try <~?map["kind"]
         try name <~ map["name"]
         try uri <~ map["kind"]
-        try permalinkUrl <~ map["permalink_uri"]
-        try externalUrl <~ map["external_url"]
-        try creator <~ map["creator"]
+        try permalinkUrl <~ map["permalink_url"]
+        externalUrl = try <~?map["external_url"]
+        creator = try <~?map["creator"]
     }
 }

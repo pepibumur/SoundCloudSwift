@@ -66,16 +66,16 @@ public struct  User: BasicMappable {
     public var publicFavoritesCount: Int = 0
     
     /// Plan
-    public var plan: String = ""
+    public var plan: String?
     
     /// Private tracks count
-    public var privateTracksCount: Int = 0
+    public var privateTracksCount: Int?
     
     /// Private playlists count
-    public var privatePlaylistsCount: Int = 0
+    public var privatePlaylistsCount: Int?
     
     /// True if the primary email is confirmed
-    public var primaryEmailConfirmed: Bool = false
+    public var primaryEmailConfirmed: Bool?
 
 
     // MARK: - Constructors
@@ -105,9 +105,9 @@ public struct  User: BasicMappable {
         try followersCount <~ map["followers_count"]
         try followingsCount <~ map["followings_count"]
         try publicFavoritesCount <~ map["public_favorites_count"]
-        try plan <~ map["plan"]
-        try privateTracksCount <~ map["private_tracks_count"]
-        try privatePlaylistsCount <~ map["private_playlists_count"]
-        try primaryEmailConfirmed <~ map["primary_email_confirmed"]
+        plan = try <~?map["plan"]
+        privateTracksCount = try <~?map["private_tracks_count"]
+        privatePlaylistsCount = try <~?map["private_playlists_count"]
+        primaryEmailConfirmed = try <~?map["primary_email_confirmed"]
     }
 }

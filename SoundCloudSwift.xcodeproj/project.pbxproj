@@ -278,6 +278,14 @@
 		23A847BB1BEA4E56000A48A6 /* RequestConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B61BEA4E56000A48A6 /* RequestConvertibleTests.swift */; };
 		23A847BC1BEA4E56000A48A6 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B71BEA4E56000A48A6 /* SessionTests.swift */; };
 		23A847BD1BEA4E56000A48A6 /* SecureStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B91BEA4E56000A48A6 /* SecureStoreTests.swift */; };
+		23B1FC7F1C0C974600EDB235 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FC7E1C0C974600EDB235 /* Comment.swift */; };
+		23B1FC811C0C9A4B00EDB235 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FC801C0C9A4B00EDB235 /* Group.swift */; };
+		23B1FC821C0C9A4B00EDB235 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FC801C0C9A4B00EDB235 /* Group.swift */; };
+		23B1FC831C0C9A4B00EDB235 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FC801C0C9A4B00EDB235 /* Group.swift */; };
+		23B1FC841C0C9A4B00EDB235 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FC801C0C9A4B00EDB235 /* Group.swift */; };
+		23B1FC851C0C9A4F00EDB235 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FC7E1C0C974600EDB235 /* Comment.swift */; };
+		23B1FC861C0C9A4F00EDB235 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FC7E1C0C974600EDB235 /* Comment.swift */; };
+		23B1FC871C0C9A5000EDB235 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FC7E1C0C974600EDB235 /* Comment.swift */; };
 		3D53974B1BBA94C200791B49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; };
 		3D53974C1BBA94C200791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; };
 		3D53974D1BBA94C200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; };
@@ -456,6 +464,8 @@
 		23A847B61BEA4E56000A48A6 /* RequestConvertibleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConvertibleTests.swift; sourceTree = "<group>"; };
 		23A847B71BEA4E56000A48A6 /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
 		23A847B91BEA4E56000A48A6 /* SecureStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStoreTests.swift; sourceTree = "<group>"; };
+		23B1FC7E1C0C974600EDB235 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		23B1FC801C0C9A4B00EDB235 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5396791BBA7B5800791B49 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -869,6 +879,8 @@
 				239C8E131BF4B2380025DB9A /* Connection.swift */,
 				239C8E181BF4B2C20025DB9A /* Application.swift */,
 				239C8E281BF4BC3E0025DB9A /* Track.swift */,
+				23B1FC7E1C0C974600EDB235 /* Comment.swift */,
+				23B1FC801C0C9A4B00EDB235 /* Group.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1440,6 +1452,8 @@
 				239C8E2C1BF4BC3E0025DB9A /* Track.swift in Sources */,
 				237AD4F61BF21D810038A541 /* ApiError.swift in Sources */,
 				2328F1341BE7BAE900D64137 /* Oauth2.swift in Sources */,
+				23B1FC861C0C9A4F00EDB235 /* Comment.swift in Sources */,
+				23B1FC841C0C9A4B00EDB235 /* Group.swift in Sources */,
 				238A77001C0C8D1A0020B4F9 /* Date.swift in Sources */,
 				239C8E121BF4B0FE0025DB9A /* RequestError.swift in Sources */,
 				2328F1501BE7BAE900D64137 /* KeyValueStore.swift in Sources */,
@@ -1487,6 +1501,7 @@
 				235E25A11BECF117006C32D3 /* NSURL+QueryParser.m in Sources */,
 				2328F1491BE7BAE900D64137 /* KeyValueStorable.swift in Sources */,
 				239C8E141BF4B2380025DB9A /* Connection.swift in Sources */,
+				23B1FC7F1C0C974600EDB235 /* Comment.swift in Sources */,
 				2328F1511BE7BAE900D64137 /* SecureStore.swift in Sources */,
 				237AD4E91BF21C4F0038A541 /* User.swift in Sources */,
 				235E25C91BECF927006C32D3 /* Oauth2WebViewController.swift in Sources */,
@@ -1495,6 +1510,7 @@
 				2328F1351BE7BAE900D64137 /* Oauth2Config.swift in Sources */,
 				2328F1391BE7BAE900D64137 /* RequestConvertible.swift in Sources */,
 				239C8E191BF4B2C20025DB9A /* Application.swift in Sources */,
+				23B1FC811C0C9A4B00EDB235 /* Group.swift in Sources */,
 				239C8E0F1BF4B0EC0025DB9A /* RequestError.swift in Sources */,
 				238A76FD1C0C8C180020B4F9 /* Date.swift in Sources */,
 				2328F1311BE7BAE900D64137 /* Oauth2.swift in Sources */,
@@ -1511,12 +1527,14 @@
 				238A76FE1C0C8D180020B4F9 /* Date.swift in Sources */,
 				239C8E1A1BF4B2C20025DB9A /* Application.swift in Sources */,
 				237AD4DF1BF21C0F0038A541 /* Path.swift in Sources */,
+				23B1FC821C0C9A4B00EDB235 /* Group.swift in Sources */,
 				237AD4F41BF21D810038A541 /* ApiError.swift in Sources */,
 				2328F1421BE7BAE900D64137 /* OauthError.swift in Sources */,
 				239C8E1F1BF4BBF20025DB9A /* Player.swift in Sources */,
 				2328F13E1BE7BAE900D64137 /* Session.swift in Sources */,
 				2328F1461BE7BAE900D64137 /* StorableError.swift in Sources */,
 				235E25A21BECF117006C32D3 /* NSURL+QueryParser.m in Sources */,
+				23B1FC871C0C9A5000EDB235 /* Comment.swift in Sources */,
 				2328F14A1BE7BAE900D64137 /* KeyValueStorable.swift in Sources */,
 				239C8E2A1BF4BC3E0025DB9A /* Track.swift in Sources */,
 				237AD4F91BF21E4B0038A541 /* SoundCloud.swift in Sources */,
@@ -1539,6 +1557,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				237AD4F01BF21D360038A541 /* Requestable.swift in Sources */,
+				23B1FC851C0C9A4F00EDB235 /* Comment.swift in Sources */,
 				239C8E161BF4B2380025DB9A /* Connection.swift in Sources */,
 				235E25A31BECF117006C32D3 /* NSURL+QueryParser.m in Sources */,
 				239C8E1B1BF4B2C20025DB9A /* Application.swift in Sources */,
@@ -1549,6 +1568,7 @@
 				2328F14B1BE7BAE900D64137 /* KeyValueStorable.swift in Sources */,
 				237AD4FA1BF21E4B0038A541 /* SoundCloud.swift in Sources */,
 				2328F1531BE7BAE900D64137 /* SecureStore.swift in Sources */,
+				23B1FC831C0C9A4B00EDB235 /* Group.swift in Sources */,
 				2328F1571BE7BAE900D64137 /* Randomizer.swift in Sources */,
 				2328F1371BE7BAE900D64137 /* Oauth2Config.swift in Sources */,
 				2328F13B1BE7BAE900D64137 /* RequestConvertible.swift in Sources */,

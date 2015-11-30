@@ -37,7 +37,7 @@ public struct SoundCloud {
     
     - returns: Signal producer that executes the action.
     */
-    public static func getConnection(id: String)(session: Session) -> SignalProducer<Connection, RequestError> {
+    public static func getConnection(id: Int)(session: Session) -> SignalProducer<Connection, RequestError> {
         return get("me/connections/\(id)", session: session)
             .flatMap(.Latest, transform: { (input) -> SignalProducer<Connection, RequestError> in
                 do {
@@ -72,8 +72,9 @@ public struct SoundCloud {
     /**
      Creates a new connection for the provided service and redirect url.
      
-     - parameter service:     Connection service
-     - parameter redirectUrl: Connection redirect url
+     - parameter service:     Connection service.
+     - parameter redirectUrl: Connection redirect url.
+     - parameter session:       User session.
      
      - returns: Signal producer that executes the action. The returned value is the authorize url that has to be opened in the browser in order to authorize the connection.
      */
@@ -87,17 +88,102 @@ public struct SoundCloud {
             })
     }
     
-    public static func connection(id: String)(session: Session) -> SignalProducer<Connection, RequestError> {
-        return SignalProducer.empty
+    
+    // MARK: - Apps
+    
+    /**
+     Gets user apps.
+     
+     - parameter session: User session.
+     
+     - returns: Signal producer that executes the action.
+     */
+    public static func getApps(session: Session) -> SignalProducer<[Application], RequestError> {
+        return get("apps", session: session)
+            .flatMap(.Latest, transform: { (input) -> SignalProducer<[Application], RequestError> in
+                do {
+                    guard let connections = input as? [AnyObject] else { return SignalProducer(error: .InvalidType) }
+                    return try SignalProducer(value: connections.map { try Application.mappedInstance($0 as! JSON) })
+                }
+                catch {
+                    return SignalProducer(error: .MappingError(error))
+                }
+            })
     }
     
-    public static func activities(session: Session) -> SignalProducer<Connection, RequestError> {
-        return SignalProducer.empty
+    
+    // MARK: - Comments
+    
+    /**
+    Get a given comment.
+    
+    - parameter id: resource identifier.
+    - parameter session: User session.
+
+    - returns: Signal producer that executes the action.
+    */
+    public static func getComment(id: Int)(session: Session) -> SignalProducer<Comment, RequestError> {
+        return get("comments/\(id)", session: session)
+            .flatMap(.Latest, transform: { (input) -> SignalProducer<Comment, RequestError> in
+                do {
+                    return try SignalProducer(value: Comment.mappedInstance(input as! JSON))
+                }
+                catch {
+                    return SignalProducer(error: .MappingError(error))
+                }
+            })
     }
     
-    public static func apps(session: Session) -> SignalProducer<Application, RequestError> {
-        return SignalProducer.empty
+    
+    // MARK: - Groups
+    
+    public static func getGroup(groupId: Int)(session: Session) -> SignalProducer<Group, RequestError> {
+        return get("groups/\(groupId)", session: session)
+            .flatMap(.Latest, transform: { (input) -> SignalProducer<Group, RequestError> in
+                do {
+                    return try SignalProducer(value: Group.mappedInstance(input as! JSON))
+                }
+                catch {
+                    return SignalProducer(error: .MappingError(error))
+                }
+            })
     }
+    
+    public static func getGroupModerators(groupId: Int)(session: Session) -> SignalProducer<[User], RequestError> {
+        return get("groups/\(groupId)/moderators", session: session)
+            .flatMap(.Latest, transform: { (input) -> SignalProducer<[User], RequestError> in
+                do {
+                    guard let connections = input as? [AnyObject] else { return SignalProducer(error: .InvalidType) }
+                    return try SignalProducer(value: connections.map { try User.mappedInstance($0 as! JSON) })
+                }
+                catch {
+                    return SignalProducer(error: .MappingError(error))
+                }
+            })
+    }
+    
+    /*
+
+GET	/groups/{id}	a group
+GET	/groups/{id}/moderators	list of users who moderate the group
+GET	/groups/{id}/members	list of users who joined the group
+GET	/groups/{id}/contributors	list of users who contributed a track to the group
+GET	/groups/{id}/users	list of users who contributed to, joined or moderate the group
+GET	/groups/{id}/tracks	list of contributed and approved tracks
+GET	/groups/{id}/pending_tracks	list of contributed but not approved tracks (for moderators)
+GET, PUT, DELETE	/groups/{id}/pending_tracks/{id}	a contributed but not approved track (for moderators)
+GET, POST	/groups/{id}/contributions	list of contributed tracks (for moderators). POST creates contribution
+GET, DELETE	/groups/{id}/contributions/{id}	a contributed track (for moderators)*/
+    
+/*
+TODO
+======
+playlists
+tracks
+users
+groups
+me/activities
+*/
 }
 
 
@@ -145,7 +231,6 @@ private func post(path: String, parameters: [String: AnyObject], session: Sessio
 private func params(parameters: [String: AnyObject], withToken token: String) -> [String: AnyObject] {
     var parametersWithToken: [String: AnyObject] = parameters
     parametersWithToken["oauth_token"] = token
-    print(parametersWithToken)
     return parametersWithToken
 }
 
