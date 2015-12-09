@@ -61,14 +61,6 @@ And execute `pod install`. Remember to open the project using the file `.xcworks
 
 - [Authentication](Wiki/authentication.md)
 
-## Developer notes
-Before proposing a new PR, it must include update documentation. It's generated using [Jazzy](https://github.com/Realm/jazzy) and the following command:
-
-```bash
-bundle install
-make doc
-```
-
 ## Documentation
 - SoundCloud API: [Link](https://developers.soundcloud.com/docs/api/guide)
 - SoundCloudAPI (Objective-C client): [Link](https://github.com/soundcloud/CocoaSoundCloudAPI)
