@@ -1,2 +1,2 @@
-github "Quick/Quick" "b47b9ebf97bc8e377070bd1e868c9f89b870c4fc"
-github "Quick/Nimble" "e239824d84105de9e13b815006bc36e938cdd030"
+github "Quick/Quick" "v0.8.0"
+github "Quick/Nimble" "v3.0.0"

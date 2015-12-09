@@ -41,8 +41,6 @@ oauth2.signal.observeNext { (next) -> () in
 }
 ```
 
-
-
 ### tvOS & watchOS
 
 These systems don't support Webview, thus we cannot execute the authentication flow in these platforms. What we can do instead if sharing the authentication information from an iOS device or from OSX.

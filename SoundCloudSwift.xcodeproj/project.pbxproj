@@ -423,7 +423,7 @@
 		2328F16B1BE7BB9900D64137 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2328F1721BE7C91800D64137 /* Oauth2WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2WebView.swift; sourceTree = "<group>"; };
 		2328F1751BE7C92200D64137 /* Oauth2WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2WebView.swift; sourceTree = "<group>"; };
-		232B4CA41BC2A259001F2B7A /* SoundCloudSwift iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		232B4CA41BC2A259001F2B7A /* SoundCloudSwift-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/iOS/KeychainSwift.framework; sourceTree = "<group>"; };
 		232B4CCA1BC2A433001F2B7A /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/watchOS/KeychainSwift.framework; sourceTree = "<group>"; };
 		2353E6091BED04680081E6E7 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
@@ -436,7 +436,7 @@
 		235E25B81BECF284006C32D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		235E25C51BECF462006C32D3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		235E25C71BECF91D006C32D3 /* Oauth2WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2WebViewController.swift; sourceTree = "<group>"; };
-		237AD4541BF20A400038A541 /* SoundCloudSwift OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		237AD4541BF20A400038A541 /* SoundCloudSwift-OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift-OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		237AD4741BF20B740038A541 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
 		237AD4751BF20B740038A541 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		237AD4761BF20B740038A541 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/Mac/Genome.framework; sourceTree = "<group>"; };
@@ -931,10 +931,10 @@
 				3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */,
 				3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */,
 				3D5396791BBA7B5800791B49 /* SoundCloudSwift.framework */,
-				232B4CA41BC2A259001F2B7A /* SoundCloudSwift iOS Tests.xctest */,
+				232B4CA41BC2A259001F2B7A /* SoundCloudSwift-iOS Tests.xctest */,
 				2328F0191BE79EF000D64137 /* SoundCloudSwift.framework */,
 				235E25AA1BECF284006C32D3 /* SoundCloudApp.app */,
-				237AD4541BF20A400038A541 /* SoundCloudSwift OSX Tests.xctest */,
+				237AD4541BF20A400038A541 /* SoundCloudSwift-OSX Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1064,9 +1064,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2328F0181BE79EF000D64137 /* SoundCloudSwift tvOS */ = {
+		2328F0181BE79EF000D64137 /* SoundCloudSwift-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2328F01E1BE79EF000D64137 /* Build configuration list for PBXNativeTarget "SoundCloudSwift tvOS" */;
+			buildConfigurationList = 2328F01E1BE79EF000D64137 /* Build configuration list for PBXNativeTarget "SoundCloudSwift-tvOS" */;
 			buildPhases = (
 				2328F0141BE79EF000D64137 /* Sources */,
 				2328F0151BE79EF000D64137 /* Frameworks */,
@@ -1077,14 +1077,14 @@
 			);
 			dependencies = (
 			);
-			name = "SoundCloudSwift tvOS";
+			name = "SoundCloudSwift-tvOS";
 			productName = "SoundCloudSwift tvOS";
 			productReference = 2328F0191BE79EF000D64137 /* SoundCloudSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		232B4CA31BC2A259001F2B7A /* SoundCloudSwift iOS Tests */ = {
+		232B4CA31BC2A259001F2B7A /* SoundCloudSwift-iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 232B4CAC1BC2A259001F2B7A /* Build configuration list for PBXNativeTarget "SoundCloudSwift iOS Tests" */;
+			buildConfigurationList = 232B4CAC1BC2A259001F2B7A /* Build configuration list for PBXNativeTarget "SoundCloudSwift-iOS Tests" */;
 			buildPhases = (
 				232B4CA01BC2A259001F2B7A /* Sources */,
 				232B4CA11BC2A259001F2B7A /* Frameworks */,
@@ -1096,9 +1096,9 @@
 			dependencies = (
 				232B4CAB1BC2A259001F2B7A /* PBXTargetDependency */,
 			);
-			name = "SoundCloudSwift iOS Tests";
+			name = "SoundCloudSwift-iOS Tests";
 			productName = "SoundCloudSwift-iOS Tests";
-			productReference = 232B4CA41BC2A259001F2B7A /* SoundCloudSwift iOS Tests.xctest */;
+			productReference = 232B4CA41BC2A259001F2B7A /* SoundCloudSwift-iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		235E25A91BECF284006C32D3 /* SoundCloudApp */ = {
@@ -1121,9 +1121,9 @@
 			productReference = 235E25AA1BECF284006C32D3 /* SoundCloudApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		237AD4531BF20A400038A541 /* SoundCloudSwift OSX Tests */ = {
+		237AD4531BF20A400038A541 /* SoundCloudSwift-OSX Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 237AD45C1BF20A400038A541 /* Build configuration list for PBXNativeTarget "SoundCloudSwift OSX Tests" */;
+			buildConfigurationList = 237AD45C1BF20A400038A541 /* Build configuration list for PBXNativeTarget "SoundCloudSwift-OSX Tests" */;
 			buildPhases = (
 				237AD4501BF20A400038A541 /* Sources */,
 				237AD4511BF20A400038A541 /* Frameworks */,
@@ -1135,14 +1135,14 @@
 			dependencies = (
 				237AD45B1BF20A400038A541 /* PBXTargetDependency */,
 			);
-			name = "SoundCloudSwift OSX Tests";
+			name = "SoundCloudSwift-OSX Tests";
 			productName = "SoundCloudSwift OSX Tests";
-			productReference = 237AD4541BF20A400038A541 /* SoundCloudSwift OSX Tests.xctest */;
+			productReference = 237AD4541BF20A400038A541 /* SoundCloudSwift-OSX Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3D5396241BBA7A3A00791B49 /* SoundCloudSwift iOS */ = {
+		3D5396241BBA7A3A00791B49 /* SoundCloudSwift-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D5396361BBA7A3A00791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift iOS" */;
+			buildConfigurationList = 3D5396361BBA7A3A00791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift-iOS" */;
 			buildPhases = (
 				3D5396201BBA7A3A00791B49 /* Sources */,
 				3D5396211BBA7A3A00791B49 /* Frameworks */,
@@ -1153,14 +1153,14 @@
 			);
 			dependencies = (
 			);
-			name = "SoundCloudSwift iOS";
+			name = "SoundCloudSwift-iOS";
 			productName = "SoundCloudSwift iOS";
 			productReference = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3D53965C1BBA7AB700791B49 /* SoundCloudSwift OSX */ = {
+		3D53965C1BBA7AB700791B49 /* SoundCloudSwift-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D53966E1BBA7AB700791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift OSX" */;
+			buildConfigurationList = 3D53966E1BBA7AB700791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift-OSX" */;
 			buildPhases = (
 				3D5396581BBA7AB700791B49 /* Sources */,
 				3D5396591BBA7AB700791B49 /* Frameworks */,
@@ -1171,14 +1171,14 @@
 			);
 			dependencies = (
 			);
-			name = "SoundCloudSwift OSX";
+			name = "SoundCloudSwift-OSX";
 			productName = "SoundCloudSwift OSX";
 			productReference = 3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3D5396781BBA7B5800791B49 /* SoundCloudSwift watchOS */ = {
+		3D5396781BBA7B5800791B49 /* SoundCloudSwift-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D53967E1BBA7B5800791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift watchOS" */;
+			buildConfigurationList = 3D53967E1BBA7B5800791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift-watchOS" */;
 			buildPhases = (
 				3D5396741BBA7B5800791B49 /* Sources */,
 				3D5396751BBA7B5800791B49 /* Frameworks */,
@@ -1189,7 +1189,7 @@
 			);
 			dependencies = (
 			);
-			name = "SoundCloudSwift watchOS";
+			name = "SoundCloudSwift-watchOS";
 			productName = "SoundCloudSwift watchOS";
 			productReference = 3D5396791BBA7B5800791B49 /* SoundCloudSwift.framework */;
 			productType = "com.apple.product-type.framework";
@@ -1240,12 +1240,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D5396241BBA7A3A00791B49 /* SoundCloudSwift iOS */,
-				3D53965C1BBA7AB700791B49 /* SoundCloudSwift OSX */,
-				3D5396781BBA7B5800791B49 /* SoundCloudSwift watchOS */,
-				2328F0181BE79EF000D64137 /* SoundCloudSwift tvOS */,
-				232B4CA31BC2A259001F2B7A /* SoundCloudSwift iOS Tests */,
-				237AD4531BF20A400038A541 /* SoundCloudSwift OSX Tests */,
+				3D5396241BBA7A3A00791B49 /* SoundCloudSwift-iOS */,
+				3D53965C1BBA7AB700791B49 /* SoundCloudSwift-OSX */,
+				3D5396781BBA7B5800791B49 /* SoundCloudSwift-watchOS */,
+				2328F0181BE79EF000D64137 /* SoundCloudSwift-tvOS */,
+				232B4CA31BC2A259001F2B7A /* SoundCloudSwift-iOS Tests */,
+				237AD4531BF20A400038A541 /* SoundCloudSwift-OSX Tests */,
 				235E25A91BECF284006C32D3 /* SoundCloudApp */,
 			);
 		};
@@ -1587,17 +1587,17 @@
 /* Begin PBXTargetDependency section */
 		232B4CAB1BC2A259001F2B7A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D5396241BBA7A3A00791B49 /* SoundCloudSwift iOS */;
+			target = 3D5396241BBA7A3A00791B49 /* SoundCloudSwift-iOS */;
 			targetProxy = 232B4CAA1BC2A259001F2B7A /* PBXContainerItemProxy */;
 		};
 		235E25E51BECFB8F006C32D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D5396241BBA7A3A00791B49 /* SoundCloudSwift iOS */;
+			target = 3D5396241BBA7A3A00791B49 /* SoundCloudSwift-iOS */;
 			targetProxy = 235E25E41BECFB8F006C32D3 /* PBXContainerItemProxy */;
 		};
 		237AD45B1BF20A400038A541 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D53965C1BBA7AB700791B49 /* SoundCloudSwift OSX */;
+			target = 3D53965C1BBA7AB700791B49 /* SoundCloudSwift-OSX */;
 			targetProxy = 237AD45A1BF20A400038A541 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2010,7 +2010,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2328F01E1BE79EF000D64137 /* Build configuration list for PBXNativeTarget "SoundCloudSwift tvOS" */ = {
+		2328F01E1BE79EF000D64137 /* Build configuration list for PBXNativeTarget "SoundCloudSwift-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2328F01F1BE79EF000D64137 /* Debug */,
@@ -2019,7 +2019,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		232B4CAC1BC2A259001F2B7A /* Build configuration list for PBXNativeTarget "SoundCloudSwift iOS Tests" */ = {
+		232B4CAC1BC2A259001F2B7A /* Build configuration list for PBXNativeTarget "SoundCloudSwift-iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				232B4CAD1BC2A259001F2B7A /* Debug */,
@@ -2037,7 +2037,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		237AD45C1BF20A400038A541 /* Build configuration list for PBXNativeTarget "SoundCloudSwift OSX Tests" */ = {
+		237AD45C1BF20A400038A541 /* Build configuration list for PBXNativeTarget "SoundCloudSwift-OSX Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				237AD45D1BF20A400038A541 /* Debug */,
@@ -2055,7 +2055,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D5396361BBA7A3A00791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift iOS" */ = {
+		3D5396361BBA7A3A00791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D5396371BBA7A3A00791B49 /* Debug */,
@@ -2064,7 +2064,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D53966E1BBA7AB700791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift OSX" */ = {
+		3D53966E1BBA7AB700791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D53966F1BBA7AB700791B49 /* Debug */,
@@ -2073,7 +2073,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D53967E1BBA7B5800791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift watchOS" */ = {
+		3D53967E1BBA7B5800791B49 /* Build configuration list for PBXNativeTarget "SoundCloudSwift-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D53967F1BBA7B5800791B49 /* Debug */,
