@@ -202,14 +202,12 @@
 		235E25E91BECFCB1006C32D3 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */; };
 		237AD4591BF20A400038A541 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */; };
 		237AD47D1BF20B740038A541 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4741BF20B740038A541 /* Alamofire.framework */; };
-		237AD47E1BF20B740038A541 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4751BF20B740038A541 /* CocoaAsyncSocket.framework */; };
 		237AD47F1BF20B740038A541 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4761BF20B740038A541 /* Genome.framework */; };
 		237AD4801BF20B740038A541 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4771BF20B740038A541 /* KeychainSwift.framework */; };
 		237AD4811BF20B740038A541 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4781BF20B740038A541 /* Nimble.framework */; };
 		237AD4821BF20B740038A541 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4791BF20B740038A541 /* Quick.framework */; };
 		237AD4831BF20B740038A541 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47A1BF20B740038A541 /* ReactiveCocoa.framework */; };
 		237AD4841BF20B740038A541 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47B1BF20B740038A541 /* Result.framework */; };
-		237AD4851BF20B740038A541 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47C1BF20B740038A541 /* Runes.framework */; };
 		237AD4861BF20B850038A541 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4741BF20B740038A541 /* Alamofire.framework */; };
 		237AD4871BF20B850038A541 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4751BF20B740038A541 /* CocoaAsyncSocket.framework */; };
 		237AD4881BF20B850038A541 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4761BF20B740038A541 /* Genome.framework */; };
@@ -269,11 +267,11 @@
 		239C8E211BF4BBF20025DB9A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C8E1D1BF4BBF20025DB9A /* Player.swift */; };
 		239C8E231BF4BC000025DB9A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239C8E221BF4BC000025DB9A /* AVFoundation.framework */; };
 		239C8E251BF4BC050025DB9A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239C8E241BF4BC050025DB9A /* AVFoundation.framework */; };
-		239C8E271BF4BC110025DB9A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239C8E261BF4BC110025DB9A /* AVFoundation.framework */; };
 		239C8E291BF4BC3E0025DB9A /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C8E281BF4BC3E0025DB9A /* Track.swift */; };
 		239C8E2A1BF4BC3E0025DB9A /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C8E281BF4BC3E0025DB9A /* Track.swift */; };
 		239C8E2B1BF4BC3E0025DB9A /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C8E281BF4BC3E0025DB9A /* Track.swift */; };
 		239C8E2C1BF4BC3E0025DB9A /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C8E281BF4BC3E0025DB9A /* Track.swift */; };
+		23A0FDDD1C18817700A604D2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A0FDDC1C18817700A604D2 /* AVFoundation.framework */; };
 		23A847BA1BEA4E56000A48A6 /* Oauth2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B51BEA4E56000A48A6 /* Oauth2Tests.swift */; };
 		23A847BB1BEA4E56000A48A6 /* RequestConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B61BEA4E56000A48A6 /* RequestConvertibleTests.swift */; };
 		23A847BC1BEA4E56000A48A6 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A847B71BEA4E56000A48A6 /* SessionTests.swift */; };
@@ -460,6 +458,7 @@
 		239C8E241BF4BC050025DB9A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		239C8E261BF4BC110025DB9A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		239C8E281BF4BC3E0025DB9A /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		23A0FDDC1C18817700A604D2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		23A847B51BEA4E56000A48A6 /* Oauth2Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2Tests.swift; sourceTree = "<group>"; };
 		23A847B61BEA4E56000A48A6 /* RequestConvertibleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConvertibleTests.swift; sourceTree = "<group>"; };
 		23A847B71BEA4E56000A48A6 /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
@@ -489,7 +488,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				239C8E271BF4BC110025DB9A /* AVFoundation.framework in Frameworks */,
+				23A0FDDD1C18817700A604D2 /* AVFoundation.framework in Frameworks */,
 				2328F0621BE7A6DA00D64137 /* Alamofire.framework in Frameworks */,
 				2328F0631BE7A6DA00D64137 /* Genome.framework in Frameworks */,
 				2328F0641BE7A6DA00D64137 /* KeychainSwift.framework in Frameworks */,
@@ -565,11 +564,9 @@
 			files = (
 				239C8E251BF4BC050025DB9A /* AVFoundation.framework in Frameworks */,
 				237AD4811BF20B740038A541 /* Nimble.framework in Frameworks */,
-				237AD4851BF20B740038A541 /* Runes.framework in Frameworks */,
 				237AD4801BF20B740038A541 /* KeychainSwift.framework in Frameworks */,
 				237AD4821BF20B740038A541 /* Quick.framework in Frameworks */,
 				237AD4841BF20B740038A541 /* Result.framework in Frameworks */,
-				237AD47E1BF20B740038A541 /* CocoaAsyncSocket.framework in Frameworks */,
 				237AD4831BF20B740038A541 /* ReactiveCocoa.framework in Frameworks */,
 				237AD47D1BF20B740038A541 /* Alamofire.framework in Frameworks */,
 				237AD47F1BF20B740038A541 /* Genome.framework in Frameworks */,
@@ -962,6 +959,7 @@
 		3D5396BB1BBA886D00791B49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23A0FDDC1C18817700A604D2 /* AVFoundation.framework */,
 				239C8E261BF4BC110025DB9A /* AVFoundation.framework */,
 				239C8E241BF4BC050025DB9A /* AVFoundation.framework */,
 				239C8E221BF4BC000025DB9A /* AVFoundation.framework */,
@@ -1624,7 +1622,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "SoundCloudSwift/Source/Supporting Files/Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
@@ -1649,7 +1647,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "SoundCloudSwift/Source/Supporting Files/Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -1976,7 +1974,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "SoundCloudSwift/Source/Supporting Files/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Debug;
 		};
@@ -2003,7 +2001,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "SoundCloudSwift/Source/Supporting Files/Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Release;
 		};
