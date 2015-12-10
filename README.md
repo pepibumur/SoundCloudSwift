@@ -3,6 +3,8 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Build Status](https://travis-ci.org/pepibumur/SoundCloudSwift.svg?branch=feature%2Fmodels)](https://travis-ci.org/pepibumur/SoundCloudSwift)
 ![platforms](https://img.shields.io/badge/platform-ios|osx|watchos-lightgrey.svg?style=flat)
+[![CocoaPods](https://img.shields.io/cocoapods/v/SoundCloudSwift.svg)]()
+[![GitHub release](https://img.shields.io/github/release/pepibumur/SoundCloudSwift.svg)](https://github.com/pepibumur/SoundCloudSwift/releases)
 
 SoundCloud client written on Swift to integrate it easily with your apps.
 Actively developed by [@pepibumur](https://github.com/pepibumur)
