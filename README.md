@@ -18,10 +18,13 @@ Actively developed by [@pepibumur](https://github.com/pepibumur)
 - 100% tested
 - Command Line tool
 
-## Requirements
-
-- iOS 8.0+ / Mac OS X 10.9+ / watchOS 2
-- XCode 7.1+
+## Dependencies
+- [Alamofire](https://github.com/Alamofire/Alamofire): Alamofire is an HTTP networking library written in Swift.
+- [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa): ReactiveCocoa (RAC) is a Cocoa framework inspired by Functional Reactive Programming. It provides APIs for composing and transforming streams of values over time.
+- [Genome](https://github.com/LoganWright/Genome): A simple, type safe, failure driven mapping library for serializing JSON to models in Swift 2.0 (Supports Linux)
+- [Keychain-Swift](https://github.com/marketplacer/keychain-swift): Helper functions for storing text in Keychain for iOS, OS X, tvOS and WatchOS
+- [Quick & Nimble](https://github.com/quick): The Swift (and Objective-C) testing and matching frameworks.
+- [Mockingjay](https://github.com/kylef/Mockingjay): An elegant library for stubbing HTTP requests in Swift, allowing you to stub any HTTP/HTTPS using NSURLConnection or NSURLSession. That includes any request made from libraries such as Alamofire and AFNetworking.
 
 ## Communication
 - If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/soundcloudswift)
