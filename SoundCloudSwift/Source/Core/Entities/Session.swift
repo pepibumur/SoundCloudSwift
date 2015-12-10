@@ -101,6 +101,8 @@ public struct Session: KeyValueStorable {
     public func storeDict() -> [String: String] {
         var dict: [String: String] = [:]
         dict[StorableKeys.accessTokenKey] = accessToken
+        dict[StorableKeys.refreshTokenKey] = refreshToken
+        dict[StorableKeys.expiresDateKey] = date(expiresDate)
         dict[StorableKeys.scopeKey] = scope.toString()
         return dict
     }
@@ -108,11 +110,11 @@ public struct Session: KeyValueStorable {
     public init(storeDict: [String: AnyObject]) throws {
         guard let _accessToken = storeDict[StorableKeys.accessTokenKey] as? String else { throw StorableError.InvalidData(StorableKeys.accessTokenKey) }
         guard let _refreshToken = storeDict[StorableKeys.refreshTokenKey] as? String else { throw StorableError.InvalidData(StorableKeys.refreshTokenKey) }
-        guard let _expiresDate = storeDict[StorableKeys.expiresDateKey] as? NSDate else { throw StorableError.InvalidData(StorableKeys.expiresDateKey) }
+        guard let _expiresDate = storeDict[StorableKeys.expiresDateKey] as? String else { throw StorableError.InvalidData(StorableKeys.expiresDateKey) }
         guard let _scope = storeDict[StorableKeys.scopeKey] as? String else { throw StorableError.InvalidData(StorableKeys.scopeKey) }
         self.accessToken = _accessToken
         self.scope = Scope.fromString(_scope)
-        self.expiresDate = _expiresDate
+        self.expiresDate = date(_expiresDate)
         self.refreshToken = _refreshToken
     }
 }

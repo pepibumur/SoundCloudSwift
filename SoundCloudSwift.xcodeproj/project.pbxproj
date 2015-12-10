@@ -162,14 +162,12 @@
 		232B4CB61BC2A2E8001F2B7A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397511BBA94EE00791B49 /* Quick.framework */; };
 		232B4CB71BC2A2E8001F2B7A /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; };
 		232B4CB81BC2A2E8001F2B7A /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397491BBA94C200791B49 /* Result.framework */; };
-		232B4CB91BC2A2E8001F2B7A /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53974A1BBA94C200791B49 /* Runes.framework */; };
 		232B4CBB1BC2A3B1001F2B7A /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397501BBA94EE00791B49 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		232B4CBC1BC2A3B1001F2B7A /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397511BBA94EE00791B49 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		232B4CBD1BC2A3B1001F2B7A /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		232B4CBE1BC2A3B1001F2B7A /* Genome.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		232B4CBF1BC2A3B1001F2B7A /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		232B4CC01BC2A3B1001F2B7A /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397491BBA94C200791B49 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		232B4CC11BC2A3B1001F2B7A /* Runes.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53974A1BBA94C200791B49 /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		232B4CC31BC2A3D4001F2B7A /* KeychainSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		232B4CC41BC2A3DC001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */; };
 		232B4CC51BC2A3F6001F2B7A /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B4CC21BC2A3D4001F2B7A /* KeychainSwift.framework */; };
@@ -218,14 +216,12 @@
 		237AD48D1BF20B850038A541 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47B1BF20B740038A541 /* Result.framework */; };
 		237AD48E1BF20B850038A541 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47C1BF20B740038A541 /* Runes.framework */; };
 		237AD48F1BF20B880038A541 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4741BF20B740038A541 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		237AD4901BF20B880038A541 /* CocoaAsyncSocket.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4751BF20B740038A541 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		237AD4911BF20B880038A541 /* Genome.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4761BF20B740038A541 /* Genome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		237AD4921BF20B880038A541 /* KeychainSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4771BF20B740038A541 /* KeychainSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		237AD4931BF20B880038A541 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4781BF20B740038A541 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		237AD4941BF20B880038A541 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4791BF20B740038A541 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		237AD4951BF20B880038A541 /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47A1BF20B740038A541 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		237AD4961BF20B880038A541 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47B1BF20B740038A541 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		237AD4971BF20B880038A541 /* Runes.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD47C1BF20B740038A541 /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		237AD4DE1BF21C0F0038A541 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237AD4DD1BF21C0F0038A541 /* Path.swift */; };
 		237AD4DF1BF21C0F0038A541 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237AD4DD1BF21C0F0038A541 /* Path.swift */; };
 		237AD4E01BF21C0F0038A541 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237AD4DD1BF21C0F0038A541 /* Path.swift */; };
@@ -246,6 +242,11 @@
 		237AD4F91BF21E4B0038A541 /* SoundCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237AD4F71BF21E4B0038A541 /* SoundCloud.swift */; };
 		237AD4FA1BF21E4B0038A541 /* SoundCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237AD4F71BF21E4B0038A541 /* SoundCloud.swift */; };
 		237AD4FB1BF21E4B0038A541 /* SoundCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237AD4F71BF21E4B0038A541 /* SoundCloud.swift */; };
+		237F313A1C19E9450014A73C /* TrackFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237F31391C19E9450014A73C /* TrackFilter.swift */; };
+		237F313C1C19E9580014A73C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237F313B1C19E9580014A73C /* Filter.swift */; };
+		237F313D1C19E9580014A73C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237F313B1C19E9580014A73C /* Filter.swift */; };
+		237F313E1C19E9580014A73C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237F313B1C19E9580014A73C /* Filter.swift */; };
+		237F313F1C19E9580014A73C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237F313B1C19E9580014A73C /* Filter.swift */; };
 		238A76FD1C0C8C180020B4F9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A76FC1C0C8C180020B4F9 /* Date.swift */; };
 		238A76FE1C0C8D180020B4F9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A76FC1C0C8C180020B4F9 /* Date.swift */; };
 		238A76FF1C0C8D190020B4F9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A76FC1C0C8C180020B4F9 /* Date.swift */; };
@@ -332,7 +333,6 @@
 				232B4CBE1BC2A3B1001F2B7A /* Genome.framework in Copy Frameworks */,
 				232B4CBF1BC2A3B1001F2B7A /* ReactiveCocoa.framework in Copy Frameworks */,
 				232B4CC01BC2A3B1001F2B7A /* Result.framework in Copy Frameworks */,
-				232B4CC11BC2A3B1001F2B7A /* Runes.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,14 +360,12 @@
 			dstSubfolderSpec = 10;
 			files = (
 				237AD48F1BF20B880038A541 /* Alamofire.framework in Copy Frameworks */,
-				237AD4901BF20B880038A541 /* CocoaAsyncSocket.framework in Copy Frameworks */,
 				237AD4911BF20B880038A541 /* Genome.framework in Copy Frameworks */,
 				237AD4921BF20B880038A541 /* KeychainSwift.framework in Copy Frameworks */,
 				237AD4931BF20B880038A541 /* Nimble.framework in Copy Frameworks */,
 				237AD4941BF20B880038A541 /* Quick.framework in Copy Frameworks */,
 				237AD4951BF20B880038A541 /* ReactiveCocoa.framework in Copy Frameworks */,
 				237AD4961BF20B880038A541 /* Result.framework in Copy Frameworks */,
-				237AD4971BF20B880038A541 /* Runes.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +447,8 @@
 		237AD4ED1BF21D360038A541 /* Requestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
 		237AD4F21BF21D810038A541 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		237AD4F71BF21E4B0038A541 /* SoundCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundCloud.swift; sourceTree = "<group>"; };
+		237F31391C19E9450014A73C /* TrackFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackFilter.swift; sourceTree = "<group>"; };
+		237F313B1C19E9580014A73C /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		238A76FC1C0C8C180020B4F9 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		239C8E0E1BF4B0EC0025DB9A /* RequestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
 		239C8E131BF4B2380025DB9A /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
@@ -508,7 +508,6 @@
 				232B4CB61BC2A2E8001F2B7A /* Quick.framework in Frameworks */,
 				232B4CB71BC2A2E8001F2B7A /* ReactiveCocoa.framework in Frameworks */,
 				232B4CB81BC2A2E8001F2B7A /* Result.framework in Frameworks */,
-				232B4CB91BC2A2E8001F2B7A /* Runes.framework in Frameworks */,
 				232B4CC41BC2A3DC001F2B7A /* KeychainSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -707,6 +706,7 @@
 		2328F1201BE7BAE900D64137 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				237F31381C19E9450014A73C /* Filters */,
 				2328F1211BE7BAE900D64137 /* Oauth2.swift */,
 				2328F1221BE7BAE900D64137 /* Oauth2Config.swift */,
 				2328F1231BE7BAE900D64137 /* RequestConvertible.swift */,
@@ -735,6 +735,7 @@
 				2328F12A1BE7BAE900D64137 /* KeyValueStore.swift */,
 				237AD4DD1BF21C0F0038A541 /* Path.swift */,
 				237AD4ED1BF21D360038A541 /* Requestable.swift */,
+				237F313B1C19E9580014A73C /* Filter.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -880,6 +881,14 @@
 				23B1FC801C0C9A4B00EDB235 /* Group.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		237F31381C19E9450014A73C /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				237F31391C19E9450014A73C /* TrackFilter.swift */,
+			);
+			path = Filters;
 			sourceTree = "<group>";
 		};
 		23A847B31BEA4E56000A48A6 /* Core */ = {
@@ -1450,6 +1459,7 @@
 				239C8E2C1BF4BC3E0025DB9A /* Track.swift in Sources */,
 				237AD4F61BF21D810038A541 /* ApiError.swift in Sources */,
 				2328F1341BE7BAE900D64137 /* Oauth2.swift in Sources */,
+				237F313F1C19E9580014A73C /* Filter.swift in Sources */,
 				23B1FC861C0C9A4F00EDB235 /* Comment.swift in Sources */,
 				23B1FC841C0C9A4B00EDB235 /* Group.swift in Sources */,
 				238A77001C0C8D1A0020B4F9 /* Date.swift in Sources */,
@@ -1493,6 +1503,7 @@
 				237AD4DE1BF21C0F0038A541 /* Path.swift in Sources */,
 				2328F1411BE7BAE900D64137 /* OauthError.swift in Sources */,
 				2328F13D1BE7BAE900D64137 /* Session.swift in Sources */,
+				237F313A1C19E9450014A73C /* TrackFilter.swift in Sources */,
 				2328F1451BE7BAE900D64137 /* StorableError.swift in Sources */,
 				237AD4F31BF21D810038A541 /* ApiError.swift in Sources */,
 				239C8E291BF4BC3E0025DB9A /* Track.swift in Sources */,
@@ -1506,6 +1517,7 @@
 				2328F1551BE7BAE900D64137 /* Randomizer.swift in Sources */,
 				237AD4F81BF21E4B0038A541 /* SoundCloud.swift in Sources */,
 				2328F1351BE7BAE900D64137 /* Oauth2Config.swift in Sources */,
+				237F313C1C19E9580014A73C /* Filter.swift in Sources */,
 				2328F1391BE7BAE900D64137 /* RequestConvertible.swift in Sources */,
 				239C8E191BF4B2C20025DB9A /* Application.swift in Sources */,
 				23B1FC811C0C9A4B00EDB235 /* Group.swift in Sources */,
@@ -1532,6 +1544,7 @@
 				2328F13E1BE7BAE900D64137 /* Session.swift in Sources */,
 				2328F1461BE7BAE900D64137 /* StorableError.swift in Sources */,
 				235E25A21BECF117006C32D3 /* NSURL+QueryParser.m in Sources */,
+				237F313D1C19E9580014A73C /* Filter.swift in Sources */,
 				23B1FC871C0C9A5000EDB235 /* Comment.swift in Sources */,
 				2328F14A1BE7BAE900D64137 /* KeyValueStorable.swift in Sources */,
 				239C8E2A1BF4BC3E0025DB9A /* Track.swift in Sources */,
@@ -1558,6 +1571,7 @@
 				23B1FC851C0C9A4F00EDB235 /* Comment.swift in Sources */,
 				239C8E161BF4B2380025DB9A /* Connection.swift in Sources */,
 				235E25A31BECF117006C32D3 /* NSURL+QueryParser.m in Sources */,
+				237F313E1C19E9580014A73C /* Filter.swift in Sources */,
 				239C8E1B1BF4B2C20025DB9A /* Application.swift in Sources */,
 				2328F1431BE7BAE900D64137 /* OauthError.swift in Sources */,
 				239C8E2B1BF4BC3E0025DB9A /* Track.swift in Sources */,

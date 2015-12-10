@@ -137,6 +137,13 @@ public struct SoundCloud {
     
     // MARK: - Groups
     
+    /**
+    Get the group with the provided id.
+    
+    - parameter groupId: Group identifier.
+    
+    - returns: Signal producer that executes the action.
+    */
     public static func getGroup(groupId: Int)(session: Session) -> SignalProducer<Group, RequestError> {
         return get("groups/\(groupId)", session: session)
             .flatMap(.Latest, transform: { (input) -> SignalProducer<Group, RequestError> in
@@ -149,6 +156,13 @@ public struct SoundCloud {
             })
     }
     
+    /**
+     Get the the moderators of a given group.
+     
+     - parameter groupId: Group identifier.
+     
+     - returns: Signal producer that executes the action.
+     */
     public static func getGroupModerators(groupId: Int)(session: Session) -> SignalProducer<[User], RequestError> {
         return get("groups/\(groupId)/moderators", session: session)
             .flatMap(.Latest, transform: { (input) -> SignalProducer<[User], RequestError> in
@@ -162,37 +176,86 @@ public struct SoundCloud {
             })
     }
     
-    /*
-
-GET	/groups/{id}	a group
-GET	/groups/{id}/moderators	list of users who moderate the group
-GET	/groups/{id}/members	list of users who joined the group
-GET	/groups/{id}/contributors	list of users who contributed a track to the group
-GET	/groups/{id}/users	list of users who contributed to, joined or moderate the group
-GET	/groups/{id}/tracks	list of contributed and approved tracks
-GET	/groups/{id}/pending_tracks	list of contributed but not approved tracks (for moderators)
-GET, PUT, DELETE	/groups/{id}/pending_tracks/{id}	a contributed but not approved track (for moderators)
-GET, POST	/groups/{id}/contributions	list of contributed tracks (for moderators). POST creates contribution
-GET, DELETE	/groups/{id}/contributions/{id}	a contributed track (for moderators)*/
+    // MARK: - Tracks
     
-/*
-TODO
-======
-playlists
-tracks
-users
-groups
-me/activities
-*/
+    /**
+    Get tracks.
+    
+    - returns: Signal producer that executes the action.
+    */
+    public static func getTracks()(session: Session) -> SignalProducer<[Track], RequestError> {
+        return get("tracks", session: session)
+            .flatMap(.Latest, transform: { (input) -> SignalProducer<[Track], RequestError> in
+                do {
+                    guard let connections = input as? [AnyObject] else { return SignalProducer(error: .InvalidType) }
+                    return try SignalProducer(value: connections.map { try Track.mappedInstance($0 as! JSON) })
+                }
+                catch {
+                    return SignalProducer(error: .MappingError(error))
+                }
+            })
+    }
+    
+    /**
+     Get tracks filtered using the given filteres.
+     
+     - parameter filters: Filters for filtering the returned tasks.
+     
+     - returns: Signal Producer that executes the action.
+     */
+//    public static func getTracks(filters: [TrackFilter])(session: Session) -> SignalProducer<[Track], RequestError> {
+//        
+//        
+//    }
+    
+//    public static func getTrack(trackId: Int)(session: Session) -> SignalProducer<Track, RequestError> {
+//        
+//    }
+//
+//    public static func deleteTrack(trackId: Int)(session: Session) -> SignalProducer<Void, RequestError> {
+//        
+//    }
+//    
+//    public static func getTrackComments(trackId: Int)(session: Session) -> SignalProducer<[Comment], RequestError> {
+//        
+//    }
+//    
+//    public static func getTrackComment(trackId: Int)(commentId: Int)(session: Session) -> SignalProducer<Comment, RequestError> {
+//        
+//    }
+//    
+//    public static func getTrackFavoriters(trackId: Int)(session: Session) -> SignalProducer<[User], RequestError> {
+//        
+//    }
+//    
+//    public static func getTrackFavoriter(trackId: Int)(session: Session) -> SignalProducer<User, RequestError> {
+//        
+//    }
+//    
+//    public static func getTrackSecretToken(trackId: Int)(session: Session) -> SignalProducer<String, RequestError> {
+//        
+//    }
 }
+
+// TODO /////////////////
+/*
+
+------ USERS
+
+------ TRACK
+- updateTrack()
+- updateTrackCommment()
+- updateTrackSecretToken
+*/
+/////////////////
 
 
 // MARK: - Private
 
-private func get(path: String, session: Session) -> SignalProducer<AnyObject, RequestError> {
+private func get(path: String, parameters: [String: AnyObject] = [:], session: Session) -> SignalProducer<AnyObject, RequestError> {
     let url: NSURL = NSURL(string: "https://api.soundcloud.com")!.URLByAppendingPathComponent(path)
     return SignalProducer { (observer, disposable) in
-        Alamofire.request(.GET, url.absoluteString, parameters: params([:], withToken: session.accessToken), encoding: .URL, headers: nil)
+        Alamofire.request(.GET, url.absoluteString, parameters: params(parameters, withToken: session.accessToken), encoding: .URL, headers: nil)
             .responseJSON { (response) -> Void in
                 let result = response.result
                 if let error = result.error {
