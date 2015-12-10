@@ -1,0 +1,6 @@
+framework module URITemplate {
+  umbrella header "URITemplate-umbrella.h"
+
+  export *
+  module * { export * }
+}

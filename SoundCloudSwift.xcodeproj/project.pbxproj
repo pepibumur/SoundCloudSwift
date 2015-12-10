@@ -200,6 +200,8 @@
 		235E25E91BECFCB1006C32D3 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */; };
 		23757F611C19ED3A00D7B2DC /* TrackFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23757F601C19ED3A00D7B2DC /* TrackFilterTests.swift */; };
 		23757F621C19ED3A00D7B2DC /* TrackFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23757F601C19ED3A00D7B2DC /* TrackFilterTests.swift */; };
+		23757F641C19F2E500D7B2DC /* SoundCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23757F631C19F2E500D7B2DC /* SoundCloudTests.swift */; };
+		23757F651C19F2E500D7B2DC /* SoundCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23757F631C19F2E500D7B2DC /* SoundCloudTests.swift */; };
 		237AD4591BF20A400038A541 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */; };
 		237AD47D1BF20B740038A541 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4741BF20B740038A541 /* Alamofire.framework */; };
 		237AD47F1BF20B740038A541 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4761BF20B740038A541 /* Genome.framework */; };
@@ -287,6 +289,7 @@
 		23B1FC851C0C9A4F00EDB235 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FC7E1C0C974600EDB235 /* Comment.swift */; };
 		23B1FC861C0C9A4F00EDB235 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FC7E1C0C974600EDB235 /* Comment.swift */; };
 		23B1FC871C0C9A5000EDB235 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FC7E1C0C974600EDB235 /* Comment.swift */; };
+		34181B359C4E458958339197 /* Pods_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4114F0D0C7563444F6121EC7 /* Pods_test.framework */; };
 		3D53974B1BBA94C200791B49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397461BBA94C200791B49 /* Alamofire.framework */; };
 		3D53974C1BBA94C200791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397471BBA94C200791B49 /* Genome.framework */; };
 		3D53974D1BBA94C200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397481BBA94C200791B49 /* ReactiveCocoa.framework */; };
@@ -295,6 +298,7 @@
 		3D5397741BBA96F200791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53976F1BBA96F200791B49 /* Genome.framework */; };
 		3D5397751BBA96F200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397701BBA96F200791B49 /* ReactiveCocoa.framework */; };
 		3D5397761BBA96F200791B49 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397711BBA96F200791B49 /* Result.framework */; };
+		E8D82D35E1212AE33EFFB2DE /* Pods_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4114F0D0C7563444F6121EC7 /* Pods_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -375,6 +379,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		12D77FBA641D451E09118167 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
 		2328F0191BE79EF000D64137 /* SoundCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2328F05C1BE7A6DA00D64137 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
 		2328F05D1BE7A6DA00D64137 /* Genome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genome.framework; path = Carthage/Build/tvOS/Genome.framework; sourceTree = "<group>"; };
@@ -435,6 +440,7 @@
 		235E25C51BECF462006C32D3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		235E25C71BECF91D006C32D3 /* Oauth2WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2WebViewController.swift; sourceTree = "<group>"; };
 		23757F601C19ED3A00D7B2DC /* TrackFilterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackFilterTests.swift; sourceTree = "<group>"; };
+		23757F631C19F2E500D7B2DC /* SoundCloudTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundCloudTests.swift; sourceTree = "<group>"; };
 		237AD4541BF20A400038A541 /* SoundCloudSwift-OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift-OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		237AD4741BF20B740038A541 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
 		237AD4751BF20B740038A541 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
@@ -483,7 +489,9 @@
 		3D5397701BBA96F200791B49 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/watchOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		3D5397711BBA96F200791B49 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/watchOS/Result.framework; sourceTree = "<group>"; };
 		3D5397721BBA96F200791B49 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/watchOS/Runes.framework; sourceTree = "<group>"; };
+		4114F0D0C7563444F6121EC7 /* Pods_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63089A911BBB4216007220F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		B1B6840E76EEA91EDDB96FED /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -512,6 +520,7 @@
 				232B4CB71BC2A2E8001F2B7A /* ReactiveCocoa.framework in Frameworks */,
 				232B4CB81BC2A2E8001F2B7A /* Result.framework in Frameworks */,
 				232B4CC41BC2A3DC001F2B7A /* KeychainSwift.framework in Frameworks */,
+				34181B359C4E458958339197 /* Pods_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +552,7 @@
 				237AD48C1BF20B850038A541 /* ReactiveCocoa.framework in Frameworks */,
 				237AD48D1BF20B850038A541 /* Result.framework in Frameworks */,
 				237AD48E1BF20B850038A541 /* Runes.framework in Frameworks */,
+				E8D82D35E1212AE33EFFB2DE /* Pods_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -918,6 +928,7 @@
 				23A847B51BEA4E56000A48A6 /* Oauth2Tests.swift */,
 				23A847B61BEA4E56000A48A6 /* RequestConvertibleTests.swift */,
 				23A847B71BEA4E56000A48A6 /* SessionTests.swift */,
+				23757F631C19F2E500D7B2DC /* SoundCloudTests.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -940,6 +951,7 @@
 				3D5396811BBA7B9300791B49 /* Assets */,
 				3D5396851BBA7B9300791B49 /* Tests */,
 				3D2742A51BBA70E4007A1BCE /* Products */,
+				8BB80AFE63E837FC512F1F92 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -988,6 +1000,7 @@
 				3D5397781BBA96F500791B49 /* watchOS */,
 				3D5397671BBA969500791B49 /* OSX */,
 				3D5397541BBA94F200791B49 /* iOS */,
+				4114F0D0C7563444F6121EC7 /* Pods_test.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1043,6 +1056,15 @@
 				63089A911BBB4216007220F7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BB80AFE63E837FC512F1F92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12D77FBA641D451E09118167 /* Pods-test.debug.xcconfig */,
+				B1B6840E76EEA91EDDB96FED /* Pods-test.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1105,10 +1127,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 232B4CAC1BC2A259001F2B7A /* Build configuration list for PBXNativeTarget "SoundCloudSwift-iOS Tests" */;
 			buildPhases = (
+				273156B41D32DB563FBBA2FF /* Check Pods Manifest.lock */,
 				232B4CA01BC2A259001F2B7A /* Sources */,
 				232B4CA11BC2A259001F2B7A /* Frameworks */,
 				232B4CA21BC2A259001F2B7A /* Resources */,
 				232B4CBA1BC2A367001F2B7A /* Copy Frameworks */,
+				A35A242676DF7BE3FF25B430 /* Embed Pods Frameworks */,
+				2DF0984399F22A751C1DEC84 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1144,10 +1169,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 237AD45C1BF20A400038A541 /* Build configuration list for PBXNativeTarget "SoundCloudSwift-OSX Tests" */;
 			buildPhases = (
+				1DB9AFB55E4A7BBB321A7F24 /* Check Pods Manifest.lock */,
 				237AD4501BF20A400038A541 /* Sources */,
 				237AD4511BF20A400038A541 /* Frameworks */,
 				237AD4521BF20A400038A541 /* Resources */,
 				237AD4681BF20AD70038A541 /* Copy Frameworks */,
+				8DD03B57B34557A4BAB11A05 /* Embed Pods Frameworks */,
+				AD42D50104C32B6BD0B4FF29 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1425,6 +1453,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1DB9AFB55E4A7BBB321A7F24 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		235E25C41BECF2E7006C32D3 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1444,6 +1487,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		273156B41D32DB563FBBA2FF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DF0984399F22A751C1DEC84 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DD03B57B34557A4BAB11A05 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A35A242676DF7BE3FF25B430 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD42D50104C32B6BD0B4FF29 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1487,6 +1605,7 @@
 				23A847BD1BEA4E56000A48A6 /* SecureStoreTests.swift in Sources */,
 				23A847BC1BEA4E56000A48A6 /* SessionTests.swift in Sources */,
 				23A847BA1BEA4E56000A48A6 /* Oauth2Tests.swift in Sources */,
+				23757F641C19F2E500D7B2DC /* SoundCloudTests.swift in Sources */,
 				23A847BB1BEA4E56000A48A6 /* RequestConvertibleTests.swift in Sources */,
 				23757F611C19ED3A00D7B2DC /* TrackFilterTests.swift in Sources */,
 			);
@@ -1506,6 +1625,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23757F621C19ED3A00D7B2DC /* TrackFilterTests.swift in Sources */,
+				23757F651C19F2E500D7B2DC /* SoundCloudTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1681,7 +1801,7 @@
 		};
 		232B4CAD1BC2A259001F2B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2328F0771BE7A73D00D64137 /* iOS-Base.xcconfig */;
+			baseConfigurationReference = 12D77FBA641D451E09118167 /* Pods-test.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1696,7 +1816,7 @@
 		};
 		232B4CAE1BC2A259001F2B7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2328F0771BE7A73D00D64137 /* iOS-Base.xcconfig */;
+			baseConfigurationReference = B1B6840E76EEA91EDDB96FED /* Pods-test.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1747,7 +1867,7 @@
 		};
 		237AD45D1BF20A400038A541 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2328F07C1BE7A73D00D64137 /* Mac-Base.xcconfig */;
+			baseConfigurationReference = 12D77FBA641D451E09118167 /* Pods-test.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -1768,7 +1888,7 @@
 		};
 		237AD45E1BF20A400038A541 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2328F07C1BE7A73D00D64137 /* Mac-Base.xcconfig */;
+			baseConfigurationReference = B1B6840E76EEA91EDDB96FED /* Pods-test.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";

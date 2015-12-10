@@ -1,0 +1,18 @@
+PODS:
+  - Mockingjay (1.1.1):
+    - Mockingjay/Core (= 1.1.1)
+    - Mockingjay/XCTest (= 1.1.1)
+  - Mockingjay/Core (1.1.1):
+    - URITemplate (~> 1.3)
+  - Mockingjay/XCTest (1.1.1):
+    - Mockingjay/Core
+  - URITemplate (1.3.0)
+
+DEPENDENCIES:
+  - Mockingjay
+
+SPEC CHECKSUMS:
+  Mockingjay: 757f80abc947b5ec2918b1bb14f3066574720430
+  URITemplate: 0ebbec80d1eb59a89e29db9b14c99d5908d3e574
+
+COCOAPODS: 0.39.0

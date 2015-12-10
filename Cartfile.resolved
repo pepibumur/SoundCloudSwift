@@ -1,5 +1,6 @@
 github "Alamofire/Alamofire" "3.1.3"
 github "LoganWright/Genome" "1.0.8"
+github "kylef/Mockingjay" "1.1.1"
 github "Quick/Nimble" "v3.0.0"
 github "Quick/Quick" "v0.8.0"
 github "antitypical/Result" "1.0.1"
