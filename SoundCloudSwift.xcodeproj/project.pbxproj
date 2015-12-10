@@ -198,6 +198,8 @@
 		235E25E01BECFB12006C32D3 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53974A1BBA94C200791B49 /* Runes.framework */; };
 		235E25E11BECFB12006C32D3 /* Runes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53974A1BBA94C200791B49 /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		235E25E91BECFCB1006C32D3 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */; };
+		23757F611C19ED3A00D7B2DC /* TrackFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23757F601C19ED3A00D7B2DC /* TrackFilterTests.swift */; };
+		23757F621C19ED3A00D7B2DC /* TrackFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23757F601C19ED3A00D7B2DC /* TrackFilterTests.swift */; };
 		237AD4591BF20A400038A541 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */; };
 		237AD47D1BF20B740038A541 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4741BF20B740038A541 /* Alamofire.framework */; };
 		237AD47F1BF20B740038A541 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4761BF20B740038A541 /* Genome.framework */; };
@@ -432,6 +434,7 @@
 		235E25B81BECF284006C32D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		235E25C51BECF462006C32D3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		235E25C71BECF91D006C32D3 /* Oauth2WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2WebViewController.swift; sourceTree = "<group>"; };
+		23757F601C19ED3A00D7B2DC /* TrackFilterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackFilterTests.swift; sourceTree = "<group>"; };
 		237AD4541BF20A400038A541 /* SoundCloudSwift-OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudSwift-OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		237AD4741BF20B740038A541 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
 		237AD4751BF20B740038A541 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
@@ -840,6 +843,14 @@
 			path = SoundCloudApp;
 			sourceTree = "<group>";
 		};
+		23757F5F1C19ED2A00D7B2DC /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				23757F601C19ED3A00D7B2DC /* TrackFilterTests.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
 		237AD4D11BF216DF0038A541 /* OSX */ = {
 			isa = PBXGroup;
 			children = (
@@ -903,6 +914,7 @@
 		23A847B41BEA4E56000A48A6 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				23757F5F1C19ED2A00D7B2DC /* Filters */,
 				23A847B51BEA4E56000A48A6 /* Oauth2Tests.swift */,
 				23A847B61BEA4E56000A48A6 /* RequestConvertibleTests.swift */,
 				23A847B71BEA4E56000A48A6 /* SessionTests.swift */,
@@ -1207,7 +1219,7 @@
 		3D27429B1BBA70E4007A1BCE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = GitDo;
 				TargetAttributes = {
@@ -1476,6 +1488,7 @@
 				23A847BC1BEA4E56000A48A6 /* SessionTests.swift in Sources */,
 				23A847BA1BEA4E56000A48A6 /* Oauth2Tests.swift in Sources */,
 				23A847BB1BEA4E56000A48A6 /* RequestConvertibleTests.swift in Sources */,
+				23757F611C19ED3A00D7B2DC /* TrackFilterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1492,6 +1505,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23757F621C19ED3A00D7B2DC /* TrackFilterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1735,6 +1749,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2328F07C1BE7A73D00D64137 /* Mac-Base.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1747,6 +1762,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.GitDo.SoundCloudSwift-OSX-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -1754,6 +1770,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2328F07C1BE7A73D00D64137 /* Mac-Base.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
