@@ -235,28 +235,49 @@ public struct SoundCloud {
 //    public static func getTrackSecretToken(trackId: Int)(session: Session) -> SignalProducer<String, RequestError> {
 //        
 //    }
-}
-
-// TODO /////////////////
-/*
-
------- USERS
-
------- TRACK
-- updateTrack()
-- updateTrackCommment()
-- updateTrackSecretToken
-*/
-/////////////////
-
-
-// MARK: - Private
-
-private func get(path: String, parameters: [String: AnyObject] = [:], session: Session) -> SignalProducer<AnyObject, RequestError> {
-    let url: NSURL = NSURL(string: "https://api.soundcloud.com")!.URLByAppendingPathComponent(path)
-    return SignalProducer { (observer, disposable) in
-        Alamofire.request(.GET, url.absoluteString, parameters: params(parameters, withToken: session.accessToken), encoding: .URL, headers: nil)
-            .responseJSON { (response) -> Void in
+    
+     /**
+     Executes a GET request against SoundCloud.
+     
+     - parameter path:       Request path.
+     - parameter parameters: Request parameters.
+     - parameter session:    Request session.
+     
+     - returns: SignalProducer that executes the request.
+     */
+    public static func get(path: String, parameters: [String: AnyObject] = [:], session: Session) -> SignalProducer<AnyObject, RequestError> {
+        let url: NSURL = NSURL(string: "https://api.soundcloud.com")!.URLByAppendingPathComponent(path)
+        return SignalProducer { (observer, disposable) in
+            Alamofire.request(.GET, url.absoluteString, parameters: params(parameters, withToken: session.accessToken), encoding: .URL, headers: nil)
+                .responseJSON { (response) -> Void in
+                    let result = response.result
+                    if let error = result.error {
+                        observer.sendFailed(RequestError.HTTPError(error))
+                    }
+                    else if let value  = result.value {
+                        observer.sendNext(value)
+                        observer.sendCompleted()
+                    }
+                    else {
+                        observer.sendCompleted()
+                    }
+            }
+        }
+    }
+    
+    /**
+     Executes a POST request against SoundCloud.
+     
+     - parameter path:       Request path.
+     - parameter parameters: Request parameters.
+     - parameter session:    Request session.
+     
+     - returns: SignalProducer that executes the request.
+     */
+    public static func post(path: String, parameters: [String: AnyObject] = [:], session: Session) -> SignalProducer<AnyObject, RequestError> {
+        return SignalProducer { (observer, disposable) in
+            let url: NSURL = NSURL(string: "https://api.soundcloud.com")!.URLByAppendingPathComponent(path)
+            Alamofire.request(.POST, url, parameters: params(parameters, withToken: session.accessToken), encoding: ParameterEncoding.URL).responseJSON(completionHandler: { (response) -> Void in
                 let result = response.result
                 if let error = result.error {
                     observer.sendFailed(RequestError.HTTPError(error))
@@ -268,28 +289,77 @@ private func get(path: String, parameters: [String: AnyObject] = [:], session: S
                 else {
                     observer.sendCompleted()
                 }
-            }
+            })
+        }
+    }
+    
+    /**
+     Executes a PUT request against SoundCloud.
+     
+     - parameter path:       Request path.
+     - parameter parameters: Request parameters.
+     - parameter session:    Request session.
+     
+     - returns: SignalProducer that executes the request.
+     */
+    public static func put(path: String, parameters: [String: AnyObject] = [:], session: Session) -> SignalProducer<AnyObject, RequestError> {
+        return SignalProducer { (observer, disposable) in
+            let url: NSURL = NSURL(string: "https://api.soundcloud.com")!.URLByAppendingPathComponent(path)
+            Alamofire.request(.PUT, url, parameters: params(parameters, withToken: session.accessToken), encoding: ParameterEncoding.URL).responseJSON(completionHandler: { (response) -> Void in
+                let result = response.result
+                if let error = result.error {
+                    observer.sendFailed(RequestError.HTTPError(error))
+                }
+                else if let value  = result.value {
+                    observer.sendNext(value)
+                    observer.sendCompleted()
+                }
+                else {
+                    observer.sendCompleted()
+                }
+            })
+        }
+    }
+    
+    /**
+     Executes a DELETE request against SoundCloud.
+     
+     - parameter path:    Request path
+     - parameter session: Request parameters
+     
+     - returns: SignalProducer that esecutes the request.
+     */
+    public static func delete(path: String, session: Session) -> SignalProducer<AnyObject, RequestError> {
+        return SignalProducer { (observer, disposable) in
+            let url: NSURL = NSURL(string: "https://api.soundcloud.com")!.URLByAppendingPathComponent(path)
+            Alamofire.request(.DELETE, url, parameters: params([:], withToken: session.accessToken), encoding: ParameterEncoding.URL).responseJSON(completionHandler: { (response) -> Void in
+                let result = response.result
+                if let error = result.error {
+                    observer.sendFailed(RequestError.HTTPError(error))
+                }
+                else if let value  = result.value {
+                    observer.sendNext(value)
+                    observer.sendCompleted()
+                }
+                else {
+                    observer.sendCompleted()
+                }
+            })
+        }
     }
 }
 
-private func post(path: String, parameters: [String: AnyObject], session: Session) -> SignalProducer<AnyObject, RequestError> {
-    return SignalProducer { (observer, disposable) in
-        let url: NSURL = NSURL(string: "https://api.soundcloud.com")!.URLByAppendingPathComponent(path)
-        Alamofire.request(.POST, url, parameters: params(parameters, withToken: session.accessToken), encoding: ParameterEncoding.URL).responseJSON(completionHandler: { (response) -> Void in
-            let result = response.result
-            if let error = result.error {
-                observer.sendFailed(RequestError.HTTPError(error))
-            }
-            else if let value  = result.value {
-                observer.sendNext(value)
-                observer.sendCompleted()
-            }
-            else {
-                observer.sendCompleted()
-            }
-        })
-    }
-}
+// TODO /////////////////
+/*
+------ USERS
+
+------ TRACK
+- updateTrack()
+- updateTrackCommment()
+- updateTrackSecretToken
+*/
+/////////////////
+
 
 private func params(parameters: [String: AnyObject], withToken token: String) -> [String: AnyObject] {
     var parametersWithToken: [String: AnyObject] = parameters
