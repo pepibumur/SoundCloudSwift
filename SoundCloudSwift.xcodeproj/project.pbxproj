@@ -202,6 +202,9 @@
 		23757F621C19ED3A00D7B2DC /* TrackFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23757F601C19ED3A00D7B2DC /* TrackFilterTests.swift */; };
 		23757F641C19F2E500D7B2DC /* SoundCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23757F631C19F2E500D7B2DC /* SoundCloudTests.swift */; };
 		23757F651C19F2E500D7B2DC /* SoundCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23757F631C19F2E500D7B2DC /* SoundCloudTests.swift */; };
+		23757F661C19F80A00D7B2DC /* TrackFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237F31391C19E9450014A73C /* TrackFilter.swift */; };
+		23757F671C19F80B00D7B2DC /* TrackFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237F31391C19E9450014A73C /* TrackFilter.swift */; };
+		23757F681C19F80B00D7B2DC /* TrackFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237F31391C19E9450014A73C /* TrackFilter.swift */; };
 		237AD4591BF20A400038A541 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53965D1BBA7AB700791B49 /* SoundCloudSwift.framework */; };
 		237AD47D1BF20B740038A541 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4741BF20B740038A541 /* Alamofire.framework */; };
 		237AD47F1BF20B740038A541 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD4761BF20B740038A541 /* Genome.framework */; };
@@ -1581,6 +1584,7 @@
 				239C8E211BF4BBF20025DB9A /* Player.swift in Sources */,
 				237AD4FB1BF21E4B0038A541 /* SoundCloud.swift in Sources */,
 				2328F1541BE7BAE900D64137 /* SecureStore.swift in Sources */,
+				23757F681C19F80B00D7B2DC /* TrackFilter.swift in Sources */,
 				2328F1581BE7BAE900D64137 /* Randomizer.swift in Sources */,
 				2328F1381BE7BAE900D64137 /* Oauth2Config.swift in Sources */,
 				2328F13C1BE7BAE900D64137 /* RequestConvertible.swift in Sources */,
@@ -1670,6 +1674,7 @@
 			files = (
 				238A76FE1C0C8D180020B4F9 /* Date.swift in Sources */,
 				239C8E1A1BF4B2C20025DB9A /* Application.swift in Sources */,
+				23757F661C19F80A00D7B2DC /* TrackFilter.swift in Sources */,
 				237AD4DF1BF21C0F0038A541 /* Path.swift in Sources */,
 				23B1FC821C0C9A4B00EDB235 /* Group.swift in Sources */,
 				237AD4F41BF21D810038A541 /* ApiError.swift in Sources */,
@@ -1724,6 +1729,7 @@
 				237AD4F51BF21D810038A541 /* ApiError.swift in Sources */,
 				2328F1331BE7BAE900D64137 /* Oauth2.swift in Sources */,
 				239C8E111BF4B0FE0025DB9A /* RequestError.swift in Sources */,
+				23757F671C19F80B00D7B2DC /* TrackFilter.swift in Sources */,
 				2328F14F1BE7BAE900D64137 /* KeyValueStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

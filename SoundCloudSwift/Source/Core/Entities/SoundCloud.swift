@@ -203,10 +203,25 @@ public struct SoundCloud {
      
      - returns: Signal Producer that executes the action.
      */
-//    public static func getTracks(filters: [TrackFilter])(session: Session) -> SignalProducer<[Track], RequestError> {
-//        
-//        
-//    }
+    public static func getTracks(filters: [TrackFilter])(session: Session) -> SignalProducer<[Track], RequestError> {
+        var params: [String: AnyObject] = [:]
+        for filter: TrackFilter in filters {
+            let filterDict = filter.toDict()
+            for (_, key) in filterDict.keys.enumerate() {
+                params[key] = filterDict[key]
+            }
+        }
+        return get("tracks", parameters: params, session: session)
+            .flatMap(.Latest, transform: { (input) -> SignalProducer<[Track], RequestError> in
+                do {
+                    guard let connections = input as? [AnyObject] else { return SignalProducer(error: .InvalidType) }
+                    return try SignalProducer(value: connections.map { try Track.mappedInstance($0 as! JSON) })
+                }
+                catch {
+                    return SignalProducer(error: .MappingError(error))
+                }
+            })
+    }
     
 //    public static func getTrack(trackId: Int)(session: Session) -> SignalProducer<Track, RequestError> {
 //        
