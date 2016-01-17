@@ -301,6 +301,8 @@
 		3D5397741BBA96F200791B49 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53976F1BBA96F200791B49 /* Genome.framework */; };
 		3D5397751BBA96F200791B49 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397701BBA96F200791B49 /* ReactiveCocoa.framework */; };
 		3D5397761BBA96F200791B49 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5397711BBA96F200791B49 /* Result.framework */; };
+		B9219FE51C4C3CC1003ED647 /* SoundCloudSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */; };
+		B9219FE61C4C3CC1003ED647 /* SoundCloudSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5396251BBA7A3A00791B49 /* SoundCloudSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E8D82D35E1212AE33EFFB2DE /* Pods_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4114F0D0C7563444F6121EC7 /* Pods_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -357,6 +359,7 @@
 				235E25DF1BECFB10006C32D3 /* Result.framework in Embed Frameworks */,
 				235E25DB1BECFB0B006C32D3 /* Genome.framework in Embed Frameworks */,
 				235E25DD1BECFB0E006C32D3 /* ReactiveCocoa.framework in Embed Frameworks */,
+				B9219FE61C4C3CC1003ED647 /* SoundCloudSwift.framework in Embed Frameworks */,
 				235E25E11BECFB12006C32D3 /* Runes.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -533,6 +536,7 @@
 			files = (
 				235E25E91BECFCB1006C32D3 /* SoundCloudSwift.framework in Frameworks */,
 				235E25D21BECFAF8006C32D3 /* KeychainSwift.framework in Frameworks */,
+				B9219FE51C4C3CC1003ED647 /* SoundCloudSwift.framework in Frameworks */,
 				235E25D81BECFB04006C32D3 /* Alamofire.framework in Frameworks */,
 				235E25DE1BECFB10006C32D3 /* Result.framework in Frameworks */,
 				235E25DA1BECFB0B006C32D3 /* Genome.framework in Frameworks */,
@@ -1840,6 +1844,7 @@
 			baseConfigurationReference = 2328F0761BE7A73D00D64137 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1858,6 +1863,7 @@
 			baseConfigurationReference = 2328F0761BE7A73D00D64137 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
