@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SoundCloudSwift"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "SoundCloud client implemented on Swift"
   s.description      = <<-DESC
   SoundCloudSwift is a Swift library to interact with SoundCloud API.
@@ -11,13 +11,13 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Pepi" => "pepibumur@gmail.com" }
   s.source           = { :git => "https://github.com/pepibumur/SoundCloudSwift.git", :tag => s.version.to_s }
-  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   # Deployment targets
   s.tvos.deployment_target = '9.0'
   s.ios.deployment_target = '8.0'
   s.watchos.deployment_target = '2.0'
+  s.osx.deployment_target = "10.10"
 
   # Source files
   s.source_files = 'SoundCloudSwift/Source/Core/**/*'
