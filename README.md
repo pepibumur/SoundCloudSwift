@@ -3,7 +3,6 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Build Status](https://travis-ci.org/pepibumur/SoundCloudSwift.svg?branch=feature%2Fmodels)](https://travis-ci.org/pepibumur/SoundCloudSwift)
 ![platforms](https://img.shields.io/badge/platform-ios|osx|watchos-lightgrey.svg?style=flat)
-[![CocoaPods](https://img.shields.io/cocoapods/v/SoundCloudSwift.svg)]()
 
 SoundCloud client written on Swift to integrate it easily with your apps.
 
@@ -68,13 +67,9 @@ And execute `pod install`. Remember to open the project using the file `.xcworks
 - SoundCloud API: [Link](https://developers.soundcloud.com/docs/api/guide)
 - SoundCloudAPI (Objective-C client): [Link](https://github.com/soundcloud/CocoaSoundCloudAPI)
 
-## Credits
-
-SoundCloudSwift is owned and maintained by the [@pepibumur](https://github.com/pepibumur).
-
 ## Security Disclosure
 
-If you believe you have identified a security vulnerability with SoundCloudSwift, you should report it as soon as possible via email to pepibumur@gmail.com. Please do not post it to a public issue tracker.
+If you believe you have identified a security vulnerability with SoundCloudSwift, you should report it as soon as possible via email to pepi@soundcloud.com. Please do not post it to a public issue tracker.
 
 ## License
 
