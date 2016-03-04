@@ -29,8 +29,9 @@ Pod::Spec.new do |s|
   s.osx.frameworks = 'WebKit'
 
   # Dependencies
-  s.dependency 'Alamofire', '~> 3.0'
-  s.dependency 'Genome', '~> 1.0'
-  s.dependency 'ReactiveCocoa', '4.0.4-alpha-4'
+  s.dependency 'Alamofire', '~> 3.2'
+  s.dependency 'Genome', '~> 2.0'
+  s.dependency 'ReactiveCocoa', '4.0.1'
   s.dependency 'KeychainSwift', '~> 3.0'
+  s.dependency 'Runes', '~> 3.2'
 end
