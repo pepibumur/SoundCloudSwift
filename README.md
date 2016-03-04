@@ -1,7 +1,7 @@
-![image](https://github.com/pepibumur/SoundCloudSwift/blob/master/Assets/header.png?raw=true)
+![image](https://github.com/soundcloud/SoundCloudSwift/blob/master/Assets/header.png?raw=true)
 
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Build Status](https://travis-ci.org/pepibumur/SoundCloudSwift.svg?branch=feature%2Fmodels)](https://travis-ci.org/pepibumur/SoundCloudSwift)
+[![Build Status](https://travis-ci.org/soundcloud/SoundCloudSwift.svg?branch=feature%2Fmodels)](https://travis-ci.org/soundcloud/SoundCloudSwift)
 ![platforms](https://img.shields.io/badge/platform-ios|osx|watchos-lightgrey.svg?style=flat)
 
 SoundCloud client written on Swift to integrate it easily with your apps.
@@ -45,7 +45,7 @@ $ brew install carthage
 To integrate SoundCloudSwift into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ruby
-github "pepibumur/SoundCloudSwift"
+github "soundcloud/SoundCloudSwift"
 ```
 
 ### Cocoapods
@@ -53,7 +53,7 @@ github "pepibumur/SoundCloudSwift"
 You can also integrate SoundCloudSwift using CocoaPods. Just add the following line to your `Podfile`:
 
 ```ruby
-pod "SoundCloudSwift", :git => "https://github.com/pepibumur/SoundCloudSwift.git"
+pod "SoundCloudSwift", :git => "https://github.com/soundcloud/SoundCloudSwift.git"
 ```
 
 And execute `pod install`. Remember to open the project using the file `.xcworkspace`
