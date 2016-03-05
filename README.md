@@ -48,7 +48,7 @@ To integrate SoundCloudSwift into your Xcode project using Carthage, specify it 
 github "soundcloud/SoundCloudSwift"
 ```
 
-### Cocoapods
+### CocoaPods
 
 You can also integrate SoundCloudSwift using CocoaPods. Just add the following line to your `Podfile`:
 
